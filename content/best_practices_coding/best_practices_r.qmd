@@ -6,6 +6,7 @@ Best RACE-GAP Coding Practices
 Prepared by: Caitlin Allen Akselrud - NOAA Federal 
 
 ## Aims:
+
 * To create and share reproducible, transparent, and transferable code. Specifically:
 * To maintain consistent file structure and coding syntax for ease of sharing and reading code.
 * To have thoroughly documented code, that is understandable by others and reproducible. 
@@ -74,17 +75,11 @@ This file structure example is based on R code, and other softwares may have sli
 |- 	- README 
 
 
-An example function for automatically building these folders for a new project is here, or you can use the following code:
+An example function for automatically building these folders:
 
-```{r}
+```
 # here are the names of the file folders you want to create:
 dirs = c("code", "data", "documentation", "figures", "functions", "output")
-```
-
-```{r}
-# for each file folder, do the following:
-# if the file folder already exists, do nothing
-# if the file folder does not exist, create it
 for(i in 1:length(dirs)){
   if(dir.exists(dirs[i])==FALSE){
     dir.create(dirs[i])
@@ -97,7 +92,7 @@ for(i in 1:length(dirs)){
 Code header metadata
 
 Every .R file should start with a standard header. This header can be a comment in base format (#), in {roxygen} format (#’), or as an RMarkdown comment (--- your comments ---).  You header should include, at a minimum:
-```{r}
+```
 # A short description of what this file is or does
 # Created by: creator name
 # Modified by: modifier name (if applicable)
@@ -128,6 +123,7 @@ Use snake_case, all lowercase and spaces replaced with underscores (not periods,
 * lowercase_and_underscore.R
 
 Use YYYY-MM-DD for any dates in file names. It can be helpful to use dates for 1) original data download, 2) files that change (for example, based on code runs), 3) to order items systematically in a folder, or 4) versions of files:
+
 * `orig_data_2020-12-01.csv`
 * `formatted_data_2020-12-02.csv`
 * `2020-12-20_FirstLastName_XYZConf.pptx`
@@ -195,7 +191,7 @@ Always use the international convention for dates: YYYY-MM-DD. This allows files
 * The developer can always create additional subsections within each section by adding a * before the section name (e.g., # --- * your subsection---). 
 
 For example: 
-```{r}
+```
 # --- Load Libraries ---
 
 # --- Source Scripts ---
@@ -213,7 +209,7 @@ For example:
 
 * Use R Projects. R experts keep all the files associated with a project together — input data, R scripts, analytical results, figures. This is such a wise and common practice that RStudio has built-in support for projects.
 * Use standard file structure. See the Standard file structures section. 
-* Do NOT use fixed paths. Refer to the {here} package or getwd(). 
+* Do NOT use fixed paths. Refer to the {here} package and use `here::here("mydir", "myfile")` types of file specifications.
 * Do NOT save the R environment (reproducible code should run start to end without needing to load the environment). 
 * Include a header with developer information at the top of each script. See the Code header section. 
 * Annotate code generously for clarity. Add comments to lines for anything that might be tricky, confusing, or where the calculation comes from a specific source or paper. 
