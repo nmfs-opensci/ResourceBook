@@ -1,0 +1,30 @@
+---
+title: "Testing and Review"
+---
+
+## Code Testing
+
+[Fit: Code Testing](https://noaa-fisheries-integrated-toolbox.github.io/resources/best-practices/code-testing/)
+
+[https://github.com/benchmark-action/github-action-benchmark](https://github.com/benchmark-action/github-action-benchmark)
+
+## Code Review and Validation
+
+If you are submitting software itself to a journal or generally for publishing, Office of Science and Technology (OST) requests a code review: once by a person you know who knows the technical details and is a code person, then another review by someone on the National Modeling team. Code review for analyses in publications is not required, but it is required if you are publishing the software itself (e.g., publishing a paper using the VAST package does not require code review; publishing the VAST package for general use does require code review). 
+When doing internal code review, or passing code from one person to another, it is best to do paired code review. This can include: 
+The existing or senior member on the project working through the code with the new or junior member. 
+Two people code the same task and compare results (which should be the same). 
+While one person is coding, another person runs chunks of that code and checks the results (also known as Driver-Navigator paired programming).
+
+Helper packages for reviews include `{goodpractice}` and `{pkgreviewer}`. 
+
+[Fit: Code Review](https://noaa-fisheries-integrated-toolbox.github.io/resources/best-practices/code-review/)
+
+## Backwards Compatibility
+
+[Fit: backwards compatibility notes](https://noaa-fisheries-integrated-toolbox.github.io/resources/best-practices/backwards-compatibility/)
+
+
+## Attribution
+
+[Kathryn Doering, Megsie Siple, Cole Monnahan, and Bai Li contributed to this guide.](https://docs.google.com/document/d/1niw8CzrnZJSeJ-0PQ4IYD9FH9hlO8qs63v0dE6AXYmI/edit?usp=sharing)

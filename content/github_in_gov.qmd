@@ -1,0 +1,58 @@
+---
+title: "GitHub in Government"
+---
+
+GitHub has been used by government agencies and staff for many years; some agencies more (GSA) and other are more newcomers. But recently there has been a bigger shift to using GitHub, not just for code and project tracking but also as an application or website delivery platform. How agencies, organizations, teams and individuals organize their GitHub projects is evolving. Currently (Sept 2021) the following is roughly how things are organized in NOAA.
+
+## Version control, Generally Speaking
+
+There are several methods for version controlling code. The user can version control content on a local machine through Git, manage content versions on GitHub, and many other places. GitHub is strongly preferred. Sharing through other methods is fine, but it becomes harder to track versions and maintain version control. 
+
+### Strongly preferred: GitHub
+
+There are a variety of public  and free options for collaboration with Git. Github is recommended over GitLab an dBitbucket as NOAA has set up rules regarding its use. See the GitHub resources folder for GitHub use and rules at NOAA, and see additional GitHub best practices below.
+NOAA does have some internal resources for collaborative Git platforms including VLAB and Gitlab. NOAA GitLab may be used only if necessary and there are no plans to include non-NOAA collaborators. VLAB is available for non NOAA users by invite only.
+
+## Terms
+
+*Product* = software (like R package, say, or Python package), a dataset or database, a report with all the various pieces (data, code, text), a report template, a collection of scripts for some task, an application like an API or mobile app.
+
+*Repository* = GitHub repository that may or may not be a *product*. Repository is like a folder on your computer. It is an organizational component but not necessarily, and actually often not, a product. Along with the repository comes important management tools at the repo level: issues tracking, project boards, releases, landing page, automation of tasks.
+
+*Organization* = A collection of related repositories (products or not) AND the organization-level project management tools associated with those (project boards, team discussions, landing page). Anyone can create a GH organization. Think of it like a collection of folders on your computer. Individuals can use these or teams, e.g. Eli has 3 individual GH orgs for different projects, 3 team orgs for team projects and is a member of a few *branded* GH organizations.
+
+## Licenses and Disclaimers
+
+See chapter on licenses and disclaimers for government work.
+
+
+## GitHub in NOAA & NMFS
+
+
+Be aware that this structure is rapidly evolving. Currently NOAA doesn't have a single organization site for official products. [NOAA](https://github.com/NOAAGov) is a branded GH org that has links to other [NOAA-affiliated](https://github.com/NOAAGov/NOAA-Affiliated-Projects) GitHub orgs. The list of NMFS-affiliated GH orgs is not even remotely complete.
+
+* [NOAA Fisheries Integrated Toolbox](https://noaa-fisheries-integrated-toolbox.github.io/) is a cross-center group that has been working for a number of years to provide a branded GH organization for NMFS public GH products **and** [resources, training and tools](https://noaa-fisheries-integrated-toolbox.github.io/resources/) for creating products. The resources are in the left nav bar on that page, so scroll down.
+* [Fish and Fisheries Tools](https://nmfs-fish-tools.github.io/) is an example of a branded set of GH hosted NMFS tools. The [GitHub org](https://github.com/nmfs-fish-tools) with a [resource folder](https://github.com/nmfs-fish-tools/Resources) for common elements and organization.
+* [NOAA Fisheries Integrated Modeling System FIMS](https://noaa-fims.github.io/)
+* [Automation Products for IEA](https://noaa-iea.github.io/) Automation Products for Integrated Ecological Assessments
+* Within NWFSC, branded GH orgs have the name `nwfsc-xyz`. [CB](https://github.com/nwfsc-cb), [CB Math Biology](https://github.com/nwfsc-math-bio), [CB Math Bio time series](https://github.com/nwfsc-timeseries), [CB OA Lab](https://github.com/NWFSC-OA-lab), [FRAM](https://github.com/nwfsc-fram), [FRAM Assessment](https://github.com/nwfsc-assess)
+* NEFSC: [EDAB](https://github.com/NOAA-EDAB)
+* PIFSC: [PIFSC](https://github.com/PIFSC-NMFS-NOAA)
+* AFSC: [AFSC assessments](https://github.com/afsc-assessments), [NMML](https://github.com/NMML)
+* SEFSC: [SEFSC](https://github.com/SEFSC)
+* SWFSC: Major open source code and data producer (many CRAN packages, e.g.). But I can't find any GH organizations. I did find many individual GH accounts.
+
+  
+## GitHub in other agencies
+
+* [US Geological Survey](https://github.com/usgs) has a major GitHub presence.
+* [NASA](https://github.com/nasa) does too
+* [U.S. General Services Administration](https://github.com/GSA) has close to 900 repos on its org.
+* [Cybersecurity and Infrastructure Security Agency](https://github.com/cisagov)
+* [Environmental Protection Agency](https://github.com/USEPA)
+* [Department of Labor](https://github.com/USDepartmentofLabor)
+* [US Forest Service](https://github.com/USDAForestService)
+* The US Department of Education's [College Scorecard](https://collegescorecard.ed.gov) is all open source and on [GitHub](https://github.com/RTICWDT/college-scorecard). Note, this was an early open-source in government project and is not on the USED GitHub organization (which is minimal) but on the contractor's GitHub organization, [RTI International](https://www.rti.org/).
+* [USDA](https://github.com/usda)
+* [National Parks Service](https://github.com/nationalparkservice)
+* See also this list by GitHub. Scroll down to the bottom for the US Research Labs. [GitHub in Government](https://government.github.com/community/)

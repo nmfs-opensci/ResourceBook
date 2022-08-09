@@ -1,0 +1,45 @@
+---
+title: "GitHub Project Boards"
+---
+
+## Project Boards
+
+GitHub Project Boards are a powerful way to do project management and tracking. Note that a board can be individual, organization or repository specific. This allows boards to combine issues and tasks across multiple repositories. Also boards are often used for notes and checklists.
+
+* [Cybersecurity and Infrastructure Security Agency](https://github.com/orgs/cisagov/projects). The CISA project boards all use the automated Kanban template with to do, in progress, review, review completed, and done columns.
+  * This shows one of their semi-automated Kanban boards. They have some cards that are manually added with checklists or notes and others that are being added automatically when they are posted as issues to certain repositories. [Example 1](https://github.com/orgs/cisagov/projects/1)
+* [Eli Holmes/NWFSC](https://github.com/eeholmes) project boards for repo and larger project management. Click "issues" in the organization table
+* [USGS groundmotion](https://github.com/usgs/groundmotion-processing/projects/3) project board. This one seems to be manual rather than automated but has heavy use of labels on the issues for organization.
+* [NOAA-EDAB](https://github.com/NOAA-EDAB/seaside/projects/2) project boards to plan regular workflow meetings at NEFSC
+
+## Gallery
+
+Examples of Project Boards for different purposes
+
+### NOAA NEFSC EDAB NEFSC
+
+Repository-level project board to plan regular meetings about code/data workflows
+![NOAA EDAB Project Board to plan regular meetings about code/data workflows](https://raw.githubusercontent.com/Openscapes/2021-noaa-nmfs/main/images/noaa-edab-proj-board.png)
+
+### NOAA NWFSC Ocean Acidification Lab
+
+View of NOAA NWFSC Ocean Acidification GitHub Organization
+
+Team Overview, including the Exoskeleton Teams
+
+![NOAA NWFSC Ocean Acidification GitHub Teams Overview ](https://raw.githubusercontent.com/Openscapes/2021-noaa-nmfs/main/images/nwfsc-ao-proj-board1.png)
+
+Project Board View of the Exoskeleton project
+
+![NOAA NWFSC Ocean Acidification GitHub Project Board View of the Exoskeleton project](https://raw.githubusercontent.com/Openscapes/2021-noaa-nmfs/main/images/nwfsc-ao-proj-board2.png)
+
+Project Board Table View of the Exoskeleton project (GitHub Projects(beta))
+
+![NOAA NWFSC Ocean Acidification GitHub Project Board Table View](https://raw.githubusercontent.com/Openscapes/2021-noaa-nmfs/main/images/nwfsc-ao-proj-board3.png)
+
+
+### Openscapes
+
+Organization-level project board with issues from public and private repos. Used for mostly non-coding to do's, with some coding to do's as well.
+![screenshot of a project board with issues from public and private repos](https://raw.githubusercontent.com/Openscapes/2021-noaa-nmfs/main/images/openscapes-proj-board.png)
+

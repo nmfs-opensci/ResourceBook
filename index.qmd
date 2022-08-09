@@ -1,19 +1,29 @@
 ---
-title: "NMFS Openscapes"
-subtitle: "Training in reproducible science for NOAA Fisheries"
-page-layout: full
+title: "Resource Book"
+subtitle: "A Compilation of Resources and Experience to Support for Open Science Communities in NOAA Fisheries"
 ---
 
-<style>
-@media screen and (max-width: 1000px) {   .div1 { display: none; } }
-</style>
-<div style="float: right; width: 350px"  class="div1">
-<a class="twitter-timeline" data-width="250" data-height="600" href="https://twitter.com/openscapes?ref_src=twsrc%5Etfw">Tweets by openscapes</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
+<img src="https://raw.githubusercontent.com/nmfs-opensci/assets/main/logo/nmfs-opensci-logo3.png" alt="NMFS Open Science logo" style="float:right;width:50%;"/>
 
+## Contributing
 
-<img src="images/fall2022openscapes.png" alt="hands together" style="float:right;width:30%;">
+Please submit a pull request.
 
-NMFS Openscapes is a multi-year colloboration between NOAA Fisheries science centers and [Openscapes](https://www.openscapes.org/) to provide team-based training in reproducible scientific workflows and platforms. We have had six Openscapes cohorts in 2020-2020 and will have an agency-wide Openscapes 2-month training involving six NOAA science centers plus two regional offices in October to December 2022.
+## Attribution
 
-[Openscapes](https://www.openscapes.org/) champions open practices in environmental science to help uncover data-driven solutions faster. With tools specifically created to meet modern demands for collaborative data science, we help create a positive open culture to enable better science in less time. Please connect with us on Twitter [**\@openscapes**](https://twitter.com/openscapes) or join [**our newsletter**](https://docs.google.com/forms/d/e/1FAIpQLSdgVXRp3V-w94GPWkR31RUfyBl37EphdQSlCOcnyeNlf8OLWw/viewform).
+**Editors**: Eli Holmes and Emily Markowitz.
+
+**Source material**:
+
+* [Eli Holmes](https://github.com/eeholmes) (personal content)
+* [Emily Markowitz](https://github.com/EmilyMarkowitz-NOAA) (personal content)
+* [Fisheries Integrated Toolbox resources](https://noaa-fisheries-integrated-toolbox.github.io/resources) content developed
+    - [Kathryn Doering](https://github.com/k-doering-NOAA)
+    - [Christine Stawitz](https://github.com/ChristineStawitz-NOAA)
+    - [Bai Li](https://github.com/Bai-Li-NOAA)
+* Best AFSC RACE-GAP Coding Practices Guidelines content developed by 
+    - Caitlin Allen Akselrud
+    - [Emily Markowitz](https://github.com/EmilyMarkowitz-NOAA)
+    - [Megsie Siple](https://github.com/MargaretSiple-NOAA)
+    - Cole Monnahan
+* section on GitHub secrets by [Adyan Rios](adyanrios-NOAA)

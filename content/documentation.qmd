@@ -1,0 +1,41 @@
+---
+title: "Documentation"
+---
+
+## Resources
+
+[FIT: Code Documentation](https://noaa-fisheries-integrated-toolbox.github.io/resources/best-practices/code-documentation/)
+
+## Tools 
+
+### Readme
+
+`Readme.md` is shown at the bottom of a GitHub repo and can be minimal or complex. Note, for an organization you should give some thought to standardizing the content of your Readme's and including a disclaimer at the bottom. See the Fisheries Integrated Toolbox example.
+
+* [EPA CMAQ repo](https://github.com/USEPA/CMAQ) Links to documentation, DOIs, past releases, installation instructions for EPA's [CMAQ](https://www.epa.gov/cmaq) modeling system.
+* [CISA Sparrow repo](https://github.com/cisagov/Sparrow)
+* [USGS PEST++](https://github.com/usgs/pestpp)
+* Here is a Python example from USGS [geomag-algorithms](https://github.com/usgs/geomag-algorithms) and [groundmotion-processing](https://github.com/usgs/groundmotion-processing)
+* [NPS acoustics])https://github.com/nationalparkservice/acoustic_discovery) example with lots of images.
+
+### GitHub wiki
+
+* [EPA API tool](https://github.com/USEPA/USEEIO_API), [EPA useeior package](https://github.com/USEPA/useeior/wiki). 
+* [College scorecard](https://github.com/RTICWDT/college-scorecard/wiki)
+
+### **pkgdown**
+
+If you are preparing an R package, then the [**pkgdown**](https://pkgdown.r-lib.org/) R package is the way that people make websites directly from their R package documentation. The Fisheries Integrated Toolbox has a NMFS branded **pkgdown** template that you can use. It'll add all the NOAA Fisheries branding and colors.  [pkgdown Template](https://github.com/nmfs-fish-tools/pkgdownTemplate). There are many examples of **pkgdown** sites on GitHub. The key file to change is `pkgdown/_pkgdown.yml` and I find it easiest to poke around GitHub and find version of that file to copy and modify.
+
+### **bookdown**
+
+[**bookdown**](https://bookdown.org/) is also very popular for making documentation and RStudio makes it easy to build books. Here is an example of [one of my bookdown books](https://nwfsc-timeseries.github.io/atsa-labs/). Here is a **bookdown** lab manual written by one of the first Openscapes cohort teams as their team project: [Fay Lab Manual](https://thefaylab.github.io/lab-manual/). A **bookdown** book is just a collection of Rmarkdown files. You write those and **bookdown** makes it into the online book, which you can put on GitHub Pages.
+
+### Other
+
+Another common way to include documentation is a folder with the documentation (in whatever format you want) with links to that from the Readme file or GitHub Pages.
+
+* [EPA CMAQ repo](https://github.com/USEPA/CMAQ) has a folder called `DOCS` in the repo which holds documentation in markdown format, `.md`. The Readme points to those files and because they are markdown, you see them as formatted (not raw) text.
+* [USGS shakemap](http://usgs.github.io/shakemap/) created a webpage which is kept in the `docs` folder. GitHub Pages then points to that folder.
+* [Sphinx](http://sphinx-doc.org/) documentation is used by Python users and is a bit like **bookdown** in appearance but uses a different markup language (rst). Here are examples from [USGS geobipy](https://usgs.github.io/geobipy/) and [gmprocess](https://gmprocess.readthedocs.io/en/latest/index.html). The html output is put in the `docs` folder and GitHub Pages is pointed to that.
+* [Quarto](https://quarto.org/) documentation allows both Jupyter and Rmd files. NASA Openscapes is using this for their [hackathon documentation](https://nasa-openscapes.github.io/2021-Cloud-Hackathon/).

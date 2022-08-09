@@ -1,0 +1,51 @@
+---
+title: "Resources"
+---
+
+## NMFS GH organizations
+
+  See the chapter on GitHub in Government.
+  
+## Training materials for R
+
+See the chapter on Training for NOAA Fisheries developed courses and workshops.
+
+There are many many online R resources. These are some non-NMFS resources that NMFS R users have found particular helpful.
+  
+* [R Consortium YouTube Channel](https://www.youtube.com/channel/UC_R5smHVXRYGhZYDJsnXTwg) many lectures on R topics.
+* [HappyGitwR](https://happygitwithr.com/)
+* [GAMS in R](https://noamross.github.io/gams-in-r-course)
+* [Data Visualizations, mostly in R](https://github.com/USGS-VIZLAB) USGS GitHub org that has many examples of data visualizations.
+* [Lots of environmental data examples in R](http://eco-data-science.github.io/) Click on "PREVIOUS SESSIONS" to go to tutorials.
+* [USGS R Training courses](https://owi.usgs.gov/R/training-curriculum/intro-curriculum/)
+
+## Training materials for Python
+
+* [Visualations and Dashboards in Python](https://towardsdatascience.com/visualization-and-interactive-dashboard-in-python-c2f2a88b2ba3 )
+* [NASA EarthData webinars](https://earthdata.nasa.gov/learn/user-resources/webinars-and-tutorials) Many of these are Python examples and include links to the repos.
+
+## General
+
+* [NOAA Center for AI Training and Resources](https://www.noaa.gov/noaa-center-for-artificial-intelligence/training-and-resources)
+
+<!--
+## NOAA specific packages
+
+* [rnoaa](https://docs.ropensci.org/rnoaa/) An R interface to many NOAA data sources: climate data, ocean data, weather data, etc.
+* [crawl](https://jmlondon.github.io/crwexampleakbs/analysis.html) An R package that provides analytical tools for estimating the movement paths of animals from telemetry data.
+* [uswebr](https://github.com/jmlondon/uswebr) RMarkdown template based on the U.S. Web Design Standards. [Example of output](https://jmlondon.github.io/crwexampleakbs/analysis.html).
+-->
+
+## Other Open Science Efforts in Government
+
+* [NASA Transform to Open Science](https://github.com/nasa/Transform-to-Open-Science)
+* [NASA Openscapes](nasa-openscapes.github.io)
+* [NASA EarthData](https://earthdata.nasa.gov/)
+* [USGS R](https://owi.usgs.gov/R/)
+
+
+## NOAA logos and style guide
+
+logos: https://sites.google.com/noaa.gov/noaa-style-design-guide/noaa-emblem-and-logo#h.llpa9m7f9b4n
+
+style guide: NOAA styling how to guide https://sites.google.com/noaa.gov/noaa-style-design-guide/noaa-emblem-and-logo/how-to-guide

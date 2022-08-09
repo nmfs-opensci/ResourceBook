@@ -1,0 +1,78 @@
+---
+title: "Best Practices for GitHub"
+---
+
+## GitHub best practices
+
+You can use "template" repos within GitHub to help make sure each repo has the standard content. See the other wiki pages for links to the elements (such as license).
+
+### Repositories
+
+* Readme file that describes what the repo is
+* A statement of how to use the repo. For example, if the repo has releases, how to install or download the latest release.
+* A License or public domain statement.
+* A NOAA disclaimer.
+
+Depending on the nature of the repo.
+
+* A statement on the Readme regarding how to contribute. See below for examples for different types of repos.
+* Turn on issues for issues and bug tracking.
+
+### Organizations
+
+* A .github repo with a profile folder and Readme.md file. This will appear at the top of the organization and describe what the organization is.
+* Organization code of conduct statement. See the wiki chapter for examples.
+* License and disclaimers
+* Organizational guidelines and contact information. See below for an example.
+
+
+
+## Contributing to the repo
+
+Here are the typical ways that repo owners convey how people can contribute.
+
+* Supply contact information (critical)
+* Add a link to the GitHub repo issues page. **This is the most common approach**. 
+* Add a `CONTRIBUTING` document to repo. Some groups pin this info in their issues list.  
+    - The Fisheries Integrated Toolbox has a [Contributing](https://github.com/nmfs-fish-tools/Resources/blob/master/CONTRIBUTING.md) document in its [Resources](https://github.com/nmfs-fish-tools/Resources) repo.  How to use? You put this file in your repo. Here's an example from the [Toolbox](https://github.com/nmfs-fish-tools/SSMSE). 
+    - Here is a different example from PacFIN.Utilities [PacFIN Convention-for-commit-messages](https://github.com/nwfsc-assess/PacFIN.Utilities/wiki/Convention-for-commit-messages). 
+    - You might adopt a standard for the regular contributors to a repo. Example, "Submit pull requests rather than commit code directly to the development or main branch. Thus workflow would be: 1. Clone the repo, 2. Work on a branch, 3. Submit a pull request."
+    - **What if the repo is just for you?** You should still decide how you will contribute to your own repo. Is it ok to "break" the main branch of the repo? That can't be answered globally; it depends what the repo is. But your *future-self* will thank you if you have written this down. Example, "The stable version of the repo is in the releases. The main branch may be broken." "The main branch is a stable branch. Development is via branches." "This repo is a sandbox for xyz project (don't expect anything to work)."
+
+   *Note* I personally do not have detailed info like the Fisheries Integrated Toolbox does on how to use GitHub issues on my big CRAN R package [MARSS](https://cran.r-project.org/package=MARSS) or any others. I have found that the questions that people post are super helpful to me and to other users, so I don't want to discourage people from posting questions and I want my responses there on the issue thread. I just add an appropriate label, like `question` (and `bug` or `enhancement`) and then close the issue once the question is resolved.
+
+## Organization guidelines
+
+Writing down the organizational guidelines is especially important if there are multiple contributors and if the GitHub organization is NOAA branded. Here are some things to consider for your guidelines.
+
+### Who can be a part of this org?
+
+  * Who can add repos? What kind (public versus private)? Examples, "Anyone can add a repository to our shared group page if they are a member of the organization." "This organization contains repositories developed by the math bio team for workshops on R. Adding repos is limited to the core team."
+  * How can someone ask to become a member? Example, "To become a member of the organization, the developer should contact their supervisor, who should be able to provide the contact information for the page administrator(s)." "To request to become an org member and contribute repos, please contact <the contact person>." 
+  * Contact person for the organization
+
+### Content maintenance and continuity
+ 
+  * How are repositories maintained? Example, "Each package author is responsible for maintaining their own package(s), and responding to issues. Please respond in a timely manner: within 2 weeks (where possible)."
+  * Consider setting up a org level project to that automatically adds issues as they are entered. This can give you an org level view of repos that have issues that are not being addressed.
+  * Archiving. When repos are no longer being maintained, how will you indicate that. Example, a "no longer maintained" statement on the Readme and that the repo is for reference purposes.
+  * Repository releases. Any naming or other conventions you have regarding releases. This is very org and repo specific.
+  * Continuity 1. If the repo code in the main branch needs to stay functional, discuss guidelines for how to ensure this. Example, "Use branches for development within a code package so the main branch is always a working version." "Add a statement to the repo Readme with instructions on how to install a release and that the code in the main branch is development and may be broken."
+  * Continuity 2. Some critical repos may need continuity/backup plans if the main developer is unavailable. 
+  * Continuity 3. You can set up automatic tests to ensure that commits don't break the code.
+
+## Security and confidentiality
+
+The nature of your repos and organizations will dictate your approaches to security and confidentiality.
+
+  * If your code uses credentials, you will need a way to ensure that those credentials do not get committed and pushed to GitHub. See the wiki chapter on "keeping secrets secret".
+  * If you are working with data or content that needs to stay confidential, then you will need to come up with strategies to ensure that happens. This is very specific to the nature of your work, repos and organizations. Here are some ideas.
+    - Limiting ability to make pushes to a repo. You can set up your org so that contributors have to submit pull requests.
+    - You can write a GitHub Action to scan a commit for dangerous content and reject the commit if it is there.
+    - You can use the Teams feature to limit which org members can access which repos.
+    - You can set up a GitHub to require review of all code/data pushes.
+
+
+## Attribution
+
+Adapted from the Best AFSC RACE-GAP Coding Practices Guidelines compiled by Caitlin Allen Akselrud, Emily Markowitz, and others.

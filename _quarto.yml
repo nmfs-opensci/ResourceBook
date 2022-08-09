@@ -3,32 +3,29 @@ project:
   
 website: 
   page-navigation: true
-  title: "NMFS Openscapes" 
-  site-url: "https://nmfs-openscapes.github.io" 
-  repo-url: https://github.com/nmfs-openscapes
+  title: "NMFS Open Science Resources" 
+  site-url: "https://nmfs-opensci.github.io/ResourceBook" 
+  repo-url: https://github.com/nmfs-opensci/ResourceBook
   repo-actions: [edit, issue]
-  favicon: images/openscapes_hex.png  
+  favicon: images/favicon.ico  
   
   page-footer:
-    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
-    left: "&copy; CC-By Openscapes, 2022"
+    right: "This page is built with [Quarto](https://quarto.org/)."
+    left: "&copy; CC-4.0"
   
   sidebar:
     background: "#D9E3E4"
-    logo: "images/logo-transparent-crop.png"
+    logo: "https://raw.githubusercontent.com/nmfs-opensci/assets/main/logo/nmfs-opensci-logo3.png"
     favicon: images/openscapes_hex.png
     pinned: true
     align: center
     tools: 
       - icon: globe
-        href: https://openscapes.org
-        text: "Openscapes.org"
+        href: https://nmfs-opensci.github.io
+        text: "NMFS Open Science"
       - icon: github
-        href: https://github.com/nmfs-openscapes
-        text: "NMFS Openscapes"
-      - icon: twitter
-        href: https://twitter.com/openscapes
-        text: "Openscapes Twitter"         
+        href: https://github.com/nmfs-opensci
+        text: "nmfs-opensci"
 
     style: "docked"
     search: true
@@ -36,24 +33,36 @@ website:
     contents:
       - href: index.qmd
         text: Home
-      - href: about-openscapes.qmd
-        text: About Openscapes
-      - href: about-nmfs-openscapes.qmd
-        text: About NMFS Openscapes
-      - section: cohorts/index.qmd
-        text: Champions Cohorts
+      - href: content/welcome.qmd
+        text: Welcome
+      - href: content/reuse_statement
+        text: Public Domain
+      - href: content/code_of_conduct
+      - href: content/culture
+      - href: content/training
+      - href: content/github_in_gov
+      - href: content/landing_pages
+      - href: content/documentation
+      - href: content/licenses_gov
+      - section: content/best_practices_coding/index.qmd
+        text: Coding Best Practices
         contents: 
-          - cohorts/NMFS-fall2022.md 
-          - cohorts/SEFSC-sum2022.md 
-          - cohorts/AFSC-win2021.md 
-          - cohorts/NMFS-fall2021.md 
-          - cohorts/FDD-fall2021.md
-          - cohorts/NEFSC-spr2020.md
-      - href: mentors.qmd
-        text: Mentors
-      - href: media.qmd
-        text: Presentations and Media
-      - contact.qmd
+          - content/best_practices_coding/best_practices_r.qmd
+          - content/best_practices_coding/testing_and_review.qmd
+      - section: content/github/index.qmd
+        text: GitHub
+        contents: 
+          - content/github/best_practices.qmd
+          - content/github/citation.qmd
+          - content/github/actions.qmd
+          - content/github/onboarding_tools.qmd
+          - content/github/secrets.qmd
+      - section: content/project_management/index.qmd
+        text: Project Management
+        contents: 
+          - content/project_management/github_project_boards.qmd 
+      - href: content/508_compliance.qmd
+      - href: content/resources.qmd
 
 format:
   html:
@@ -63,7 +72,6 @@ format:
     code-copy: true
     code-overflow: wrap
     toc: true
-
 
 filters:
   - include-files.lua

@@ -1,0 +1,35 @@
+---
+title: "GitHub Actions"
+---
+
+## From past meetings: 
+ - 2021-12-07
+   - [Repo with examples from 2021-12-07 R UG Meeting](https://github.com/nmfs-openscapes/12-07-21-GitHub-Actions)
+   - [Recording of 2021-12-07 R UG Meeting](https://drive.google.com/file/d/1_oxKuRC-m4kzy57y3PJRfhnYIXXm5nkE/view?usp=sharing)
+ - 2020-11
+   - [Presentation by Corinne Bassin and Bai Li](https://docs.google.com/presentation/d/1mT-OaDxA2Pjpz16GwcWHFDKDCWDxg-OOR0Zxm5nokxM/edit?usp=sharing)
+
+## Resources:
+
+ - General
+
+   - Eli’s Zero-to-First GitHub Action in 10min Demo: https://github.com/nmfs-openscapes/12-07-21-GitHub-Actions 
+   - GitHub Actions Quick Start: https://docs.github.com/en/actions
+   - Examples! https://github.com/r-lib/actions/tree/master/examples
+   - usethis R package: https://usethis.r-lib.org/reference/github_actions.html
+   - Presentation by Fisheries Integrated Toolbox (FIT): https://docs.google.com/presentation/d/1mT-OaDxA2Pjpz16GwcWHFDKDCWDxg-OOR0Zxm5nokxM/edit?usp=sharing 
+ - Update R packages
+   - Pkgdown/R-CMD check for stock SMART data. 
+   - Update documentation (run devtools::document automatically and open a pull request with changes): https://github.com/nmfs-stock-synthesis/workflows/blob/main/.github/workflows/update-roxygen-docs.yml and to use: https://github.com/nmfs-stock-synthesis/workflows#how-do-i-use-these-workflows-in-my-r-package
+ - Pull data for an R Shiny app
+ - Pull data for an R Markdown Report
+ - Test R packages 
+ - Perform security checks on…
+ - Other (tell us!)
+   - Trying to make reusable workflows with usethis style functions for people who want to add the workflows to their r package repo hopefully without the pain: https://github.com/nmfs-stock-synthesis/workflows#how-do-i-use-these-workflows-in-my-r-package
+ - Efforts that currently use GitHub Actions
+   - Sean Rohan’s akgfmaps R package: https://github.com/sean-rohan-NOAA/akgfmaps
+   - nmfs-openscapes: https://github.com/nmfs-openscapes/Training
+   - Abigail Tyrell’s ESP data aggregation: https://github.com/NOAA-EDAB/esp_data_aggregation/blob/main/.github/workflows/render_indicator_reports_dev.yaml 
+   - Megsie’s R package submission to the Journal of Open Source Software has a GitHub Action to rebuild a submission proof every time there’s a push: https://github.com/mcsiple/mmrefpoints
+

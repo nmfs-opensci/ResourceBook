@@ -1,0 +1,30 @@
+---
+title: "Training Material"
+---
+
+Links to training resources developed with NOAA Fisheries
+
+## 2022
+
+[NWFSC RWorkflow Workshops 2022](https://rverse-tutorials.github.io/RWorkflow-NWFSC-2022/) 8 week webinar on Git, GitHub, R packaging. All material and recorded lectures are online.
+
+[PSAW III Workshops](https://sites.google.com/noaa.gov/nmfs-ost-psaw) Workshops by NOAA Fisheries scientists on Git/GitHub, R packages, species distribution modeling, by-catch modeling, accessing remote-sensing data with R, open-source acoustics software
+
+## 2021
+
+[FishR101](https://emilymarkowitz-noaa.github.io/FishR101/index.html) 5 week R Workshop for AFSC Fisheries Researchers organized by Caitlin Allen Akselrud (@CaitlinAkselrud-NOAA), Emily Markowitz (@EmilyMarkowitz-NOAA)
+
+[NWFSC RWorkflow Workshops 2021](https://rverse-tutorials.github.io/RWorkflow-NWFSC-2021/) 8 week webinar on Git, GitHub, R packaging. All material and recorded lectures are online.
+
+[R3 Train](https://noaa-iea.github.io/r3-train/) 8-week webinar training series on Reproducible Reporting with R for marine ecological indicators, sponsored by the Working Group on the Northwest Atlantic Regional Sea
+
+[R for Management](https://chanteddavis-noaa.github.io/WCR_RStarterPack/index.html) A 3-day R course developed by the West Coast Regional Office.
+
+[Intro to spatial capture-recapture modeling](https://www.youtube.com/channel/UCc87aAzhX7EUOalyCohzqsQ/videos) A workshop on the oSCR R package from USGS, NOAA Fisheries and Univ of St Andrews.
+
+## 2020
+
+[2020 R Workshop for Social Scientists](https://emilymarkowitz-noaa.github.io/RWorkshopForSocialScientists/) workshop by NOAA Fisheries social scientists. Focus on data analysis and advanced topics.
+
+[NWFSC RWorkflow Workshops 2020](https://rverse-tutorials.github.io/RWorkflow-NWFSC-2020/) Git, GitHub, R, R packages
+

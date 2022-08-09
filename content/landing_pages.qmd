@@ -1,0 +1,64 @@
+---
+title: "Landing Pages"
+---
+
+# Entry and landing pages your GitHub personal account or organization
+
+A Readme file at the top of your repo or a landing page helps users navigate your material and creates branding. These are easy to create in GitHub and RStudio has templates for creating navigable webpages of your content. If you have an R package on GitHub, see the wiki page on {pkgdown}.
+
+For example, here is what you see at [github.com/eeholmes](https://github.com/eeholmes) (on Nov 2021). It is a Readme at the top of the profile that directs readers the organizations and repos of this user.
+
+![eeholmes Readme](https://raw.githubusercontent.com/nmfs-openscapes/.github/main/images/eeholmes.png)
+
+You can also create a landing page. Here is the Fisheries Integrated Toolbox landing page.
+
+![FIT GitHub Page](https://raw.githubusercontent.com/nmfs-openscapes/.github/main/images/FIT.png)
+
+You also easily make landing pages to navigate through multiple files within a repository. Here is an example:
+
+![RVerse GitHub Page](https://raw.githubusercontent.com/nmfs-openscapes/.github/main/images/RVerse.png)
+
+## Readme.md
+
+You can have a `Readme` pinned at the top of your GitHub page from a repo in your account with the same name as your account, e.g. `github.com/<your-org>` or `github.com/<your-username>`.
+
+-   Your personal GitHub account: 1. Create a repo called <your-username> (so I would create one called `eeholmes`). 2. In that put `Readme.md` An example of a README.md file you might like to use for this can be found [here](https://github.com/nmfs-openscapes/template_website_cv/blob/main/README_example.md).
+-   Your organization GitHub account: 1. Create a repo called `.github` (note the "."). 2. Create a folder in that called `profile`. 3. In that put `Readme.md`.
+
+## GitHub Pages
+
+You can create customized webpage also. It will have the form `username.github.io`. Example from my accounts: https://eeholmes.github.io/, https://nmfs-openscapes.github.io/template_website_cv/ ([repo](https://github.com/nmfs-openscapes/template_website_cv)), and https://nwfsc-math-bio.github.io/
+
+1.  Create a repo called <your-username> or if an organization, <your-orgname>. So for me, the repo would be called `eeholmes`
+2.  In that put the website files. See below for examples of how to do that or take a look at others' repos. Just look for the <username> repo. So if you see, `joeblow.github.io`, you know that there is a `joeblow` repo in `http://github.com/joeblow` and that repo will have the website code.
+3.  Go to GitHub Pages in the Settings tab (scroll way down), and then tell it to look for the website files at the main level or in the `docs` folder (wherever you put the files).
+
+# For a repository
+
+## Readme.md
+
+A plain `Readme.md` file in your repo ([Readme](https://github.com/nmfs-openscapes/.github/wiki/4-Documentation#readme)) is the most common landing page. You can just have user scroll down to the bottom of the repo page to see this (most common approach). You can make Readme files pretty snazzy. Examples [here](https://project-awesome.org/matiassingers/awesome-readme) and [here](https://github.com/abhisheknaiidu/awesome-github-profile-readme).
+
+But there are other ways that you can create landing pages that are more customized and complex using GitHub Pages. In this case, the landing page URL will be `<username or orgname>.github.io` for the org or user and `<username or orgname>.github.io\<reponame>` for an individual repo.
+
+## GitHub Pages from Readme with a theme
+
+If you turn on GitHub Pages (click Settings in your repo and scroll down), you can specify that it create a landing page from `Readme.md`. This is how <https://openscapes.github.io/2021-noaa-nmfs/> works. You can add a theme. [MARSS](https://nwfsc-timeseries.github.io/MARSS/) looks really different but it is just a simple `Readme.md` with one of GitHub standard themes applied in GitHub Pages.
+
+## GitHub Pages from one Rmd file
+
+Another easy way to make a landing page is from a Rmarkdown file named `index.Rmd`. Whatever look you can get with your Rmarkdown file, you can get for your webpage. Here is an example of just a [flat Rmarkdown file](https://github.com/mdscheuerell/ASSESSOR/blob/master/docs/index.Rmd) with subheadings that produces a very useful landing page for a assessment package [ASSESSOR](https://mdscheuerell.github.io/ASSESSOR/). Note Python users, you could do this with Sphinx too. It's not Rmarkdown specific.
+
+## GitHub Pages from `docs` folder
+
+One of the options in RStudio is to make a website from a collection of Rmarkdown files. This is an easy way to develop a more complex webpage. Here is an example from my R Workflow course [RWorkflow 2021](https://github.com/RVerse-Tutorials/RWorkflow-NWFSC-2021). Link to the repo is in the upper left. Here's another example from one of our speakers: [R Workshop For Social Scientists](https://emilymarkowitz-noaa.github.io/RWorkshopForSocialScientists/index.html). Building this is just a click of a button in RStudio. You can build whatever website you wanted and put that in the `docs` folder by the way. Building from Rmarkdown files just means that all you focus on is the the content.
+
+## RStudio and Distill webpages
+
+Make a webpage from Rmd files is quite easy in RStudio. Just select New Project \> Template \> Webpage and it'll start you off with a template. You can make a quite slick webpage by using themes such as provided by the [postcards](https://cran.r-project.org/web/packages/postcards/index.html) R package. The [NASA Openscapes page](https://nasa-openscapes.github.io/) is an example. The repository for this webpage is [here](https://github.com/NASA-Openscapes/NASA-Openscapes.github.io). Once you install the distill package, you'll see a template for that when you create a new RStudio project.
+
+## Jekyll/Hugo sites
+
+These Hugo Academic sites are really common in academia. Here is an [example](https://alexanderlabwhoi.github.io/) from someone random at Woods Hole. Here's an older clunkier version using [SinglePaged](https://github.com/t413/SinglePaged): [nwfsc-timeseries](https://nwfsc-timeseries.github.io/). Getting these set up on GitHub can take awhile. Dead simple if you have done it a bunch, but not intuitive in my experience. After playing with Jekyll sites for awhile, I gravitate back to a more simple landing pages based on markdown and Rmarkdown files (latter if I need code).
+
+*Note* There seems to be a movement towards creating federal agency websites using GitHub-Jekyll integration. You might want to look at the GSA repo for the [Section508.gov](https://github.com/GSA/Section508.gov) website and the [Federalist](https://federalist.18f.gov/) platform which uses GitHub repos as the content for government websites. It's an effort in government to reduce some of the workload for development of 508 compliant websites. More info [here](https://github.com/18F/federalist).

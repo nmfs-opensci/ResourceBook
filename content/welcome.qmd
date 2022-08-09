@@ -1,0 +1,21 @@
+---
+title: "Welcome"
+---
+
+This is an online reference resource by the NMFS Open Science community. It includes a wide variety of loosely curated information from different community members. It is place to document institutional knowledge and provide references to available resources. The focus is of this resource book is federal governmental agencies, and NOAA Fisheries specifically.
+
+If you have suggestions for additions or changes, please make a pull request.
+
+------------------------------------------------------------------------
+
+## Our origins
+
+NOAA Fisheries scientists have been involved in Open Science and production of Open Source packages for many years, really from the beginning of "open source". However, the effort towards agency-wide training in Open Science aligns with the transition to Open Science workflows and tools that is occurring across science and across scientific organizations.
+
+<img src="https://raw.githubusercontent.com/nmfs-opensci/assets/main/logo/openscapes_hex.png" align="right" width="40%"/>
+
+The contents for this book was first developed as a wiki during a fall 2021 NMFS [Openscapes](https://www.openscapes.org/) Champions cohort. The first wiki merged content developed by Eli Holmes (NWFSC) and Emily Markowitz (AFSC). Each had independently developed this material for their workshops on R. [NMFS Openscapes](https://nmfs-openscapes.github.io) was another project that emerged from the fall 2021 Openscapes Champions cohort, spearheaded by Eli Holmes (NWFSC) and inspired by [NASA Openscapes](https://nasa-openscapes.github.io). 
+
+The wiki next migrated to the [NMFS Openscapes](https://nmfs-openscapes.github.io) GitHub org and new material was added from the [Fisheries Integrated Toolbox resources](https://noaa-fisheries-integrated-toolbox.github.io/resources) (Kathryn Doering, Bai Li and others) and from the Best AFSC RACE-GAP Coding Practices Guidelines (compiled by Caitlin Allen Akselrud, Emily Markowitz, and others). In fall 2022, the [NMFS Open Science](https://nmfs-opensci.github.io) GitHub organization was launched as an unbrella organization to support Open Science efforts within the agency. The wiki migrated here and transitioned to a Quarto website with the help of Openscapes and Julie Lowndes tutorials.
+
+We are extremely grateful to and acknowledge Openscapes and Julia Stewart Lowndes' role in helping this resource book come into being along with its parent organization [NMFS Open Science](https://nmfs-opensci.github.io/).

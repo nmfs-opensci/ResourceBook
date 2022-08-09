@@ -1,0 +1,64 @@
+---
+title: "Licenses for Government Work"
+---
+
+## Licenses
+
+Work of the United States government that is done by US federal employees as part of their official duties is [in the public domain](https://fairuse.stanford.edu/overview/public-domain/welcome/#us_government_works) within the United States of America and cannot be copyrighted. Code (or anything else) developed by US federal employees should have a notice that the work is in the public domain. Additionally it is common to waive copyright and related rights in the work worldwide through the CC0 1.0 Universal public domain dedication.
+
+Government agencies will use some kind of public domain license, but which one used varies. There are two main licenses used for products by federal agencies (or their employees) on GitHub: Creative Commons license (CC0-1.0) and the GNU General Public License v3. [CC0-1.0 is a very broad declaration of public domain](https://creativecommons.org/publicdomain/zero/1.0/) while [GPL-3 is explicit about derivative works and how those works must retain an open source license](https://www.gnu.org/licenses/gpl-3.0.en.html).
+
+* The [NOAA Fisheries Integrated Toolbox](https://noaa-fisheries-integrated-toolbox.github.io/) recommends [GPL-3](https://github.com/nmfs-fish-tools/Resources/blob/master/LICENSE) over CC0-1.0 since the latter is not designed specifically for software. An [additional note](https://github.com/nmfs-fish-tools/Resources/blob/master/LICENSE.md) is added to clarify that the material is a US Government work. See their [Resources](https://github.com/nmfs-fish-tools/Resources) repository.
+* Other [NOAA Affiliated GitHub organizations](https://github.com/NOAAGov/NOAA-Affiliated-Projects) use a mix of GPL-3 and CC0-1.0.
+* USGS uses [CC0-1.0 License + additional info](https://github.com/usgs/best-practices/blob/master/LICENSE.md)
+* EPA seems to use CC0-1.0 License, e.g. [useeior](https://github.com/USEPA/useeior)
+* CISA also seems to use CC0-1.0 License, e.g. [Sparrow](https://github.com/cisagov/Sparrow#license)
+* Dept of Labor also uses CC0-1.0 License + additional info, e.g. [ableist language app](https://github.com/USDepartmentofLabor/ableist-language-detector/blob/main/LICENSE.md)
+* NASA uses [Apache 2.0](https://github.com/nasa/astrobee/blob/master/LICENSE) mostly
+* GSA uses [CC0-1.0 License](https://github.com/18F/fedramp-data#public-domain)
+* I (Eli Holmes) use [CC0-1.0](https://github.com/nwfsc-timeseries/MARSS/blob/master/License.md) with a note at the top that the work is a US federal government work by US federal employees as part of their official duties.
+
+## Additional License information
+
+In addition to one of the standard licenses above we also add the following addendum:
+
+```
+Software code created by U.S. Government employees is not subject to
+copyright in the United States (17 U.S.C. §105). The United State
+s/Department of Commerce reserve all rights to seek and obtain copyright
+protection in countries other than the United States for Software authored
+in its entirety by the Department of Commerce. To this end, the Department
+of Commerce hereby grants to Recipient a royalty-free, nonexclusive license
+to use, copy, and create derivative works of the Software outside of the
+United States.
+```
+
+## Specifying the license for an R package
+
+* At the base level of your package, add a `LICENSE` text file. See for example, [US government work + CC0-1.0](https://github.com/nwfsc-timeseries/MARSS/blob/master/License.md).
+* Then in your `DESCRIPTION` file, put the line
+```
+License: file LICENSE
+```
+* What is in that `LICENSE` file? If you are using a standard license, like GPL-2 or GPL-3, then you put that license in the file. Search the internet for the text. But CRAN might complain if you do that and are submitting to CRAN. In that case, you could just do
+```
+License: GPL-2
+```
+
+
+## Disclaimers
+
+Besides the license, code from federal agencies should also have a disclaimer that the code is 'as is' and the user assumes responsibility for its use. 
+
+* The Fisheries Integrated Toolbox has a [Disclaimer](https://github.com/nmfs-fish-tools/Resources/blob/master/Disclaimer.md) for US Government products in its [Resources](https://github.com/nmfs-fish-tools/Resources) repo.
+* The repos on the EPA organization use a few different (albeit similar) disclaimers. [Generic](https://github.com/USEPA/CMAQ#epa-disclaimer),  [GitHub specific](https://github.com/USEPA/useeior#disclaimer).
+* [CISA repos](https://github.com/cisagov/Sparrow#legal-disclaimer) have a bit of an ad hoc disclaimer.
+
+Here is a standard disclaimer. Here tailored for a repository on GitHub.
+
+```
+This repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project code is provided on an 'as is' basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.
+```
+
+
+  
