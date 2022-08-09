@@ -1,6 +1,6 @@
 # NMFS Open Science Collaborative Resource Book
 
-This is an online resource by the NMFS Open Science community. [Read it](https://nmfs-opensci.github.io/ResouceBook)
+This is an online resource by the NMFS Open Science community. [Read the book](https://nmfs-opensci.github.io/ResouceBook)
 
 # Attribution
 
