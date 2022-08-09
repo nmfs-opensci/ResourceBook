@@ -1,6 +1,6 @@
 # NMFS Open Science Collaborative Resource Book
 
-This is an online resource by the NMFS Open Science community. [Read the book](https://nmfs-opensci.github.io/ResouceBook)
+This is an online resource by the NMFS Open Science community. [Read the book](https://nmfs-opensci.github.io/ResourceBook)
 
 # Attribution
 
@@ -12,7 +12,7 @@ Feel free to import or fork. Though if you want to start more bare bones, use th
 
 # How does it work?
 
-This online book is being built automatically with a GitHub Action. The Action is not (I think?) loading R (or Python), so any code you have might not render. Not sure. If it is just text, then edit the `.qmd` or `.md` files on GitHub and the book will re-render.
+This online book is being built automatically with a GitHub Action. The Action is not loading R (or Python), so any code you will not render and in fact will cause the GitHub Action to fail. Note, for plain markdown, you can use `.md` instead of `.qmd`.
 
 The structure of the book is in `_quarto.yml`. The rest should be self-explanatory after you look at that file.
 

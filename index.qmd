@@ -17,13 +17,6 @@ Please submit a pull request.
 
 * [Eli Holmes](https://github.com/eeholmes) (personal content)
 * [Emily Markowitz](https://github.com/EmilyMarkowitz-NOAA) (personal content)
-* [Fisheries Integrated Toolbox resources](https://noaa-fisheries-integrated-toolbox.github.io/resources) content developed
-    - [Kathryn Doering](https://github.com/k-doering-NOAA)
-    - [Christine Stawitz](https://github.com/ChristineStawitz-NOAA)
-    - [Bai Li](https://github.com/Bai-Li-NOAA)
-* Best AFSC RACE-GAP Coding Practices Guidelines content developed by 
-    - Caitlin Allen Akselrud
-    - [Emily Markowitz](https://github.com/EmilyMarkowitz-NOAA)
-    - [Megsie Siple](https://github.com/MargaretSiple-NOAA)
-    - Cole Monnahan
+* [Fisheries Integrated Toolbox resources](https://noaa-fisheries-integrated-toolbox.github.io/resources) content developed by [Kathryn Doering](https://github.com/k-doering-NOAA), [Christine Stawitz](https://github.com/ChristineStawitz-NOAA), [Bai Li](https://github.com/Bai-Li-NOAA)
+* Best AFSC RACE-GAP Coding Practices Guidelines content developed by Caitlin Allen Akselrud, [Emily Markowitz](https://github.com/EmilyMarkowitz-NOAA), [Megsie Siple](https://github.com/MargaretSiple-NOAA), Cole Monnahan
 * section on GitHub secrets by [Adyan Rios](adyanrios-NOAA)
