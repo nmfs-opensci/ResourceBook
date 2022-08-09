@@ -1,95 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/nmfs-opensci/ReferenceBook/content/reuse_statement.html</loc>
-    <lastmod>2022-08-09T18:11:14.723Z</lastmod>
+    <loc>https://github.com/nmfs-opensci/ResourceBook/content/reuse_statement.html</loc>
+    <lastmod>2022-08-09T18:14:02.145Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nmfs-opensci/ReferenceBook/content/culture.html</loc>
-    <lastmod>2022-08-09T18:11:16.071Z</lastmod>
+    <loc>https://github.com/nmfs-opensci/ResourceBook/content/culture.html</loc>
+    <lastmod>2022-08-09T18:14:03.413Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nmfs-opensci/ReferenceBook/content/project_management/index.html</loc>
-    <lastmod>2022-08-09T18:11:16.523Z</lastmod>
+    <loc>https://github.com/nmfs-opensci/ResourceBook/content/project_management/index.html</loc>
+    <lastmod>2022-08-09T18:14:03.841Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nmfs-opensci/ReferenceBook/content/project_management/github_project_boards.html</loc>
-    <lastmod>2022-08-09T18:11:16.947Z</lastmod>
+    <loc>https://github.com/nmfs-opensci/ResourceBook/content/project_management/github_project_boards.html</loc>
+    <lastmod>2022-08-09T18:14:04.261Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nmfs-opensci/ReferenceBook/content/training.html</loc>
-    <lastmod>2022-08-09T18:11:17.347Z</lastmod>
+    <loc>https://github.com/nmfs-opensci/ResourceBook/content/training.html</loc>
+    <lastmod>2022-08-09T18:14:04.681Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nmfs-opensci/ReferenceBook/content/licenses_gov.html</loc>
-    <lastmod>2022-08-09T18:11:17.783Z</lastmod>
+    <loc>https://github.com/nmfs-opensci/ResourceBook/content/licenses_gov.html</loc>
+    <lastmod>2022-08-09T18:14:05.125Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nmfs-opensci/ReferenceBook/content/best_practices_coding/testing_and_review.html</loc>
-    <lastmod>2022-08-09T18:11:18.187Z</lastmod>
+    <loc>https://github.com/nmfs-opensci/ResourceBook/content/best_practices_coding/testing_and_review.html</loc>
+    <lastmod>2022-08-09T18:14:05.513Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nmfs-opensci/ReferenceBook/content/best_practices_coding/index.html</loc>
-    <lastmod>2022-08-09T18:11:18.563Z</lastmod>
+    <loc>https://github.com/nmfs-opensci/ResourceBook/content/best_practices_coding/index.html</loc>
+    <lastmod>2022-08-09T18:14:05.877Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nmfs-opensci/ReferenceBook/content/best_practices_coding/best_practices_r.html</loc>
-    <lastmod>2022-08-09T18:11:19.183Z</lastmod>
+    <loc>https://github.com/nmfs-opensci/ResourceBook/content/best_practices_coding/best_practices_r.html</loc>
+    <lastmod>2022-08-09T18:14:06.469Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nmfs-opensci/ReferenceBook/content/code_of_conduct.html</loc>
-    <lastmod>2022-08-09T18:11:19.599Z</lastmod>
+    <loc>https://github.com/nmfs-opensci/ResourceBook/content/code_of_conduct.html</loc>
+    <lastmod>2022-08-09T18:14:06.889Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nmfs-opensci/ReferenceBook/content/resources.html</loc>
-    <lastmod>2022-08-09T18:11:20.003Z</lastmod>
+    <loc>https://github.com/nmfs-opensci/ResourceBook/content/resources.html</loc>
+    <lastmod>2022-08-09T18:14:07.309Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nmfs-opensci/ReferenceBook/content/508_compliance.html</loc>
-    <lastmod>2022-08-09T18:11:20.475Z</lastmod>
+    <loc>https://github.com/nmfs-opensci/ResourceBook/content/508_compliance.html</loc>
+    <lastmod>2022-08-09T18:14:07.773Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nmfs-opensci/ReferenceBook/content/landing_pages.html</loc>
-    <lastmod>2022-08-09T18:11:20.931Z</lastmod>
+    <loc>https://github.com/nmfs-opensci/ResourceBook/content/landing_pages.html</loc>
+    <lastmod>2022-08-09T18:14:08.233Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nmfs-opensci/ReferenceBook/content/welcome.html</loc>
-    <lastmod>2022-08-09T18:11:21.355Z</lastmod>
+    <loc>https://github.com/nmfs-opensci/ResourceBook/content/welcome.html</loc>
+    <lastmod>2022-08-09T18:14:08.649Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nmfs-opensci/ReferenceBook/content/github_in_gov.html</loc>
-    <lastmod>2022-08-09T18:11:21.827Z</lastmod>
+    <loc>https://github.com/nmfs-opensci/ResourceBook/content/github_in_gov.html</loc>
+    <lastmod>2022-08-09T18:14:09.093Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nmfs-opensci/ReferenceBook/content/github/actions.html</loc>
-    <lastmod>2022-08-09T18:11:22.235Z</lastmod>
+    <loc>https://github.com/nmfs-opensci/ResourceBook/content/github/actions.html</loc>
+    <lastmod>2022-08-09T18:14:09.501Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nmfs-opensci/ReferenceBook/content/github/citation.html</loc>
-    <lastmod>2022-08-09T18:11:22.663Z</lastmod>
+    <loc>https://github.com/nmfs-opensci/ResourceBook/content/github/citation.html</loc>
+    <lastmod>2022-08-09T18:14:09.909Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nmfs-opensci/ReferenceBook/content/github/best_practices.html</loc>
-    <lastmod>2022-08-09T18:11:23.119Z</lastmod>
+    <loc>https://github.com/nmfs-opensci/ResourceBook/content/github/best_practices.html</loc>
+    <lastmod>2022-08-09T18:14:10.381Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nmfs-opensci/ReferenceBook/content/github/secrets.html</loc>
-    <lastmod>2022-08-09T18:11:23.543Z</lastmod>
+    <loc>https://github.com/nmfs-opensci/ResourceBook/content/github/secrets.html</loc>
+    <lastmod>2022-08-09T18:14:10.825Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nmfs-opensci/ReferenceBook/content/github/onboarding_tools.html</loc>
-    <lastmod>2022-08-09T18:11:23.935Z</lastmod>
+    <loc>https://github.com/nmfs-opensci/ResourceBook/content/github/onboarding_tools.html</loc>
+    <lastmod>2022-08-09T18:14:11.185Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nmfs-opensci/ReferenceBook/content/github/index.html</loc>
-    <lastmod>2022-08-09T18:11:24.339Z</lastmod>
+    <loc>https://github.com/nmfs-opensci/ResourceBook/content/github/index.html</loc>
+    <lastmod>2022-08-09T18:14:11.545Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nmfs-opensci/ReferenceBook/content/documentation.html</loc>
-    <lastmod>2022-08-09T18:11:24.747Z</lastmod>
+    <loc>https://github.com/nmfs-opensci/ResourceBook/content/documentation.html</loc>
+    <lastmod>2022-08-09T18:14:11.957Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/nmfs-opensci/ReferenceBook/index.html</loc>
-    <lastmod>2022-08-09T18:11:25.139Z</lastmod>
+    <loc>https://github.com/nmfs-opensci/ResourceBook/index.html</loc>
+    <lastmod>2022-08-09T18:14:12.365Z</lastmod>
   </url>
 </urlset>
