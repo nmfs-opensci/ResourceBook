@@ -35,16 +35,16 @@ website:
         text: Home
       - href: content/welcome.qmd
         text: Welcome
-      - href: content/reuse_statement
+      - href: content/reuse_statement.qmd
         text: Public Domain
-      - href: content/code_of_conduct
-      - href: content/culture
-      - href: content/templates
-      - href: content/training
-      - href: content/github_in_gov
-      - href: content/landing_pages
-      - href: content/documentation
-      - href: content/licenses_gov
+      - href: content/code_of_conduct.qmd
+      - href: content/culture.qmd
+      - href: content/templates.qmd
+      - href: content/training.qmd
+      - href: content/github_in_gov.qmd
+      - href: content/landing_pages.qmd
+      - href: content/documentation.qmd
+      - href: content/licenses_gov.qmd
       - section: content/best_practices_coding/index.qmd
         text: Coding Best Practices
         contents: 
