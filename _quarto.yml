@@ -39,6 +39,7 @@ website:
         text: Public Domain
       - href: content/code_of_conduct
       - href: content/culture
+      - href: content/templates
       - href: content/training
       - href: content/github_in_gov
       - href: content/landing_pages

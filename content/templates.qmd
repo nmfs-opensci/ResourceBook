@@ -1,0 +1,17 @@
+---
+title: "Templates"
+---
+
+A number of groups have created templates that you can use.
+
+* [NOAA branded pkgdown template](https://nmfs-fish-tools.github.io/pkgdownTemplate/) by Eli Holmes, Christine Stawitz and Bai Li
+* [NMFS palette](https://github.com/nmfs-fish-tools/nmfspalette) A NOAA branded color palette for ggplot2, pkgdown and other uses. Developed by Christine Stawitz, Bai Li, Haley Oleynik, and Corinne Bassin
+* [NMFS Reports](https://emilymarkowitz-noaa.github.io/NMFSReports/) A package for creating NMFS Tech Memos and reports in R Markdown by Emily Markowitz
+* [NMFS Shiny Apps](https://github.com/EmilyMarkowitz-NOAA/template_nfms_shiny) a template for building NMFS branded Shiny apps by Emily Markowitz
+* [Quarto Title Pages](https://github.com/nmfs-opensci/quarto_titlepages) templates for custom PDF title pages for Quarto books by Eli Holmes
+* [NMFS branded xarigan presentations](https://github.com/nmfs-opensci/xaringan-nmfs) {xaringan} templates for NMFS branded xaringan presentations by Christine Stawitz and Eli Holmes
+* [personal website built from Google Drive content](https://github.com/nmfs-opensci/template_website_cv) by Emily Markowitz
+
+## Sandboxy stuff
+
+* [Super simple website w R Markdown](https://github.com/nmfs-opensci/NOAA-branded-simple) has a NOAA footer. Doesn't have NMFS palette.
