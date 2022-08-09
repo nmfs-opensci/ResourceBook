@@ -11,7 +11,7 @@ website:
   
   page-footer:
     right: "This page is built with [Quarto](https://quarto.org/)."
-    left: "&copy; CC-4.0"
+    left: "This work is in the Public Domain [CC-1.0](https://creativecommons.org/publicdomain/zero/1.0/)"
   
   sidebar:
     background: "#D9E3E4"
@@ -35,8 +35,6 @@ website:
         text: Home
       - href: content/welcome.qmd
         text: Welcome
-      - href: content/reuse_statement.qmd
-        text: Public Domain
       - href: content/code_of_conduct.qmd
       - href: content/culture.qmd
       - href: content/templates.qmd
