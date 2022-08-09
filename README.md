@@ -1,3 +1,19 @@
-# NMFS Openscapes
+# NMFS Open Science Collaborative Resource Book
 
-nmfs-openscapes.github.io
+This is an online resource by the NMFS Open Science community. [Read it](https://nmfs-opensci.github.io/ResouceBook)
+
+# Attribution
+
+This is a copy of the [Quarto website template](https://github.com/Openscapes/quarto-website-tutorial) developed by Qpenscapes. This particular variant is based off [NMFS Openscapes](https://nmfs-openscapes.github.io)
+
+# Can I copy this repo?
+
+Feel free to import or fork. Though if you want to start more bare bones, use the Openscapes [Quarto website template](https://github.com/Openscapes/quarto-website-tutorial).
+
+# How does it work?
+
+This online book is being built automatically with a GitHub Action. The Action is not (I think?) loading R (or Python), so any code you have might not render. Not sure. If it is just text, then edit the `.qmd` or `.md` files on GitHub and the book will re-render.
+
+The structure of the book is in `_quarto.yml`. The rest should be self-explanatory after you look at that file.
+
+
