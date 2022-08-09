@@ -63,6 +63,20 @@
     "text": "2020\n2020 R Workshop for Social Scientists workshop by NOAA Fisheries social scientists. Focus on data analysis and advanced topics.\nNWFSC RWorkflow Workshops 2020 Git, GitHub, R, R packages"
   },
   {
+    "objectID": "content/templates.html",
+    "href": "content/templates.html",
+    "title": "Templates",
+    "section": "",
+    "text": "A number of groups have created templates that you can use."
+  },
+  {
+    "objectID": "content/templates.html#sandboxy-stuff",
+    "href": "content/templates.html#sandboxy-stuff",
+    "title": "Templates",
+    "section": "Sandboxy stuff",
+    "text": "Sandboxy stuff\n\nSuper simple website w R Markdown has a NOAA footer. Doesn’t have NMFS palette."
+  },
+  {
     "objectID": "content/licenses_gov.html",
     "href": "content/licenses_gov.html",
     "title": "Licenses for Government Work",
