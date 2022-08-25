@@ -46,7 +46,7 @@ A selection of GitHub organization for NOAA Fisheries
 Be aware that this structure is evolving. NOAA doesn't have a single organization site for official products. 
 
 * [NOAA](https://github.com/NOAAGov) is a branded GH org that has links to other [NOAA-affiliated](https://github.com/NOAAGov/NOAA-Affiliated-Projects) GitHub orgs. 
-* https://github.com/NOAA-GFDL
+* [Geophysical Fluid Dynamics Laboratory](https://github.com/NOAA-GFDL)
 
   
 ## GitHub in other agencies
