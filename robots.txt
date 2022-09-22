@@ -1,1 +1,1 @@
-Sitemap: https://github.com/nmfs-opensci/ResourceBook/sitemap.xml
+Sitemap: https://nmfs-opensci.github.io/ResourceBook/sitemap.xml
