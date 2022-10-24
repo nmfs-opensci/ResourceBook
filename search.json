@@ -28,32 +28,102 @@
     "text": "NOAA Disclaimer\nThis repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project code is provided on an ‘as is’ basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government."
   },
   {
-    "objectID": "content/welcome.html",
-    "href": "content/welcome.html",
-    "title": "Welcome",
+    "objectID": "content/github_in_gov.html",
+    "href": "content/github_in_gov.html",
+    "title": "GitHub in Government",
     "section": "",
-    "text": "This is an online reference resource by the NMFS Open Science community. It includes a wide variety of loosely curated information from different community members. It is place to document institutional knowledge and provide references to available resources. The focus is of this resource book is federal governmental agencies, and NOAA Fisheries specifically.\nIf you have suggestions for additions or changes, please make a pull request."
+    "text": "GitHub has been used by government agencies and staff for many years; some agencies more (GSA) and other are more newcomers. But recently there has been a bigger shift to using GitHub, not just for code and project tracking but also as an application or website delivery platform. How agencies, organizations, teams and individuals organize their GitHub projects is evolving. Currently (Sept 2021) the following is roughly how things are organized in NOAA."
   },
   {
-    "objectID": "content/welcome.html#our-origins",
-    "href": "content/welcome.html#our-origins",
-    "title": "Welcome",
-    "section": "Our origins",
-    "text": "Our origins\nNOAA Fisheries scientists have been involved in Open Science and production of Open Source packages for many years, really from the beginning of “open source”. However, the effort towards agency-wide training in Open Science aligns with the transition to Open Science workflows and tools that is occurring across science and across scientific organizations.\n\nThe contents for this book was first developed as a wiki during a fall 2021 NMFS Openscapes Champions cohort. The first wiki merged content developed by Eli Holmes (NWFSC) and Emily Markowitz (AFSC). Each had independently developed this material for their workshops on R. NMFS Openscapes was another project that emerged from the fall 2021 Openscapes Champions cohort, spearheaded by Eli Holmes (NWFSC) and inspired by NASA Openscapes.\nThe wiki next migrated to the NMFS Openscapes GitHub org and new material was added from the Fisheries Integrated Toolbox resources (Kathryn Doering, Bai Li and others) and from the Best AFSC RACE-GAP Coding Practices Guidelines (compiled by Caitlin Allen Akselrud, Emily Markowitz, and others). In fall 2022, the NMFS Open Science GitHub organization was launched as an unbrella organization to support Open Science efforts within the agency. The wiki migrated here and transitioned to a Quarto website with the help of Openscapes and Julie Lowndes tutorials.\nWe are extremely grateful to and acknowledge Openscapes and Julia Stewart Lowndes’ role in helping this resource book come into being along with its parent organization NMFS Open Science."
+    "objectID": "content/github_in_gov.html#version-control-generally-speaking",
+    "href": "content/github_in_gov.html#version-control-generally-speaking",
+    "title": "GitHub in Government",
+    "section": "Version control, Generally Speaking",
+    "text": "Version control, Generally Speaking\nThere are several methods for version controlling code. The user can version control content on a local machine through Git, manage content versions on GitHub, and many other places. GitHub is strongly preferred. Sharing through other methods is fine, but it becomes harder to track versions and maintain version control.\n\nStrongly preferred: GitHub\nThere are a variety of public and free options for collaboration with Git. Github is recommended over GitLab an dBitbucket as NOAA has set up rules regarding its use. See the GitHub resources folder for GitHub use and rules at NOAA, and see additional GitHub best practices below. NOAA does have some internal resources for collaborative Git platforms including VLAB and Gitlab. NOAA GitLab may be used only if necessary and there are no plans to include non-NOAA collaborators. VLAB is available for non NOAA users by invite only."
   },
   {
-    "objectID": "content/templates.html",
-    "href": "content/templates.html",
-    "title": "Templates",
+    "objectID": "content/github_in_gov.html#terms",
+    "href": "content/github_in_gov.html#terms",
+    "title": "GitHub in Government",
+    "section": "Terms",
+    "text": "Terms\nProduct = software (like R package, say, or Python package), a dataset or database, a report with all the various pieces (data, code, text), a report template, a collection of scripts for some task, an application like an API or mobile app.\nRepository = GitHub repository that may or may not be a product. Repository is like a folder on your computer. It is an organizational component but not necessarily, and actually often not, a product. Along with the repository comes important management tools at the repo level: issues tracking, project boards, releases, landing page, automation of tasks.\nOrganization = A collection of related repositories (products or not) AND the organization-level project management tools associated with those (project boards, team discussions, landing page). Anyone can create a GH organization. Think of it like a collection of folders on your computer. Individuals can use these or teams, e.g. Eli has 3 individual GH orgs for different projects, 3 team orgs for team projects and is a member of a few branded GH organizations."
+  },
+  {
+    "objectID": "content/github_in_gov.html#licenses-and-disclaimers",
+    "href": "content/github_in_gov.html#licenses-and-disclaimers",
+    "title": "GitHub in Government",
+    "section": "Licenses and Disclaimers",
+    "text": "Licenses and Disclaimers\nSee chapter on licenses and disclaimers for government work."
+  },
+  {
+    "objectID": "content/github_in_gov.html#github-in-nmfs",
+    "href": "content/github_in_gov.html#github-in-nmfs",
+    "title": "GitHub in Government",
+    "section": "GitHub in NMFS",
+    "text": "GitHub in NMFS\nA selection of GitHub organization for NOAA Fisheries\n\nNOAA Fisheries Integrated Toolbox is a cross-center group that has been working for a number of years to provide a branded GH organization for NMFS public GH products and resources, training and tools for creating products. The resources are in the left nav bar on that page, so scroll down.\nFish and Fisheries Tools is an example of a branded set of GH hosted NMFS tools. The GitHub org with a resource folder for common elements and organization.\nNOAA Fisheries Integrated Modeling System FIMS\nAutomation Products for IEA Automation Products for Integrated Ecological Assessments\nPacific Fisheries Management Council repos related to groundfish assessments and data\nWithin NWFSC, branded GH orgs have the name nwfsc-xyz. CB, CB Math Biology, CB Math Bio time series, CB OA Lab, FRAM, FRAM Assessment\nNEFSC: EDAB\nPIFSC: PIFSC\nAFSC: AFSC assessments, NMML\nSEFSC: SEFSC\nSWFSC: Major open source code and data producer (many CRAN packages, e.g.). But I can’t find any GH organizations. I did find many individual GH accounts."
+  },
+  {
+    "objectID": "content/github_in_gov.html#github-in-noaa",
+    "href": "content/github_in_gov.html#github-in-noaa",
+    "title": "GitHub in Government",
+    "section": "GitHub in NOAA",
+    "text": "GitHub in NOAA\nBe aware that this structure is evolving. NOAA doesn’t have a single organization site for official products.\n\nNOAA is a branded GH org that has links to other NOAA-affiliated GitHub orgs.\nGeophysical Fluid Dynamics Laboratory"
+  },
+  {
+    "objectID": "content/github_in_gov.html#github-in-other-agencies",
+    "href": "content/github_in_gov.html#github-in-other-agencies",
+    "title": "GitHub in Government",
+    "section": "GitHub in other agencies",
+    "text": "GitHub in other agencies\n\nUS Geological Survey, USGS Astrogeology Science Center, USGS R, USGS Web Informatics\nCensus Bureau\nNASA, NASA Jet Propulsion Lab, NASA Global Imagery Browse Services, NASA WorldWind\nU.S. General Services Administration has close to 900 repos on its org.\nCybersecurity and Infrastructure Security Agency\nEnvironmental Protection Agency\nDepartment of Labor\nCongressional Budget Office\nUS Forest Service\nThe US Department of Education’s College Scorecard is all open source and on GitHub. Note, this was an early open-source in government project and is not on the USED GitHub organization (which is minimal) but on the contractor’s GitHub organization, RTI International.\nUSDA\nVeterans Affairs. In 2021, they transitioned their whole dev team to GitHub. news story\nNational Parks Service\nUS Bureau of Reclamation\nSee also this list by GitHub. Scroll down to the bottom for the US Research Labs. GitHub in Government"
+  },
+  {
+    "objectID": "content/documentation.html",
+    "href": "content/documentation.html",
+    "title": "Documentation",
     "section": "",
-    "text": "A number of groups have created templates that you can use."
+    "text": "FIT: Code Documentation"
   },
   {
-    "objectID": "content/templates.html#sandboxy-stuff",
-    "href": "content/templates.html#sandboxy-stuff",
-    "title": "Templates",
-    "section": "Sandboxy stuff",
-    "text": "Sandboxy stuff\n\nSuper simple website w R Markdown has a NOAA footer. Doesn’t have NMFS palette."
+    "objectID": "content/documentation.html#tools",
+    "href": "content/documentation.html#tools",
+    "title": "Documentation",
+    "section": "Tools",
+    "text": "Tools\n\nReadme\nReadme.md is shown at the bottom of a GitHub repo and can be minimal or complex. Note, for an organization you should give some thought to standardizing the content of your Readme’s and including a disclaimer at the bottom. See the Fisheries Integrated Toolbox example.\n\nEPA CMAQ repo Links to documentation, DOIs, past releases, installation instructions for EPA’s CMAQ modeling system.\nCISA Sparrow repo\nUSGS PEST++\nHere is a Python example from USGS geomag-algorithms and groundmotion-processing\n[NPS acoustics])https://github.com/nationalparkservice/acoustic_discovery) example with lots of images.\n\n\n\nGitHub wiki\n\nEPA API tool, EPA useeior package.\nCollege scorecard\n\n\n\npkgdown\nIf you are preparing an R package, then the pkgdown R package is the way that people make websites directly from their R package documentation. The Fisheries Integrated Toolbox has a NMFS branded pkgdown template that you can use. It’ll add all the NOAA Fisheries branding and colors. pkgdown Template. There are many examples of pkgdown sites on GitHub. The key file to change is pkgdown/_pkgdown.yml and I find it easiest to poke around GitHub and find version of that file to copy and modify.\n\n\nbookdown\nbookdown is also very popular for making documentation and RStudio makes it easy to build books. Here is an example of one of my bookdown books. Here is a bookdown lab manual written by one of the first Openscapes cohort teams as their team project: Fay Lab Manual. A bookdown book is just a collection of Rmarkdown files. You write those and bookdown makes it into the online book, which you can put on GitHub Pages.\n\n\nOther\nAnother common way to include documentation is a folder with the documentation (in whatever format you want) with links to that from the Readme file or GitHub Pages.\n\nEPA CMAQ repo has a folder called DOCS in the repo which holds documentation in markdown format, .md. The Readme points to those files and because they are markdown, you see them as formatted (not raw) text.\nUSGS shakemap created a webpage which is kept in the docs folder. GitHub Pages then points to that folder.\nSphinx documentation is used by Python users and is a bit like bookdown in appearance but uses a different markup language (rst). Here are examples from USGS geobipy and gmprocess. The html output is put in the docs folder and GitHub Pages is pointed to that.\nQuarto documentation allows both Jupyter and Rmd files. NASA Openscapes is using this for their hackathon documentation."
+  },
+  {
+    "objectID": "content/best_practices_coding/testing_and_review.html",
+    "href": "content/best_practices_coding/testing_and_review.html",
+    "title": "Testing and Review",
+    "section": "",
+    "text": "Fit: Code Testing\nhttps://github.com/benchmark-action/github-action-benchmark"
+  },
+  {
+    "objectID": "content/best_practices_coding/testing_and_review.html#code-review-and-validation",
+    "href": "content/best_practices_coding/testing_and_review.html#code-review-and-validation",
+    "title": "Testing and Review",
+    "section": "Code Review and Validation",
+    "text": "Code Review and Validation\nIf you are submitting software itself to a journal or generally for publishing, Office of Science and Technology (OST) requests a code review: once by a person you know who knows the technical details and is a code person, then another review by someone on the National Modeling team. Code review for analyses in publications is not required, but it is required if you are publishing the software itself (e.g., publishing a paper using the VAST package does not require code review; publishing the VAST package for general use does require code review). When doing internal code review, or passing code from one person to another, it is best to do paired code review. This can include: The existing or senior member on the project working through the code with the new or junior member. Two people code the same task and compare results (which should be the same). While one person is coding, another person runs chunks of that code and checks the results (also known as Driver-Navigator paired programming).\nHelper packages for reviews include {goodpractice} and {pkgreviewer}.\nFit: Code Review"
+  },
+  {
+    "objectID": "content/best_practices_coding/testing_and_review.html#backwards-compatibility",
+    "href": "content/best_practices_coding/testing_and_review.html#backwards-compatibility",
+    "title": "Testing and Review",
+    "section": "Backwards Compatibility",
+    "text": "Backwards Compatibility\nFit: backwards compatibility notes"
+  },
+  {
+    "objectID": "content/best_practices_coding/testing_and_review.html#attribution",
+    "href": "content/best_practices_coding/testing_and_review.html#attribution",
+    "title": "Testing and Review",
+    "section": "Attribution",
+    "text": "Attribution\nKathryn Doering, Megsie Siple, Cole Monnahan, and Bai Li contributed to this guide."
+  },
+  {
+    "objectID": "content/best_practices_coding/index.html",
+    "href": "content/best_practices_coding/index.html",
+    "title": "Best Practice - Coding",
+    "section": "",
+    "text": "A collection of best practice tips for different languages."
   },
   {
     "objectID": "content/best_practices_coding/best_practices_r.html",
@@ -147,88 +217,60 @@
     "text": "Attribution\nAdapted from the Best AFSC RACE-GAP Coding Practices Guidelines compiled by Caitlin Allen Akselrud, Emily Markowitz, and others."
   },
   {
-    "objectID": "content/best_practices_coding/index.html",
-    "href": "content/best_practices_coding/index.html",
-    "title": "Best Practice - Coding",
+    "objectID": "content/culture.html",
+    "href": "content/culture.html",
+    "title": "Culture and Philosophy",
     "section": "",
-    "text": "A collection of best practice tips for different languages."
+    "text": "Ask for help, and share your learning: We are all learners, and most of our learning is done from each other. It is inefficient to struggle through problems alone. Ask for and give assistance with appropriate cognizance of the value of your time and the time of the person you are asking. You are not the first or last person to encounter a problem. When you identify a problem add an issue to the lab issues repository, and update it with solutions when it is resolved. Also consider writing a tutorial/blog post for inclusion in our shared resources, and share with the larger community by tweeting, leading and sharing at a lab meeting, or running a workshop.\nMake yourself available: Be responsive to communication, and make time for things that address longer term goals, even when busy. Note that being available does not mean that you are available 24/7 - this is not expected. Because as a group we value the role of collaboration and interaction in improving our work, it is expected that you be available in the lab/office during normal business hours for some time during the week.\nCome prepared and be engaged: Value your time. Be present during lab and individual meetings, and come to your work ready to do your work. Contribute and participate in planning and lab discussions. When it is your turn to run a meeting, come with an agenda and be prepared with questions. Aim to view meetings as events that contribute to your work and productivity, rather than taking away from them.\nCelebrate accomplishments (yours & others): You and your colleagues work hard. Things don’t always go exactly as you plan. Be supportive and proud of yourself and your peers when you accomplish things. We are not competing with each other - someone else’s success does not mean your failure. Share your accomplishments with others!\nSustain a positive, safe learning environment: Everyone learns something for the first time at some time, and people learn in different ways. Expressing that you don’t know something is OK, and we understand that this can make someone feel vulnerable. We strive to maintain a culture that allows for and encourages this vulnerability. Community members should not be disparaged for not knowing things, and in addition, should not be disparaged for knowing things or wanting to learn.\nHave an interdisciplinary (open) mindset: We apply our work at the science-policy interface. This means we work on problems that span multiple disciplines. Co-creation of knowledge requires transdisciplinary approaches that can result in solutions that would not be possible with siloing. You will be collaborating with others who have different types of expertise, values, and terminology. Trust the expertise of others and actively seek feedback recognizing the importance of specialization.\nBe mindful and aware of your own biases: We all have biases that are inherent and can not be removed, but we can still work on both being less biased, and more aware of bias in ourselves and others. Periodically check in on your biases.\nPlan with intention, and follow through: Be organized and adaptable. Things don’t always go as planned and that’s OK. Planning can help you adapt when they don’t (see Come Prepared). Find a program/project management approach that works for you; being organized can reduce stress immensely and help you progress with your goals.\nFoster inclusivity within our group and greater community: Part of our lab culture is that we are good citizens of our community, we take on leadership roles within NMFS and NOAA, we are supportive of others in our community during their milestones, we actively participate in NMFS events and perform outreach. Work to craft your individual mentoring/development plans to identify what you want to aim your efforts at.\nPromote and sustain healthy work-life integration: Our scientific research is not the only important thing in our lives, and publishing research is not the only mechanism by which to provide science and support our communities. We recognize the importance of our other commitments in keeping us healthy (mentally and physically) and bring our whole selves to our efforts. Try not to normalize overwork or being busy as achievement or status.\nPractice radical candor: We care personally while also challenging directly. Be honest when communicating, accept critical (but kind) feedback, and give the same to others. View relationships within the group as collaborative rather than evaluative. Don’t take constructive criticism personally.\nAcknowledge and give credit: Working as part of a team, we will often (always?) be building on work done by others, receive assistance with work, and using others’ words, code, content. Include acknowledgement and give credit for those contributions, in all forms of communication. We share content and code within the group with this expectation. One easy approach is to include hyperlinks to the work of others or their social media in your work. This also helps to amplify their voice and work as well as yours.\n\nAttribution\nhttps://thefaylab.github.io/lab-manual/culture.html"
   },
   {
-    "objectID": "content/best_practices_coding/testing_and_review.html",
-    "href": "content/best_practices_coding/testing_and_review.html",
-    "title": "Testing and Review",
+    "objectID": "content/welcome.html",
+    "href": "content/welcome.html",
+    "title": "Welcome",
     "section": "",
-    "text": "Fit: Code Testing\nhttps://github.com/benchmark-action/github-action-benchmark"
+    "text": "This is an online reference resource by the NMFS Open Science community. It includes a wide variety of loosely curated information from different community members. It is place to document institutional knowledge and provide references to available resources. The focus is of this resource book is federal governmental agencies, and NOAA Fisheries specifically.\nIf you have suggestions for additions or changes, please make a pull request."
   },
   {
-    "objectID": "content/best_practices_coding/testing_and_review.html#code-review-and-validation",
-    "href": "content/best_practices_coding/testing_and_review.html#code-review-and-validation",
-    "title": "Testing and Review",
-    "section": "Code Review and Validation",
-    "text": "Code Review and Validation\nIf you are submitting software itself to a journal or generally for publishing, Office of Science and Technology (OST) requests a code review: once by a person you know who knows the technical details and is a code person, then another review by someone on the National Modeling team. Code review for analyses in publications is not required, but it is required if you are publishing the software itself (e.g., publishing a paper using the VAST package does not require code review; publishing the VAST package for general use does require code review). When doing internal code review, or passing code from one person to another, it is best to do paired code review. This can include: The existing or senior member on the project working through the code with the new or junior member. Two people code the same task and compare results (which should be the same). While one person is coding, another person runs chunks of that code and checks the results (also known as Driver-Navigator paired programming).\nHelper packages for reviews include {goodpractice} and {pkgreviewer}.\nFit: Code Review"
+    "objectID": "content/welcome.html#our-origins",
+    "href": "content/welcome.html#our-origins",
+    "title": "Welcome",
+    "section": "Our origins",
+    "text": "Our origins\nNOAA Fisheries scientists have been involved in Open Science and production of Open Source packages for many years, really from the beginning of “open source”. However, the effort towards agency-wide training in Open Science aligns with the transition to Open Science workflows and tools that is occurring across science and across scientific organizations.\n\nThe contents for this book was first developed as a wiki during a fall 2021 NMFS Openscapes Champions cohort. The first wiki merged content developed by Eli Holmes (NWFSC) and Emily Markowitz (AFSC). Each had independently developed this material for their workshops on R. NMFS Openscapes was another project that emerged from the fall 2021 Openscapes Champions cohort, spearheaded by Eli Holmes (NWFSC) and inspired by NASA Openscapes.\nThe wiki next migrated to the NMFS Openscapes GitHub org and new material was added from the Fisheries Integrated Toolbox resources (Kathryn Doering, Bai Li and others) and from the Best AFSC RACE-GAP Coding Practices Guidelines (compiled by Caitlin Allen Akselrud, Emily Markowitz, and others). In fall 2022, the NMFS Open Science GitHub organization was launched as an unbrella organization to support Open Science efforts within the agency. The wiki migrated here and transitioned to a Quarto website with the help of Openscapes and Julie Lowndes tutorials.\nWe are extremely grateful to and acknowledge Openscapes and Julia Stewart Lowndes’ role in helping this resource book come into being along with its parent organization NMFS Open Science."
   },
   {
-    "objectID": "content/best_practices_coding/testing_and_review.html#backwards-compatibility",
-    "href": "content/best_practices_coding/testing_and_review.html#backwards-compatibility",
-    "title": "Testing and Review",
-    "section": "Backwards Compatibility",
-    "text": "Backwards Compatibility\nFit: backwards compatibility notes"
-  },
-  {
-    "objectID": "content/best_practices_coding/testing_and_review.html#attribution",
-    "href": "content/best_practices_coding/testing_and_review.html#attribution",
-    "title": "Testing and Review",
-    "section": "Attribution",
-    "text": "Attribution\nKathryn Doering, Megsie Siple, Cole Monnahan, and Bai Li contributed to this guide."
-  },
-  {
-    "objectID": "content/landing_pages.html",
-    "href": "content/landing_pages.html",
-    "title": "Landing Pages",
+    "objectID": "content/reuse_statement.html",
+    "href": "content/reuse_statement.html",
+    "title": "Public Domain Work",
     "section": "",
-    "text": "A Readme file at the top of your repo or a landing page helps users navigate your material and creates branding. These are easy to create in GitHub and RStudio has templates for creating navigable webpages of your content. If you have an R package on GitHub, see the wiki page on {pkgdown}.\nFor example, here is what you see at github.com/eeholmes (on Nov 2021). It is a Readme at the top of the profile that directs readers the organizations and repos of this user.\n\n\n\neeholmes Readme\n\n\nYou can also create a landing page. Here is the Fisheries Integrated Toolbox landing page.\n\n\n\nFIT GitHub Page\n\n\nYou also easily make landing pages to navigate through multiple files within a repository. Here is an example:\n\n\n\nRVerse GitHub Page\n\n\n\n\nYou can have a Readme pinned at the top of your GitHub page from a repo in your account with the same name as your account, e.g. github.com/<your-org> or github.com/<your-username>.\n\nYour personal GitHub account: 1. Create a repo called  (so I would create one called eeholmes). 2. In that put Readme.md An example of a README.md file you might like to use for this can be found here.\nYour organization GitHub account: 1. Create a repo called .github (note the “.”). 2. Create a folder in that called profile. 3. In that put Readme.md.\n\n\n\n\nYou can create customized webpage also. It will have the form username.github.io. Example from my accounts: https://eeholmes.github.io/, https://nmfs-openscapes.github.io/template_website_cv/ (repo), and https://nwfsc-math-bio.github.io/\n\nCreate a repo called  or if an organization, . So for me, the repo would be called eeholmes\nIn that put the website files. See below for examples of how to do that or take a look at others’ repos. Just look for the  repo. So if you see, joeblow.github.io, you know that there is a joeblow repo in http://github.com/joeblow and that repo will have the website code.\nGo to GitHub Pages in the Settings tab (scroll way down), and then tell it to look for the website files at the main level or in the docs folder (wherever you put the files)."
+    "text": "This resource book is in the public domain under the Creative Commons v1.0 Universal license. You can copy, modify, and distribute the work, all without asking permission. We encourage you to reuse and rework the material as you see fit."
   },
   {
-    "objectID": "content/landing_pages.html#readme.md-1",
-    "href": "content/landing_pages.html#readme.md-1",
-    "title": "Landing Pages",
-    "section": "Readme.md",
-    "text": "Readme.md\nA plain Readme.md file in your repo (Readme) is the most common landing page. You can just have user scroll down to the bottom of the repo page to see this (most common approach). You can make Readme files pretty snazzy. Examples here and here.\nBut there are other ways that you can create landing pages that are more customized and complex using GitHub Pages. In this case, the landing page URL will be <username or orgname>.github.io for the org or user and <username or orgname>.github.io\\<reponame> for an individual repo."
+    "objectID": "content/licenses_gov.html",
+    "href": "content/licenses_gov.html",
+    "title": "Licenses for Government Work",
+    "section": "",
+    "text": "Work of the United States government that is done by US federal employees as part of their official duties is in the public domain within the United States of America and cannot be copyrighted. Code (or anything else) developed by US federal employees should have a notice that the work is in the public domain. Additionally it is common to waive copyright and related rights in the work worldwide through the CC0 1.0 Universal public domain dedication.\nGovernment agencies will use some kind of public domain license, but which one used varies. There are two main licenses used for products by federal agencies (or their employees) on GitHub: Creative Commons license (CC0-1.0) and the GNU General Public License v3. CC0-1.0 is a very broad declaration of public domain while GPL-3 is explicit about derivative works and how those works must retain an open source license.\n\nThe NOAA Fisheries Integrated Toolbox recommends GPL-3 over CC0-1.0 since the latter is not designed specifically for software. An additional note is added to clarify that the material is a US Government work. See their Resources repository.\nOther NOAA Affiliated GitHub organizations use a mix of GPL-3 and CC0-1.0.\nUSGS uses CC0-1.0 License + additional info\nEPA seems to use CC0-1.0 License, e.g. useeior\nCISA also seems to use CC0-1.0 License, e.g. Sparrow\nDept of Labor also uses CC0-1.0 License + additional info, e.g. ableist language app\nNASA uses Apache 2.0 mostly\nGSA uses CC0-1.0 License\nI (Eli Holmes) use CC0-1.0 with a note at the top that the work is a US federal government work by US federal employees as part of their official duties."
   },
   {
-    "objectID": "content/landing_pages.html#github-pages-from-readme-with-a-theme",
-    "href": "content/landing_pages.html#github-pages-from-readme-with-a-theme",
-    "title": "Landing Pages",
-    "section": "GitHub Pages from Readme with a theme",
-    "text": "GitHub Pages from Readme with a theme\nIf you turn on GitHub Pages (click Settings in your repo and scroll down), you can specify that it create a landing page from Readme.md. This is how https://openscapes.github.io/2021-noaa-nmfs/ works. You can add a theme. MARSS looks really different but it is just a simple Readme.md with one of GitHub standard themes applied in GitHub Pages."
+    "objectID": "content/licenses_gov.html#additional-license-information",
+    "href": "content/licenses_gov.html#additional-license-information",
+    "title": "Licenses for Government Work",
+    "section": "Additional License information",
+    "text": "Additional License information\nIn addition to one of the standard licenses above we also add the following addendum:\nSoftware code created by U.S. Government employees is not subject to\ncopyright in the United States (17 U.S.C. §105). The United State\ns/Department of Commerce reserve all rights to seek and obtain copyright\nprotection in countries other than the United States for Software authored\nin its entirety by the Department of Commerce. To this end, the Department\nof Commerce hereby grants to Recipient a royalty-free, nonexclusive license\nto use, copy, and create derivative works of the Software outside of the\nUnited States."
   },
   {
-    "objectID": "content/landing_pages.html#github-pages-from-one-rmd-file",
-    "href": "content/landing_pages.html#github-pages-from-one-rmd-file",
-    "title": "Landing Pages",
-    "section": "GitHub Pages from one Rmd file",
-    "text": "GitHub Pages from one Rmd file\nAnother easy way to make a landing page is from a Rmarkdown file named index.Rmd. Whatever look you can get with your Rmarkdown file, you can get for your webpage. Here is an example of just a flat Rmarkdown file with subheadings that produces a very useful landing page for a assessment package ASSESSOR. Note Python users, you could do this with Sphinx too. It’s not Rmarkdown specific."
+    "objectID": "content/licenses_gov.html#specifying-the-license-for-an-r-package",
+    "href": "content/licenses_gov.html#specifying-the-license-for-an-r-package",
+    "title": "Licenses for Government Work",
+    "section": "Specifying the license for an R package",
+    "text": "Specifying the license for an R package\n\nAt the base level of your package, add a LICENSE text file. See for example, US government work + CC0-1.0.\nThen in your DESCRIPTION file, put the line\n\nLicense: file LICENSE\n\nWhat is in that LICENSE file? If you are using a standard license, like GPL-2 or GPL-3, then you put that license in the file. Search the internet for the text. But CRAN might complain if you do that and are submitting to CRAN. In that case, you could just do\n\nLicense: GPL-2"
   },
   {
-    "objectID": "content/landing_pages.html#github-pages-from-docs-folder",
-    "href": "content/landing_pages.html#github-pages-from-docs-folder",
-    "title": "Landing Pages",
-    "section": "GitHub Pages from docs folder",
-    "text": "GitHub Pages from docs folder\nOne of the options in RStudio is to make a website from a collection of Rmarkdown files. This is an easy way to develop a more complex webpage. Here is an example from my R Workflow course RWorkflow 2021. Link to the repo is in the upper left. Here’s another example from one of our speakers: R Workshop For Social Scientists. Building this is just a click of a button in RStudio. You can build whatever website you wanted and put that in the docs folder by the way. Building from Rmarkdown files just means that all you focus on is the the content."
-  },
-  {
-    "objectID": "content/landing_pages.html#rstudio-and-distill-webpages",
-    "href": "content/landing_pages.html#rstudio-and-distill-webpages",
-    "title": "Landing Pages",
-    "section": "RStudio and Distill webpages",
-    "text": "RStudio and Distill webpages\nMake a webpage from Rmd files is quite easy in RStudio. Just select New Project > Template > Webpage and it’ll start you off with a template. You can make a quite slick webpage by using themes such as provided by the postcards R package. The NASA Openscapes page is an example. The repository for this webpage is here. Once you install the distill package, you’ll see a template for that when you create a new RStudio project."
-  },
-  {
-    "objectID": "content/landing_pages.html#jekyllhugo-sites",
-    "href": "content/landing_pages.html#jekyllhugo-sites",
-    "title": "Landing Pages",
-    "section": "Jekyll/Hugo sites",
-    "text": "Jekyll/Hugo sites\nThese Hugo Academic sites are really common in academia. Here is an example from someone random at Woods Hole. Here’s an older clunkier version using SinglePaged: nwfsc-timeseries. Getting these set up on GitHub can take awhile. Dead simple if you have done it a bunch, but not intuitive in my experience. After playing with Jekyll sites for awhile, I gravitate back to a more simple landing pages based on markdown and Rmarkdown files (latter if I need code).\nNote There seems to be a movement towards creating federal agency websites using GitHub-Jekyll integration. You might want to look at the GSA repo for the Section508.gov website and the Federalist platform which uses GitHub repos as the content for government websites. It’s an effort in government to reduce some of the workload for development of 508 compliant websites. More info here."
+    "objectID": "content/licenses_gov.html#disclaimers",
+    "href": "content/licenses_gov.html#disclaimers",
+    "title": "Licenses for Government Work",
+    "section": "Disclaimers",
+    "text": "Disclaimers\nBesides the license, code from federal agencies should also have a disclaimer that the code is ‘as is’ and the user assumes responsibility for its use.\n\nThe Fisheries Integrated Toolbox has a Disclaimer for US Government products in its Resources repo.\nThe repos on the EPA organization use a few different (albeit similar) disclaimers. Generic, GitHub specific.\nCISA repos have a bit of an ad hoc disclaimer.\n\nHere is a standard disclaimer. Here tailored for a repository on GitHub.\nThis repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project code is provided on an 'as is' basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government."
   },
   {
     "objectID": "content/508_compliance.html",
@@ -271,27 +313,6 @@
     "title": "508 Compliance",
     "section": "Example Repos:",
     "text": "Example Repos:\n\nNWFSC:\n\nKelli Johnson, Aaron Berger, Chantel Wetzel, Andi Stephens, and Ian Taylor are all using using markdown, knitr, or latex for stock assessment reports\nErin Steiner automated the creation of Economic Data Reports but now that it’s all online with FISHEyE, had planned to write unformatted tech memos to word and let Al Brown (NWFSC Technical Editor) handle the formatting, but would prefer to use Rd or Rmd. https://www.fisheries.noaa.gov/west-coast/science-data/economic-data-collection-reporting\nNick Tolimeri\n\nSWFSC:\n\nMelissa Monk created the Rmarkdown Stock Assessment Template used and adapted by many of those listed above: https://github.com/melissamonk-NOAA/StockAssessment_template\n\nAFSC:\n\nJim Ianelli is working on this presumably along with the folks to whom he forwarded an email on the subject (including the S&T folks below): Ben Williams, Cole Monnahan, Ingrid Spies\nJosh London with NMML has a package that does some accessibility stuff but not full 508 compliance (https://github.com/jmlondon/uswebr) - will be presented via August 13th FIT meeting (contact Corinne Bassin to attend) S&T National Modeling Team\nChristine Stawitz and Corinne Bassin are thinking about this stuff on a national level and across assessment platforms\n\nWest Coast Region\n\nStacey Miller is coordinator for the Pacific Whiting/Hake treaty and working with Aaron and Kelli (above) and their Canadian counterparts to make all documents posted to the regional website compliant\n\nNEFSC\n\nDan Hennen hired a contractor (Tom Price) to make their reports 508 compliant - sounds like they have a working model and are working on creating a package (pending funding?): https://tug.org/tug2020/preprints/Price-Moore-AccessibleTikZ-slides.pdf\nAndy Beet (EDAB) has been working on making markdown/rmarkdown docs 508 compliant. Focus has been on alt text for images. Many documents (markdown/Rmarkdown) created in EDAB have many images. Converting to word via a reference doc, then to pdf solves the alt text problem (But it’s an ugly process)\n\nOther\n\nRmarkdown/latex combination with source code and data for Bering Sea pollock: https://github.com/afsc-assessments/EBSpollock\nAssessment template (very minimal and I am working on updating it with the latest commits so give me a week) but creates a tagged pdf with alt text github.com/nwfsc-assess/sa4ss"
-  },
-  {
-    "objectID": "content/documentation.html",
-    "href": "content/documentation.html",
-    "title": "Documentation",
-    "section": "",
-    "text": "FIT: Code Documentation"
-  },
-  {
-    "objectID": "content/documentation.html#tools",
-    "href": "content/documentation.html#tools",
-    "title": "Documentation",
-    "section": "Tools",
-    "text": "Tools\n\nReadme\nReadme.md is shown at the bottom of a GitHub repo and can be minimal or complex. Note, for an organization you should give some thought to standardizing the content of your Readme’s and including a disclaimer at the bottom. See the Fisheries Integrated Toolbox example.\n\nEPA CMAQ repo Links to documentation, DOIs, past releases, installation instructions for EPA’s CMAQ modeling system.\nCISA Sparrow repo\nUSGS PEST++\nHere is a Python example from USGS geomag-algorithms and groundmotion-processing\n[NPS acoustics])https://github.com/nationalparkservice/acoustic_discovery) example with lots of images.\n\n\n\nGitHub wiki\n\nEPA API tool, EPA useeior package.\nCollege scorecard\n\n\n\npkgdown\nIf you are preparing an R package, then the pkgdown R package is the way that people make websites directly from their R package documentation. The Fisheries Integrated Toolbox has a NMFS branded pkgdown template that you can use. It’ll add all the NOAA Fisheries branding and colors. pkgdown Template. There are many examples of pkgdown sites on GitHub. The key file to change is pkgdown/_pkgdown.yml and I find it easiest to poke around GitHub and find version of that file to copy and modify.\n\n\nbookdown\nbookdown is also very popular for making documentation and RStudio makes it easy to build books. Here is an example of one of my bookdown books. Here is a bookdown lab manual written by one of the first Openscapes cohort teams as their team project: Fay Lab Manual. A bookdown book is just a collection of Rmarkdown files. You write those and bookdown makes it into the online book, which you can put on GitHub Pages.\n\n\nOther\nAnother common way to include documentation is a folder with the documentation (in whatever format you want) with links to that from the Readme file or GitHub Pages.\n\nEPA CMAQ repo has a folder called DOCS in the repo which holds documentation in markdown format, .md. The Readme points to those files and because they are markdown, you see them as formatted (not raw) text.\nUSGS shakemap created a webpage which is kept in the docs folder. GitHub Pages then points to that folder.\nSphinx documentation is used by Python users and is a bit like bookdown in appearance but uses a different markup language (rst). Here are examples from USGS geobipy and gmprocess. The html output is put in the docs folder and GitHub Pages is pointed to that.\nQuarto documentation allows both Jupyter and Rmd files. NASA Openscapes is using this for their hackathon documentation."
-  },
-  {
-    "objectID": "content/reuse_statement.html",
-    "href": "content/reuse_statement.html",
-    "title": "Public Domain Work",
-    "section": "",
-    "text": "This resource book is in the public domain under the Creative Commons v1.0 Universal license. You can copy, modify, and distribute the work, all without asking permission. We encourage you to reuse and rework the material as you see fit."
   },
   {
     "objectID": "content/code_of_conduct.html",
@@ -350,62 +371,6 @@
     "text": "Attribution\nThis Code of Conduct is adapted from the Contributor Covenant, version 1.4, available at https://contributor-covenant.org/version/1/4"
   },
   {
-    "objectID": "content/training.html",
-    "href": "content/training.html",
-    "title": "Training Material",
-    "section": "",
-    "text": "Links to training resources developed with NOAA Fisheries"
-  },
-  {
-    "objectID": "content/training.html#section",
-    "href": "content/training.html#section",
-    "title": "Training Material",
-    "section": "2022",
-    "text": "2022\nNWFSC RWorkflow Workshops 2022 8 week webinar on Git, GitHub, R packaging. All material and recorded lectures are online.\nPSAW III Workshops Workshops by NOAA Fisheries scientists on Git/GitHub, R packages, species distribution modeling, by-catch modeling, accessing remote-sensing data with R, open-source acoustics software"
-  },
-  {
-    "objectID": "content/training.html#section-1",
-    "href": "content/training.html#section-1",
-    "title": "Training Material",
-    "section": "2021",
-    "text": "2021\nFishR101 5 week R Workshop for AFSC Fisheries Researchers organized by Caitlin Allen Akselrud (@CaitlinAkselrud-NOAA), Emily Markowitz (@EmilyMarkowitz-NOAA)\nNWFSC RWorkflow Workshops 2021 8 week webinar on Git, GitHub, R packaging. All material and recorded lectures are online.\nR3 Train 8-week webinar training series on Reproducible Reporting with R for marine ecological indicators, sponsored by the Working Group on the Northwest Atlantic Regional Sea\nR for Management A 3-day R course developed by the West Coast Regional Office.\nIntro to spatial capture-recapture modeling A workshop on the oSCR R package from USGS, NOAA Fisheries and Univ of St Andrews."
-  },
-  {
-    "objectID": "content/training.html#section-2",
-    "href": "content/training.html#section-2",
-    "title": "Training Material",
-    "section": "2020",
-    "text": "2020\n2020 R Workshop for Social Scientists workshop by NOAA Fisheries social scientists. Focus on data analysis and advanced topics.\nNWFSC RWorkflow Workshops 2020 Git, GitHub, R, R packages"
-  },
-  {
-    "objectID": "content/licenses_gov.html",
-    "href": "content/licenses_gov.html",
-    "title": "Licenses for Government Work",
-    "section": "",
-    "text": "Work of the United States government that is done by US federal employees as part of their official duties is in the public domain within the United States of America and cannot be copyrighted. Code (or anything else) developed by US federal employees should have a notice that the work is in the public domain. Additionally it is common to waive copyright and related rights in the work worldwide through the CC0 1.0 Universal public domain dedication.\nGovernment agencies will use some kind of public domain license, but which one used varies. There are two main licenses used for products by federal agencies (or their employees) on GitHub: Creative Commons license (CC0-1.0) and the GNU General Public License v3. CC0-1.0 is a very broad declaration of public domain while GPL-3 is explicit about derivative works and how those works must retain an open source license.\n\nThe NOAA Fisheries Integrated Toolbox recommends GPL-3 over CC0-1.0 since the latter is not designed specifically for software. An additional note is added to clarify that the material is a US Government work. See their Resources repository.\nOther NOAA Affiliated GitHub organizations use a mix of GPL-3 and CC0-1.0.\nUSGS uses CC0-1.0 License + additional info\nEPA seems to use CC0-1.0 License, e.g. useeior\nCISA also seems to use CC0-1.0 License, e.g. Sparrow\nDept of Labor also uses CC0-1.0 License + additional info, e.g. ableist language app\nNASA uses Apache 2.0 mostly\nGSA uses CC0-1.0 License\nI (Eli Holmes) use CC0-1.0 with a note at the top that the work is a US federal government work by US federal employees as part of their official duties."
-  },
-  {
-    "objectID": "content/licenses_gov.html#additional-license-information",
-    "href": "content/licenses_gov.html#additional-license-information",
-    "title": "Licenses for Government Work",
-    "section": "Additional License information",
-    "text": "Additional License information\nIn addition to one of the standard licenses above we also add the following addendum:\nSoftware code created by U.S. Government employees is not subject to\ncopyright in the United States (17 U.S.C. §105). The United State\ns/Department of Commerce reserve all rights to seek and obtain copyright\nprotection in countries other than the United States for Software authored\nin its entirety by the Department of Commerce. To this end, the Department\nof Commerce hereby grants to Recipient a royalty-free, nonexclusive license\nto use, copy, and create derivative works of the Software outside of the\nUnited States."
-  },
-  {
-    "objectID": "content/licenses_gov.html#specifying-the-license-for-an-r-package",
-    "href": "content/licenses_gov.html#specifying-the-license-for-an-r-package",
-    "title": "Licenses for Government Work",
-    "section": "Specifying the license for an R package",
-    "text": "Specifying the license for an R package\n\nAt the base level of your package, add a LICENSE text file. See for example, US government work + CC0-1.0.\nThen in your DESCRIPTION file, put the line\n\nLicense: file LICENSE\n\nWhat is in that LICENSE file? If you are using a standard license, like GPL-2 or GPL-3, then you put that license in the file. Search the internet for the text. But CRAN might complain if you do that and are submitting to CRAN. In that case, you could just do\n\nLicense: GPL-2"
-  },
-  {
-    "objectID": "content/licenses_gov.html#disclaimers",
-    "href": "content/licenses_gov.html#disclaimers",
-    "title": "Licenses for Government Work",
-    "section": "Disclaimers",
-    "text": "Disclaimers\nBesides the license, code from federal agencies should also have a disclaimer that the code is ‘as is’ and the user assumes responsibility for its use.\n\nThe Fisheries Integrated Toolbox has a Disclaimer for US Government products in its Resources repo.\nThe repos on the EPA organization use a few different (albeit similar) disclaimers. Generic, GitHub specific.\nCISA repos have a bit of an ad hoc disclaimer.\n\nHere is a standard disclaimer. Here tailored for a repository on GitHub.\nThis repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project code is provided on an 'as is' basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government."
-  },
-  {
     "objectID": "content/project_management/github_project_boards.html",
     "href": "content/project_management/github_project_boards.html",
     "title": "GitHub Project Boards",
@@ -427,95 +392,53 @@
     "text": "Here we gives some tips on working efficiently with GitHub."
   },
   {
-    "objectID": "content/github_in_gov.html",
-    "href": "content/github_in_gov.html",
-    "title": "GitHub in Government",
+    "objectID": "content/landing_pages.html",
+    "href": "content/landing_pages.html",
+    "title": "Landing Pages",
     "section": "",
-    "text": "GitHub has been used by government agencies and staff for many years; some agencies more (GSA) and other are more newcomers. But recently there has been a bigger shift to using GitHub, not just for code and project tracking but also as an application or website delivery platform. How agencies, organizations, teams and individuals organize their GitHub projects is evolving. Currently (Sept 2021) the following is roughly how things are organized in NOAA."
+    "text": "A Readme file at the top of your repo or a landing page helps users navigate your material and creates branding. These are easy to create in GitHub and RStudio has templates for creating navigable webpages of your content. If you have an R package on GitHub, see the wiki page on {pkgdown}.\nFor example, here is what you see at github.com/eeholmes (on Nov 2021). It is a Readme at the top of the profile that directs readers the organizations and repos of this user.\n\n\n\neeholmes Readme\n\n\nYou can also create a landing page. Here is the Fisheries Integrated Toolbox landing page.\n\n\n\nFIT GitHub Page\n\n\nYou also easily make landing pages to navigate through multiple files within a repository. Here is an example:\n\n\n\nRVerse GitHub Page\n\n\n\n\nYou can have a Readme pinned at the top of your GitHub page from a repo in your account with the same name as your account, e.g. github.com/<your-org> or github.com/<your-username>.\n\nYour personal GitHub account: 1. Create a repo called  (so I would create one called eeholmes). 2. In that put Readme.md An example of a README.md file you might like to use for this can be found here.\nYour organization GitHub account: 1. Create a repo called .github (note the “.”). 2. Create a folder in that called profile. 3. In that put Readme.md.\n\n\n\n\nYou can create customized webpage also. It will have the form username.github.io. Example from my accounts: https://eeholmes.github.io/, https://nmfs-openscapes.github.io/template_website_cv/ (repo), and https://nwfsc-math-bio.github.io/\n\nCreate a repo called  or if an organization, . So for me, the repo would be called eeholmes\nIn that put the website files. See below for examples of how to do that or take a look at others’ repos. Just look for the  repo. So if you see, joeblow.github.io, you know that there is a joeblow repo in http://github.com/joeblow and that repo will have the website code.\nGo to GitHub Pages in the Settings tab (scroll way down), and then tell it to look for the website files at the main level or in the docs folder (wherever you put the files)."
   },
   {
-    "objectID": "content/github_in_gov.html#version-control-generally-speaking",
-    "href": "content/github_in_gov.html#version-control-generally-speaking",
-    "title": "GitHub in Government",
-    "section": "Version control, Generally Speaking",
-    "text": "Version control, Generally Speaking\nThere are several methods for version controlling code. The user can version control content on a local machine through Git, manage content versions on GitHub, and many other places. GitHub is strongly preferred. Sharing through other methods is fine, but it becomes harder to track versions and maintain version control.\n\nStrongly preferred: GitHub\nThere are a variety of public and free options for collaboration with Git. Github is recommended over GitLab an dBitbucket as NOAA has set up rules regarding its use. See the GitHub resources folder for GitHub use and rules at NOAA, and see additional GitHub best practices below. NOAA does have some internal resources for collaborative Git platforms including VLAB and Gitlab. NOAA GitLab may be used only if necessary and there are no plans to include non-NOAA collaborators. VLAB is available for non NOAA users by invite only."
+    "objectID": "content/landing_pages.html#readme.md-1",
+    "href": "content/landing_pages.html#readme.md-1",
+    "title": "Landing Pages",
+    "section": "Readme.md",
+    "text": "Readme.md\nA plain Readme.md file in your repo (Readme) is the most common landing page. You can just have user scroll down to the bottom of the repo page to see this (most common approach). You can make Readme files pretty snazzy. Examples here and here.\nBut there are other ways that you can create landing pages that are more customized and complex using GitHub Pages. In this case, the landing page URL will be <username or orgname>.github.io for the org or user and <username or orgname>.github.io\\<reponame> for an individual repo."
   },
   {
-    "objectID": "content/github_in_gov.html#terms",
-    "href": "content/github_in_gov.html#terms",
-    "title": "GitHub in Government",
-    "section": "Terms",
-    "text": "Terms\nProduct = software (like R package, say, or Python package), a dataset or database, a report with all the various pieces (data, code, text), a report template, a collection of scripts for some task, an application like an API or mobile app.\nRepository = GitHub repository that may or may not be a product. Repository is like a folder on your computer. It is an organizational component but not necessarily, and actually often not, a product. Along with the repository comes important management tools at the repo level: issues tracking, project boards, releases, landing page, automation of tasks.\nOrganization = A collection of related repositories (products or not) AND the organization-level project management tools associated with those (project boards, team discussions, landing page). Anyone can create a GH organization. Think of it like a collection of folders on your computer. Individuals can use these or teams, e.g. Eli has 3 individual GH orgs for different projects, 3 team orgs for team projects and is a member of a few branded GH organizations."
+    "objectID": "content/landing_pages.html#github-pages-from-readme-with-a-theme",
+    "href": "content/landing_pages.html#github-pages-from-readme-with-a-theme",
+    "title": "Landing Pages",
+    "section": "GitHub Pages from Readme with a theme",
+    "text": "GitHub Pages from Readme with a theme\nIf you turn on GitHub Pages (click Settings in your repo and scroll down), you can specify that it create a landing page from Readme.md. This is how https://openscapes.github.io/2021-noaa-nmfs/ works. You can add a theme. MARSS looks really different but it is just a simple Readme.md with one of GitHub standard themes applied in GitHub Pages."
   },
   {
-    "objectID": "content/github_in_gov.html#licenses-and-disclaimers",
-    "href": "content/github_in_gov.html#licenses-and-disclaimers",
-    "title": "GitHub in Government",
-    "section": "Licenses and Disclaimers",
-    "text": "Licenses and Disclaimers\nSee chapter on licenses and disclaimers for government work."
+    "objectID": "content/landing_pages.html#github-pages-from-one-rmd-file",
+    "href": "content/landing_pages.html#github-pages-from-one-rmd-file",
+    "title": "Landing Pages",
+    "section": "GitHub Pages from one Rmd file",
+    "text": "GitHub Pages from one Rmd file\nAnother easy way to make a landing page is from a Rmarkdown file named index.Rmd. Whatever look you can get with your Rmarkdown file, you can get for your webpage. Here is an example of just a flat Rmarkdown file with subheadings that produces a very useful landing page for a assessment package ASSESSOR. Note Python users, you could do this with Sphinx too. It’s not Rmarkdown specific."
   },
   {
-    "objectID": "content/github_in_gov.html#github-in-nmfs",
-    "href": "content/github_in_gov.html#github-in-nmfs",
-    "title": "GitHub in Government",
-    "section": "GitHub in NMFS",
-    "text": "GitHub in NMFS\nA selection of GitHub organization for NOAA Fisheries\n\nNOAA Fisheries Integrated Toolbox is a cross-center group that has been working for a number of years to provide a branded GH organization for NMFS public GH products and resources, training and tools for creating products. The resources are in the left nav bar on that page, so scroll down.\nFish and Fisheries Tools is an example of a branded set of GH hosted NMFS tools. The GitHub org with a resource folder for common elements and organization.\nNOAA Fisheries Integrated Modeling System FIMS\nAutomation Products for IEA Automation Products for Integrated Ecological Assessments\nWithin NWFSC, branded GH orgs have the name nwfsc-xyz. CB, CB Math Biology, CB Math Bio time series, CB OA Lab, FRAM, FRAM Assessment\nNEFSC: EDAB\nPIFSC: PIFSC\nAFSC: AFSC assessments, NMML\nSEFSC: SEFSC\nSWFSC: Major open source code and data producer (many CRAN packages, e.g.). But I can’t find any GH organizations. I did find many individual GH accounts."
+    "objectID": "content/landing_pages.html#github-pages-from-docs-folder",
+    "href": "content/landing_pages.html#github-pages-from-docs-folder",
+    "title": "Landing Pages",
+    "section": "GitHub Pages from docs folder",
+    "text": "GitHub Pages from docs folder\nOne of the options in RStudio is to make a website from a collection of Rmarkdown files. This is an easy way to develop a more complex webpage. Here is an example from my R Workflow course RWorkflow 2021. Link to the repo is in the upper left. Here’s another example from one of our speakers: R Workshop For Social Scientists. Building this is just a click of a button in RStudio. You can build whatever website you wanted and put that in the docs folder by the way. Building from Rmarkdown files just means that all you focus on is the the content."
   },
   {
-    "objectID": "content/github_in_gov.html#github-in-noaa",
-    "href": "content/github_in_gov.html#github-in-noaa",
-    "title": "GitHub in Government",
-    "section": "GitHub in NOAA",
-    "text": "GitHub in NOAA\nBe aware that this structure is evolving. NOAA doesn’t have a single organization site for official products.\n\nNOAA is a branded GH org that has links to other NOAA-affiliated GitHub orgs.\nGeophysical Fluid Dynamics Laboratory"
+    "objectID": "content/landing_pages.html#rstudio-and-distill-webpages",
+    "href": "content/landing_pages.html#rstudio-and-distill-webpages",
+    "title": "Landing Pages",
+    "section": "RStudio and Distill webpages",
+    "text": "RStudio and Distill webpages\nMake a webpage from Rmd files is quite easy in RStudio. Just select New Project > Template > Webpage and it’ll start you off with a template. You can make a quite slick webpage by using themes such as provided by the postcards R package. The NASA Openscapes page is an example. The repository for this webpage is here. Once you install the distill package, you’ll see a template for that when you create a new RStudio project."
   },
   {
-    "objectID": "content/github_in_gov.html#github-in-other-agencies",
-    "href": "content/github_in_gov.html#github-in-other-agencies",
-    "title": "GitHub in Government",
-    "section": "GitHub in other agencies",
-    "text": "GitHub in other agencies\n\nUS Geological Survey, USGS Astrogeology Science Center, USGS R, USGS Web Informatics\nCensus Bureau\nNASA, NASA Jet Propulsion Lab, NASA Global Imagery Browse Services, NASA WorldWind\nU.S. General Services Administration has close to 900 repos on its org.\nCybersecurity and Infrastructure Security Agency\nEnvironmental Protection Agency\nDepartment of Labor\nCongressional Budget Office\nUS Forest Service\nThe US Department of Education’s College Scorecard is all open source and on GitHub. Note, this was an early open-source in government project and is not on the USED GitHub organization (which is minimal) but on the contractor’s GitHub organization, RTI International.\nUSDA\nVeterans Affairs. In 2021, they transitioned their whole dev team to GitHub. news story\nNational Parks Service\nUS Bureau of Reclamation\nSee also this list by GitHub. Scroll down to the bottom for the US Research Labs. GitHub in Government"
-  },
-  {
-    "objectID": "content/github/best_practices.html",
-    "href": "content/github/best_practices.html",
-    "title": "Best Practices for GitHub",
-    "section": "",
-    "text": "You can use “template” repos within GitHub to help make sure each repo has the standard content. See the other wiki pages for links to the elements (such as license).\n\n\n\nReadme file that describes what the repo is\nA statement of how to use the repo. For example, if the repo has releases, how to install or download the latest release.\nA License or public domain statement.\nA NOAA disclaimer.\n\nDepending on the nature of the repo.\n\nA statement on the Readme regarding how to contribute. See below for examples for different types of repos.\nTurn on issues for issues and bug tracking.\n\n\n\n\n\nA .github repo with a profile folder and Readme.md file. This will appear at the top of the organization and describe what the organization is.\nOrganization code of conduct statement. See the wiki chapter for examples.\nLicense and disclaimers\nOrganizational guidelines and contact information. See below for an example."
-  },
-  {
-    "objectID": "content/github/best_practices.html#contributing-to-the-repo",
-    "href": "content/github/best_practices.html#contributing-to-the-repo",
-    "title": "Best Practices for GitHub",
-    "section": "Contributing to the repo",
-    "text": "Contributing to the repo\nHere are the typical ways that repo owners convey how people can contribute.\n\nSupply contact information (critical)\nAdd a link to the GitHub repo issues page. This is the most common approach.\nAdd a CONTRIBUTING document to repo. Some groups pin this info in their issues list.\n\nThe Fisheries Integrated Toolbox has a Contributing document in its Resources repo. How to use? You put this file in your repo. Here’s an example from the Toolbox.\nHere is a different example from PacFIN.Utilities PacFIN Convention-for-commit-messages.\nYou might adopt a standard for the regular contributors to a repo. Example, “Submit pull requests rather than commit code directly to the development or main branch. Thus workflow would be: 1. Clone the repo, 2. Work on a branch, 3. Submit a pull request.”\nWhat if the repo is just for you? You should still decide how you will contribute to your own repo. Is it ok to “break” the main branch of the repo? That can’t be answered globally; it depends what the repo is. But your future-self will thank you if you have written this down. Example, “The stable version of the repo is in the releases. The main branch may be broken.” “The main branch is a stable branch. Development is via branches.” “This repo is a sandbox for xyz project (don’t expect anything to work).”\n\nNote I personally do not have detailed info like the Fisheries Integrated Toolbox does on how to use GitHub issues on my big CRAN R package MARSS or any others. I have found that the questions that people post are super helpful to me and to other users, so I don’t want to discourage people from posting questions and I want my responses there on the issue thread. I just add an appropriate label, like question (and bug or enhancement) and then close the issue once the question is resolved."
-  },
-  {
-    "objectID": "content/github/best_practices.html#organization-guidelines",
-    "href": "content/github/best_practices.html#organization-guidelines",
-    "title": "Best Practices for GitHub",
-    "section": "Organization guidelines",
-    "text": "Organization guidelines\nWriting down the organizational guidelines is especially important if there are multiple contributors and if the GitHub organization is NOAA branded. Here are some things to consider for your guidelines.\n\nWho can be a part of this org?\n\nWho can add repos? What kind (public versus private)? Examples, “Anyone can add a repository to our shared group page if they are a member of the organization.” “This organization contains repositories developed by the math bio team for workshops on R. Adding repos is limited to the core team.”\nHow can someone ask to become a member? Example, “To become a member of the organization, the developer should contact their supervisor, who should be able to provide the contact information for the page administrator(s).” “To request to become an org member and contribute repos, please contact .”\nContact person for the organization\n\n\n\nContent maintenance and continuity\n\nHow are repositories maintained? Example, “Each package author is responsible for maintaining their own package(s), and responding to issues. Please respond in a timely manner: within 2 weeks (where possible).”\nConsider setting up a org level project to that automatically adds issues as they are entered. This can give you an org level view of repos that have issues that are not being addressed.\nArchiving. When repos are no longer being maintained, how will you indicate that. Example, a “no longer maintained” statement on the Readme and that the repo is for reference purposes.\nRepository releases. Any naming or other conventions you have regarding releases. This is very org and repo specific.\nContinuity 1. If the repo code in the main branch needs to stay functional, discuss guidelines for how to ensure this. Example, “Use branches for development within a code package so the main branch is always a working version.” “Add a statement to the repo Readme with instructions on how to install a release and that the code in the main branch is development and may be broken.”\nContinuity 2. Some critical repos may need continuity/backup plans if the main developer is unavailable.\nContinuity 3. You can set up automatic tests to ensure that commits don’t break the code."
-  },
-  {
-    "objectID": "content/github/best_practices.html#security-and-confidentiality",
-    "href": "content/github/best_practices.html#security-and-confidentiality",
-    "title": "Best Practices for GitHub",
-    "section": "Security and confidentiality",
-    "text": "Security and confidentiality\nThe nature of your repos and organizations will dictate your approaches to security and confidentiality.\n\nIf your code uses credentials, you will need a way to ensure that those credentials do not get committed and pushed to GitHub. See the wiki chapter on “keeping secrets secret”.\nIf you are working with data or content that needs to stay confidential, then you will need to come up with strategies to ensure that happens. This is very specific to the nature of your work, repos and organizations. Here are some ideas.\n\nLimiting ability to make pushes to a repo. You can set up your org so that contributors have to submit pull requests.\nYou can write a GitHub Action to scan a commit for dangerous content and reject the commit if it is there.\nYou can use the Teams feature to limit which org members can access which repos.\nYou can set up a GitHub to require review of all code/data pushes."
-  },
-  {
-    "objectID": "content/github/best_practices.html#attribution",
-    "href": "content/github/best_practices.html#attribution",
-    "title": "Best Practices for GitHub",
-    "section": "Attribution",
-    "text": "Attribution\nAdapted from the Best AFSC RACE-GAP Coding Practices Guidelines compiled by Caitlin Allen Akselrud, Emily Markowitz, and others."
-  },
-  {
-    "objectID": "content/github/index.html",
-    "href": "content/github/index.html",
-    "title": "Project Management",
-    "section": "",
-    "text": "Here we gives some tips on project management for Open Science projects."
+    "objectID": "content/landing_pages.html#jekyllhugo-sites",
+    "href": "content/landing_pages.html#jekyllhugo-sites",
+    "title": "Landing Pages",
+    "section": "Jekyll/Hugo sites",
+    "text": "Jekyll/Hugo sites\nThese Hugo Academic sites are really common in academia. Here is an example from someone random at Woods Hole. Here’s an older clunkier version using SinglePaged: nwfsc-timeseries. Getting these set up on GitHub can take awhile. Dead simple if you have done it a bunch, but not intuitive in my experience. After playing with Jekyll sites for awhile, I gravitate back to a more simple landing pages based on markdown and Rmarkdown files (latter if I need code).\nNote There seems to be a movement towards creating federal agency websites using GitHub-Jekyll integration. You might want to look at the GSA repo for the Section508.gov website and the Federalist platform which uses GitHub repos as the content for government websites. It’s an effort in government to reduce some of the workload for development of 508 compliant websites. More info here."
   },
   {
     "objectID": "content/github/actions.html",
@@ -530,6 +453,34 @@
     "title": "GitHub Actions",
     "section": "Resources:",
     "text": "Resources:\n\nGeneral\n\nEli’s Zero-to-First GitHub Action in 10min Demo: https://github.com/nmfs-openscapes/12-07-21-GitHub-Actions\nGitHub Actions Quick Start: https://docs.github.com/en/actions\nExamples! https://github.com/r-lib/actions/tree/master/examples\nusethis R package: https://usethis.r-lib.org/reference/github_actions.html\nPresentation by Fisheries Integrated Toolbox (FIT): https://docs.google.com/presentation/d/1mT-OaDxA2Pjpz16GwcWHFDKDCWDxg-OOR0Zxm5nokxM/edit?usp=sharing\n\nUpdate R packages\n\nPkgdown/R-CMD check for stock SMART data.\nUpdate documentation (run devtools::document automatically and open a pull request with changes): https://github.com/nmfs-stock-synthesis/workflows/blob/main/.github/workflows/update-roxygen-docs.yml and to use: https://github.com/nmfs-stock-synthesis/workflows#how-do-i-use-these-workflows-in-my-r-package\n\nPull data for an R Shiny app\nPull data for an R Markdown Report\nTest R packages\nPerform security checks on…\nOther (tell us!)\n\nTrying to make reusable workflows with usethis style functions for people who want to add the workflows to their r package repo hopefully without the pain: https://github.com/nmfs-stock-synthesis/workflows#how-do-i-use-these-workflows-in-my-r-package\n\nEfforts that currently use GitHub Actions\n\nSean Rohan’s akgfmaps R package: https://github.com/sean-rohan-NOAA/akgfmaps\nnmfs-openscapes: https://github.com/nmfs-openscapes/Training\nAbigail Tyrell’s ESP data aggregation: https://github.com/NOAA-EDAB/esp_data_aggregation/blob/main/.github/workflows/render_indicator_reports_dev.yaml\nMegsie’s R package submission to the Journal of Open Source Software has a GitHub Action to rebuild a submission proof every time there’s a push: https://github.com/mcsiple/mmrefpoints"
+  },
+  {
+    "objectID": "content/github/index.html",
+    "href": "content/github/index.html",
+    "title": "Project Management",
+    "section": "",
+    "text": "Here we gives some tips on project management for Open Science projects."
+  },
+  {
+    "objectID": "content/github/citation.html",
+    "href": "content/github/citation.html",
+    "title": "Making repos citeable",
+    "section": "",
+    "text": "There are a few registered agencies that can register DOIs with DOI.org. The big one for science is DataCite and you can see the organizations and institutions that are members of DataCite. NOAA is a member so if there were a software release program, one could get a DOI through that. That is how some USGS software is released and DOI generated. But Zenodo is probably most common for GitHub products and has GitHub integration now so that archiving and DOI generation can be automated when you create a release on GitHub.\nIf your work is something people cite, like a report or a software package, add a CITATION.md file or add citation information to the Readme.md file. You can create a DOI for software. Not all repositories are things that someone would cite however so this is not something one always adds."
+  },
+  {
+    "objectID": "content/github/citation.html#examples",
+    "href": "content/github/citation.html#examples",
+    "title": "Making repos citeable",
+    "section": "Examples",
+    "text": "Examples\nHere are examples of DOIs created for agency software products\n\nEPA CMAQ creates DOIs for the software releases on Zenodo\nEPA CMAQ creates data DOIs for the CMAQ simulation output on Dataverse\nUSGS releases software and generate DOIs for its software. Example the DOI for groundmotion is generated by USGS Software Releases.\n\n\nZenodo\nA public GitHub repository is an option but not completely ideal as the code may change and GitHub may not be around forever. Therefore, proper archives such as Zenodo (https://zenodo.org/) are preferable.\nNote Zenodo has GitHub integration for archiving your GitHub releases.\n\n\nSocrata\nSocrata also has publicly accessible archived data with a permanent record. You can contact your NOAA database manager to discuss options for archiving additional data.\n\n\nBadges\nHere is examples of code to add to your Readme.md to get the DOI badges. Edit the DOI and svg urls to that for your DOI.\n\nZenodo\n\n [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5213949.svg)](https://doi.org/10.5281/zenodo.5213949)"
+  },
+  {
+    "objectID": "content/github/citation.html#derivation-work-and-use",
+    "href": "content/github/citation.html#derivation-work-and-use",
+    "title": "Making repos citeable",
+    "section": "Derivation work and use",
+    "text": "Derivation work and use\nIn some cases, you might want to add a statement about “fair use” and “fair attribution” to your repo. That really depends on what the repo is about. I tend to add this when I am sharing teaching material and I want to be clear that it is fine to copy the repo material and re-work it for other uses."
   },
   {
     "objectID": "content/github/secrets.html",
@@ -588,25 +539,39 @@
     "text": "Attribution\nAdapted from material compiled by Adyan Rios from the SEDAR."
   },
   {
-    "objectID": "content/github/citation.html",
-    "href": "content/github/citation.html",
-    "title": "Making repos citeable",
+    "objectID": "content/github/best_practices.html",
+    "href": "content/github/best_practices.html",
+    "title": "Best Practices for GitHub",
     "section": "",
-    "text": "There are a few registered agencies that can register DOIs with DOI.org. The big one for science is DataCite and you can see the organizations and institutions that are members of DataCite. NOAA is a member so if there were a software release program, one could get a DOI through that. That is how some USGS software is released and DOI generated. But Zenodo is probably most common for GitHub products and has GitHub integration now so that archiving and DOI generation can be automated when you create a release on GitHub.\nIf your work is something people cite, like a report or a software package, add a CITATION.md file or add citation information to the Readme.md file. You can create a DOI for software. Not all repositories are things that someone would cite however so this is not something one always adds."
+    "text": "You can use “template” repos within GitHub to help make sure each repo has the standard content. See the other wiki pages for links to the elements (such as license).\n\n\n\nReadme file that describes what the repo is\nA statement of how to use the repo. For example, if the repo has releases, how to install or download the latest release.\nA License or public domain statement.\nA NOAA disclaimer.\n\nDepending on the nature of the repo.\n\nA statement on the Readme regarding how to contribute. See below for examples for different types of repos.\nTurn on issues for issues and bug tracking.\n\n\n\n\n\nA .github repo with a profile folder and Readme.md file. This will appear at the top of the organization and describe what the organization is.\nOrganization code of conduct statement. See the wiki chapter for examples.\nLicense and disclaimers\nOrganizational guidelines and contact information. See below for an example."
   },
   {
-    "objectID": "content/github/citation.html#examples",
-    "href": "content/github/citation.html#examples",
-    "title": "Making repos citeable",
-    "section": "Examples",
-    "text": "Examples\nHere are examples of DOIs created for agency software products\n\nEPA CMAQ creates DOIs for the software releases on Zenodo\nEPA CMAQ creates data DOIs for the CMAQ simulation output on Dataverse\nUSGS releases software and generate DOIs for its software. Example the DOI for groundmotion is generated by USGS Software Releases.\n\n\nZenodo\nA public GitHub repository is an option but not completely ideal as the code may change and GitHub may not be around forever. Therefore, proper archives such as Zenodo (https://zenodo.org/) are preferable.\nNote Zenodo has GitHub integration for archiving your GitHub releases.\n\n\nSocrata\nSocrata also has publicly accessible archived data with a permanent record. You can contact your NOAA database manager to discuss options for archiving additional data.\n\n\nBadges\nHere is examples of code to add to your Readme.md to get the DOI badges. Edit the DOI and svg urls to that for your DOI.\n\nZenodo\n\n [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5213949.svg)](https://doi.org/10.5281/zenodo.5213949)"
+    "objectID": "content/github/best_practices.html#contributing-to-the-repo",
+    "href": "content/github/best_practices.html#contributing-to-the-repo",
+    "title": "Best Practices for GitHub",
+    "section": "Contributing to the repo",
+    "text": "Contributing to the repo\nHere are the typical ways that repo owners convey how people can contribute.\n\nSupply contact information (critical)\nAdd a link to the GitHub repo issues page. This is the most common approach.\nAdd a CONTRIBUTING document to repo. Some groups pin this info in their issues list.\n\nThe Fisheries Integrated Toolbox has a Contributing document in its Resources repo. How to use? You put this file in your repo. Here’s an example from the Toolbox.\nHere is a different example from PacFIN.Utilities PacFIN Convention-for-commit-messages.\nYou might adopt a standard for the regular contributors to a repo. Example, “Submit pull requests rather than commit code directly to the development or main branch. Thus workflow would be: 1. Clone the repo, 2. Work on a branch, 3. Submit a pull request.”\nWhat if the repo is just for you? You should still decide how you will contribute to your own repo. Is it ok to “break” the main branch of the repo? That can’t be answered globally; it depends what the repo is. But your future-self will thank you if you have written this down. Example, “The stable version of the repo is in the releases. The main branch may be broken.” “The main branch is a stable branch. Development is via branches.” “This repo is a sandbox for xyz project (don’t expect anything to work).”\n\nNote I personally do not have detailed info like the Fisheries Integrated Toolbox does on how to use GitHub issues on my big CRAN R package MARSS or any others. I have found that the questions that people post are super helpful to me and to other users, so I don’t want to discourage people from posting questions and I want my responses there on the issue thread. I just add an appropriate label, like question (and bug or enhancement) and then close the issue once the question is resolved."
   },
   {
-    "objectID": "content/github/citation.html#derivation-work-and-use",
-    "href": "content/github/citation.html#derivation-work-and-use",
-    "title": "Making repos citeable",
-    "section": "Derivation work and use",
-    "text": "Derivation work and use\nIn some cases, you might want to add a statement about “fair use” and “fair attribution” to your repo. That really depends on what the repo is about. I tend to add this when I am sharing teaching material and I want to be clear that it is fine to copy the repo material and re-work it for other uses."
+    "objectID": "content/github/best_practices.html#organization-guidelines",
+    "href": "content/github/best_practices.html#organization-guidelines",
+    "title": "Best Practices for GitHub",
+    "section": "Organization guidelines",
+    "text": "Organization guidelines\nWriting down the organizational guidelines is especially important if there are multiple contributors and if the GitHub organization is NOAA branded. Here are some things to consider for your guidelines.\n\nWho can be a part of this org?\n\nWho can add repos? What kind (public versus private)? Examples, “Anyone can add a repository to our shared group page if they are a member of the organization.” “This organization contains repositories developed by the math bio team for workshops on R. Adding repos is limited to the core team.”\nHow can someone ask to become a member? Example, “To become a member of the organization, the developer should contact their supervisor, who should be able to provide the contact information for the page administrator(s).” “To request to become an org member and contribute repos, please contact .”\nContact person for the organization\n\n\n\nContent maintenance and continuity\n\nHow are repositories maintained? Example, “Each package author is responsible for maintaining their own package(s), and responding to issues. Please respond in a timely manner: within 2 weeks (where possible).”\nConsider setting up a org level project to that automatically adds issues as they are entered. This can give you an org level view of repos that have issues that are not being addressed.\nArchiving. When repos are no longer being maintained, how will you indicate that. Example, a “no longer maintained” statement on the Readme and that the repo is for reference purposes.\nRepository releases. Any naming or other conventions you have regarding releases. This is very org and repo specific.\nContinuity 1. If the repo code in the main branch needs to stay functional, discuss guidelines for how to ensure this. Example, “Use branches for development within a code package so the main branch is always a working version.” “Add a statement to the repo Readme with instructions on how to install a release and that the code in the main branch is development and may be broken.”\nContinuity 2. Some critical repos may need continuity/backup plans if the main developer is unavailable.\nContinuity 3. You can set up automatic tests to ensure that commits don’t break the code."
+  },
+  {
+    "objectID": "content/github/best_practices.html#security-and-confidentiality",
+    "href": "content/github/best_practices.html#security-and-confidentiality",
+    "title": "Best Practices for GitHub",
+    "section": "Security and confidentiality",
+    "text": "Security and confidentiality\nThe nature of your repos and organizations will dictate your approaches to security and confidentiality.\n\nIf your code uses credentials, you will need a way to ensure that those credentials do not get committed and pushed to GitHub. See the wiki chapter on “keeping secrets secret”.\nIf you are working with data or content that needs to stay confidential, then you will need to come up with strategies to ensure that happens. This is very specific to the nature of your work, repos and organizations. Here are some ideas.\n\nLimiting ability to make pushes to a repo. You can set up your org so that contributors have to submit pull requests.\nYou can write a GitHub Action to scan a commit for dangerous content and reject the commit if it is there.\nYou can use the Teams feature to limit which org members can access which repos.\nYou can set up a GitHub to require review of all code/data pushes."
+  },
+  {
+    "objectID": "content/github/best_practices.html#attribution",
+    "href": "content/github/best_practices.html#attribution",
+    "title": "Best Practices for GitHub",
+    "section": "Attribution",
+    "text": "Attribution\nAdapted from the Best AFSC RACE-GAP Coding Practices Guidelines compiled by Caitlin Allen Akselrud, Emily Markowitz, and others."
   },
   {
     "objectID": "content/github/onboarding_tools.html",
@@ -614,6 +579,20 @@
     "title": "Onboarding Tools",
     "section": "",
     "text": "See the information on the Fisheries Integrated Toolbox Tool Onboarding Procedures"
+  },
+  {
+    "objectID": "content/templates.html",
+    "href": "content/templates.html",
+    "title": "Templates",
+    "section": "",
+    "text": "A number of groups have created templates that you can use."
+  },
+  {
+    "objectID": "content/templates.html#sandboxy-stuff",
+    "href": "content/templates.html#sandboxy-stuff",
+    "title": "Templates",
+    "section": "Sandboxy stuff",
+    "text": "Sandboxy stuff\n\nSuper simple website w R Markdown has a NOAA footer. Doesn’t have NMFS palette."
   },
   {
     "objectID": "content/resources.html",
@@ -658,10 +637,31 @@
     "text": "NOAA logos and style guide\nlogos: https://sites.google.com/noaa.gov/noaa-style-design-guide/noaa-emblem-and-logo#h.llpa9m7f9b4n\nstyle guide: NOAA styling how to guide https://sites.google.com/noaa.gov/noaa-style-design-guide/noaa-emblem-and-logo/how-to-guide"
   },
   {
-    "objectID": "content/culture.html",
-    "href": "content/culture.html",
-    "title": "Culture and Philosophy",
+    "objectID": "content/training.html",
+    "href": "content/training.html",
+    "title": "Training Material",
     "section": "",
-    "text": "Ask for help, and share your learning: We are all learners, and most of our learning is done from each other. It is inefficient to struggle through problems alone. Ask for and give assistance with appropriate cognizance of the value of your time and the time of the person you are asking. You are not the first or last person to encounter a problem. When you identify a problem add an issue to the lab issues repository, and update it with solutions when it is resolved. Also consider writing a tutorial/blog post for inclusion in our shared resources, and share with the larger community by tweeting, leading and sharing at a lab meeting, or running a workshop.\nMake yourself available: Be responsive to communication, and make time for things that address longer term goals, even when busy. Note that being available does not mean that you are available 24/7 - this is not expected. Because as a group we value the role of collaboration and interaction in improving our work, it is expected that you be available in the lab/office during normal business hours for some time during the week.\nCome prepared and be engaged: Value your time. Be present during lab and individual meetings, and come to your work ready to do your work. Contribute and participate in planning and lab discussions. When it is your turn to run a meeting, come with an agenda and be prepared with questions. Aim to view meetings as events that contribute to your work and productivity, rather than taking away from them.\nCelebrate accomplishments (yours & others): You and your colleagues work hard. Things don’t always go exactly as you plan. Be supportive and proud of yourself and your peers when you accomplish things. We are not competing with each other - someone else’s success does not mean your failure. Share your accomplishments with others!\nSustain a positive, safe learning environment: Everyone learns something for the first time at some time, and people learn in different ways. Expressing that you don’t know something is OK, and we understand that this can make someone feel vulnerable. We strive to maintain a culture that allows for and encourages this vulnerability. Community members should not be disparaged for not knowing things, and in addition, should not be disparaged for knowing things or wanting to learn.\nHave an interdisciplinary (open) mindset: We apply our work at the science-policy interface. This means we work on problems that span multiple disciplines. Co-creation of knowledge requires transdisciplinary approaches that can result in solutions that would not be possible with siloing. You will be collaborating with others who have different types of expertise, values, and terminology. Trust the expertise of others and actively seek feedback recognizing the importance of specialization.\nBe mindful and aware of your own biases: We all have biases that are inherent and can not be removed, but we can still work on both being less biased, and more aware of bias in ourselves and others. Periodically check in on your biases.\nPlan with intention, and follow through: Be organized and adaptable. Things don’t always go as planned and that’s OK. Planning can help you adapt when they don’t (see Come Prepared). Find a program/project management approach that works for you; being organized can reduce stress immensely and help you progress with your goals.\nFoster inclusivity within our group and greater community: Part of our lab culture is that we are good citizens of our community, we take on leadership roles within NMFS and NOAA, we are supportive of others in our community during their milestones, we actively participate in NMFS events and perform outreach. Work to craft your individual mentoring/development plans to identify what you want to aim your efforts at.\nPromote and sustain healthy work-life integration: Our scientific research is not the only important thing in our lives, and publishing research is not the only mechanism by which to provide science and support our communities. We recognize the importance of our other commitments in keeping us healthy (mentally and physically) and bring our whole selves to our efforts. Try not to normalize overwork or being busy as achievement or status.\nPractice radical candor: We care personally while also challenging directly. Be honest when communicating, accept critical (but kind) feedback, and give the same to others. View relationships within the group as collaborative rather than evaluative. Don’t take constructive criticism personally.\nAcknowledge and give credit: Working as part of a team, we will often (always?) be building on work done by others, receive assistance with work, and using others’ words, code, content. Include acknowledgement and give credit for those contributions, in all forms of communication. We share content and code within the group with this expectation. One easy approach is to include hyperlinks to the work of others or their social media in your work. This also helps to amplify their voice and work as well as yours.\n\nAttribution\nhttps://thefaylab.github.io/lab-manual/culture.html"
+    "text": "Links to training resources developed with NOAA Fisheries"
+  },
+  {
+    "objectID": "content/training.html#section",
+    "href": "content/training.html#section",
+    "title": "Training Material",
+    "section": "2022",
+    "text": "2022\nNWFSC RWorkflow Workshops 2022 8 week webinar on Git, GitHub, R packaging. All material and recorded lectures are online.\nPSAW III Workshops Workshops by NOAA Fisheries scientists on Git/GitHub, R packages, species distribution modeling, by-catch modeling, accessing remote-sensing data with R, open-source acoustics software"
+  },
+  {
+    "objectID": "content/training.html#section-1",
+    "href": "content/training.html#section-1",
+    "title": "Training Material",
+    "section": "2021",
+    "text": "2021\nFishR101 5 week R Workshop for AFSC Fisheries Researchers organized by Caitlin Allen Akselrud (@CaitlinAkselrud-NOAA), Emily Markowitz (@EmilyMarkowitz-NOAA)\nNWFSC RWorkflow Workshops 2021 8 week webinar on Git, GitHub, R packaging. All material and recorded lectures are online.\nR3 Train 8-week webinar training series on Reproducible Reporting with R for marine ecological indicators, sponsored by the Working Group on the Northwest Atlantic Regional Sea\nR for Management A 3-day R course developed by the West Coast Regional Office.\nIntro to spatial capture-recapture modeling A workshop on the oSCR R package from USGS, NOAA Fisheries and Univ of St Andrews."
+  },
+  {
+    "objectID": "content/training.html#section-2",
+    "href": "content/training.html#section-2",
+    "title": "Training Material",
+    "section": "2020",
+    "text": "2020\n2020 R Workshop for Social Scientists workshop by NOAA Fisheries social scientists. Focus on data analysis and advanced topics.\nNWFSC RWorkflow Workshops 2020 Git, GitHub, R, R packages"
   }
 ]
