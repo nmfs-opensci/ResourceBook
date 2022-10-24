@@ -36,7 +36,7 @@ A selection of GitHub organization for NOAA Fisheries
 * [Automation Products for IEA](https://noaa-iea.github.io/) Automation Products for Integrated Ecological Assessments
 * [Pacific Fisheries Management Council assessments](https://github.com/pfmc-assessments) repos related to groundfish assessments and data
 * Within NWFSC, branded GH orgs have the name `nwfsc-xyz`. [CB](https://github.com/nwfsc-cb), [CB Math Biology](https://github.com/nwfsc-math-bio), [CB Math Bio time series](https://github.com/nwfsc-timeseries), [CB OA Lab](https://github.com/NWFSC-OA-lab), [FRAM](https://github.com/nwfsc-fram)
-* NEFSC: [EDAB](https://github.com/NOAA-EDAB)
+* NEFSC: [NEFSC](https://github.com/NEFSC), [EDAB](https://github.com/NOAA-EDAB)
 * PIFSC: [PIFSC](https://github.com/PIFSC-NMFS-NOAA)
 * AFSC: [AFSC assessments](https://github.com/afsc-assessments), [NMML](https://github.com/NMML)
 * SEFSC: [SEFSC](https://github.com/SEFSC)
