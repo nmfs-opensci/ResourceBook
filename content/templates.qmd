@@ -4,6 +4,7 @@ title: "Templates"
 
 A number of groups have created templates that you can use.
 
+* [NMFS OpenSci](https://github.com/orgs/nmfs-opensci/repositories?q=&type=template&language=&sort=) template repos for Quarto documents
 * [NOAA branded pkgdown template](https://nmfs-fish-tools.github.io/pkgdownTemplate/) by Eli Holmes, Christine Stawitz and Bai Li
 * [NMFS palette](https://github.com/nmfs-fish-tools/nmfspalette) A NOAA branded color palette for ggplot2, pkgdown and other uses. Developed by Christine Stawitz, Bai Li, Haley Oleynik, and Corinne Bassin
 * [NMFS Reports](https://emilymarkowitz-noaa.github.io/NMFSReports/) A package for creating NMFS Tech Memos and reports in R Markdown by Emily Markowitz
