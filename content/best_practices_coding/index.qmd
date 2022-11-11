@@ -2,4 +2,4 @@
 title: "Best Practice - Coding"
 ---
 
-A collection of best practice tips for different languages.
+A collection of best practice tips for different languages.  See also the [FIMS Developers Guide](https://noaa-fims.github.io/collaborative_workflow/)
