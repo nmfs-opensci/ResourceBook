@@ -4,7 +4,8 @@ title: "Documentation"
 
 ## Resources
 
-[FIT: Code Documentation](https://noaa-fisheries-integrated-toolbox.github.io/resources/best-practices/code-documentation/)
+* [FIT: Code Documentation](https://noaa-fisheries-integrated-toolbox.github.io/resources/best-practices/code-documentation/)
+* [FIMS Developers Guide](https://noaa-fims.github.io/collaborative_workflow/)
 
 ## Tools 
 
