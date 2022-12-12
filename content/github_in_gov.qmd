@@ -48,8 +48,9 @@ Be aware that this structure is evolving. NOAA doesn't have a single organizatio
 
 * [NOAA](https://github.com/NOAAGov) is a branded GH org that has links to other [NOAA-affiliated](https://github.com/NOAAGov/NOAA-Affiliated-Projects) GitHub orgs. 
 * [Geophysical Fluid Dynamics Laboratory](https://github.com/NOAA-GFDL)
+* [NOAA https://github.com/ioos](https://github.com/ioos)
 
-  
+
 ## GitHub in other agencies
 
 * [US Geological Survey](https://github.com/usgs), [USGS Astrogeology Science Center](https://github.com/USGS-Astrogeology), [USGS R](https://github.com/USGS-R), [USGS Web Informatics](https://github.com/usgs-wim)
