@@ -501,7 +501,7 @@
     "href": "content/resources.html#training-materials-for-r",
     "title": "Resources",
     "section": "Training materials for R",
-    "text": "Training materials for R\nSee the chapter on Training for NOAA Fisheries developed courses and workshops.\nThere are many many online R resources. These are some non-NMFS resources that NMFS R users have found particular helpful.\n\nR Consortium YouTube Channel many lectures on R topics.\nHappyGitwR\nGAMS in R\nData Visualizations, mostly in R USGS GitHub org that has many examples of data visualizations.\nLots of environmental data examples in R Click on “PREVIOUS SESSIONS” to go to tutorials.\nUSGS R Training courses\nFishR Fisheries specific R resources"
+    "text": "Training materials for R\nSee the chapter on Training for NOAA Fisheries developed courses and workshops.\nThere are many many online R resources. These are some non-NMFS resources that NMFS R users have found particular helpful.\n\nR Consortium YouTube Channel many lectures on R topics.\nHappyGitwR\nGAMS in R\nData Visualizations, mostly in R USGS GitHub org that has many examples of data visualizations.\nLots of environmental data examples in R Click on “PREVIOUS SESSIONS” to go to tutorials.\nUSGS R Training courses\nFishR Fisheries specific R resources\nOpenscapes Core Lessions Includes lessons on using GitHub and coding strategies. In R."
   },
   {
     "objectID": "content/resources.html#training-materials-for-python",
