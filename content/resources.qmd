@@ -18,6 +18,7 @@ There are many many online R resources. These are some non-NMFS resources that N
 * [Data Visualizations, mostly in R](https://github.com/USGS-VIZLAB) USGS GitHub org that has many examples of data visualizations.
 * [Lots of environmental data examples in R](http://eco-data-science.github.io/) Click on "PREVIOUS SESSIONS" to go to tutorials.
 * [USGS R Training courses](https://owi.usgs.gov/R/training-curriculum/intro-curriculum/)
+* [FishR](https://fishr-core-team.github.io/fishR/) Fisheries specific R resources
 
 ## Training materials for Python
 
