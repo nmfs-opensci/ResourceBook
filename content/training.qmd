@@ -1,5 +1,5 @@
 ---
-title: "Training Material"
+title: "NMFS R Workshops"
 ---
 
 Links to training resources developed with NOAA Fisheries
