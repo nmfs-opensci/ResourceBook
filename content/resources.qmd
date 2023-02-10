@@ -5,28 +5,32 @@ title: "Resources"
 ## NMFS GH organizations
 
   See the chapter on GitHub in Government.
-  
-## Training materials for R
+
+## Training materials
 
 See the chapter on Training for NOAA Fisheries developed courses and workshops.
 
-There are many many online R resources. These are some non-NMFS resources that NMFS R users have found particular helpful.
+There are many many online resources. These are some non-NMFS resources that NMFS staff have found particular helpful. These are a bit more specialized 
+than "intro to R" or "intro to Python" materials. It leans towards resources for more specialized data-science tasks for fisheries.
+
+### Training materials for R
   
 * [R Consortium YouTube Channel](https://www.youtube.com/channel/UC_R5smHVXRYGhZYDJsnXTwg) many lectures on R topics.
 * [HappyGitwR](https://happygitwithr.com/)
 * [GAMS in R](https://noamross.github.io/gams-in-r-course)
-* [Data Visualizations, mostly in R](https://github.com/USGS-VIZLAB) USGS GitHub org that has many examples of data visualizations.
+* [Data visualizations, mostly in R](https://github.com/USGS-VIZLAB) USGS GitHub org that has many examples of data visualizations.
 * [Lots of environmental data examples in R](http://eco-data-science.github.io/) Click on "PREVIOUS SESSIONS" to go to tutorials.
 * [USGS R Training courses](https://owi.usgs.gov/R/training-curriculum/intro-curriculum/)
 * [FishR](https://fishr-core-team.github.io/fishR/) Fisheries specific R resources
 * [Openscapes Core Lessions](https://openscapes.github.io/series/core-lessons/) Includes lessons on using GitHub and coding strategies. In R.
 
-## Training materials for Python
+### Training materials for Python
 
 * [Visualations and Dashboards in Python](https://towardsdatascience.com/visualization-and-interactive-dashboard-in-python-c2f2a88b2ba3 )
 * [NASA EarthData webinars](https://earthdata.nasa.gov/learn/user-resources/webinars-and-tutorials) Many of these are Python examples and include links to the repos.
+* [Assessing NASA climate data in the cloud](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
 
-## General
+### General
 
 * [NOAA Center for AI Training and Resources](https://www.noaa.gov/noaa-center-for-artificial-intelligence/training-and-resources)
 
