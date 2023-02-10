@@ -497,25 +497,11 @@
     "text": "See the chapter on GitHub in Government."
   },
   {
-    "objectID": "content/resources.html#training-materials-for-r",
-    "href": "content/resources.html#training-materials-for-r",
+    "objectID": "content/resources.html#training-materials",
+    "href": "content/resources.html#training-materials",
     "title": "Resources",
-    "section": "Training materials for R",
-    "text": "Training materials for R\nSee the chapter on Training for NOAA Fisheries developed courses and workshops.\nThere are many many online R resources. These are some non-NMFS resources that NMFS R users have found particular helpful.\n\nR Consortium YouTube Channel many lectures on R topics.\nHappyGitwR\nGAMS in R\nData Visualizations, mostly in R USGS GitHub org that has many examples of data visualizations.\nLots of environmental data examples in R Click on “PREVIOUS SESSIONS” to go to tutorials.\nUSGS R Training courses\nFishR Fisheries specific R resources\nOpenscapes Core Lessions Includes lessons on using GitHub and coding strategies. In R."
-  },
-  {
-    "objectID": "content/resources.html#training-materials-for-python",
-    "href": "content/resources.html#training-materials-for-python",
-    "title": "Resources",
-    "section": "Training materials for Python",
-    "text": "Training materials for Python\n\nVisualations and Dashboards in Python\nNASA EarthData webinars Many of these are Python examples and include links to the repos."
-  },
-  {
-    "objectID": "content/resources.html#general",
-    "href": "content/resources.html#general",
-    "title": "Resources",
-    "section": "General",
-    "text": "General\n\nNOAA Center for AI Training and Resources"
+    "section": "Training materials",
+    "text": "Training materials\nSee the chapter on Training for NOAA Fisheries developed courses and workshops.\nThere are many many online resources. These are some non-NMFS resources that NMFS staff have found particular helpful. These are a bit more specialized than “intro to R” or “intro to Python” materials. It leans towards resources for more specialized data-science tasks for fisheries.\n\nTraining materials for R\n\nR Consortium YouTube Channel many lectures on R topics.\nHappyGitwR\nGAMS in R\nData visualizations, mostly in R USGS GitHub org that has many examples of data visualizations.\nLots of environmental data examples in R Click on “PREVIOUS SESSIONS” to go to tutorials.\nUSGS R Training courses\nFishR Fisheries specific R resources\nOpenscapes Core Lessions Includes lessons on using GitHub and coding strategies. In R.\n\n\n\nTraining materials for Python\n\nVisualations and Dashboards in Python\nNASA EarthData webinars Many of these are Python examples and include links to the repos.\nAssessing NASA climate data in the cloud\n\n\n\nGeneral\n\nNOAA Center for AI Training and Resources"
   },
   {
     "objectID": "content/resources.html#other-open-science-efforts-in-government",
