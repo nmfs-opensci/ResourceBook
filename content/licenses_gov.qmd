@@ -4,7 +4,7 @@ title: "Licenses for Government Work"
 
 ## Licenses
 
-Work of the United States government that is done by US federal employees as part of their official duties is [in the public domain](https://fairuse.stanford.edu/overview/public-domain/welcome/#us_government_works) within the United States of America and cannot be copyrighted. Code (or anything else) developed by US federal employees should have a notice that the work is in the public domain. Additionally it is common to waive copyright and related rights in the work worldwide through the CC0 1.0 Universal public domain dedication.
+Work of the United States government that is done by US federal employees as part of their official duties is generally [in the public domain](https://fairuse.stanford.edu/overview/public-domain/welcome/#us_government_works) within the United States of America. That means it cannot be copyrighted. (The relevant law is [here](https://www.law.cornell.edu/uscode/text/17/105) Code (or anything else) developed by US federal employees should have a notice that the work is in the public domain. It is common to waive copyright and related rights in the work worldwide through the CC0 1.0 Universal public domain dedication.
 
 Government agencies will use some kind of public domain license, but which one used varies. There are two main licenses used for products by federal agencies (or their employees) on GitHub: Creative Commons license (CC0-1.0) and the GNU General Public License v3. [CC0-1.0 is a very broad declaration of public domain](https://creativecommons.org/publicdomain/zero/1.0/) while [GPL-3 is explicit about derivative works and how those works must retain an open source license](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
