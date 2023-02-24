@@ -8,7 +8,7 @@ This is a copy of the [Quarto website template](https://github.com/Openscapes/qu
 
 # Can I copy this repo?
 
-Feel free to import or fork. Though if you want to start more bare bones, use the Openscapes [Quarto website template](https://github.com/Openscapes/quarto-website-tutorial).
+Feel free to fork or as a template. Though if you want to start more bare bones, use the Openscapes [Quarto website template](https://github.com/Openscapes/quarto-website-tutorial).
 
 # How does it work?
 
