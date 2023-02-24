@@ -28,7 +28,7 @@ See chapter on licenses and disclaimers for government work.
 
 ## GitHub in NMFS
 
-A selection of GitHub organization for NOAA Fisheries
+A selection of GitHub organization for NOAA Fisheries. Note many NMFS staff also use GitHub via their personal (work) accounts.
 
 * [NOAA Fisheries Integrated Toolbox](https://noaa-fisheries-integrated-toolbox.github.io/) is a cross-center group that has been working for a number of years to provide a branded GH organization for NMFS public GH products **and** [resources, training and tools](https://noaa-fisheries-integrated-toolbox.github.io/resources/) for creating products. The resources are in the left nav bar on that page, so scroll down.
 * [Fish and Fisheries Tools](https://nmfs-fish-tools.github.io/) is an example of a branded set of GH hosted NMFS tools. The [GitHub org](https://github.com/nmfs-fish-tools) with a [resource folder](https://github.com/nmfs-fish-tools/Resources) for common elements and organization.
@@ -40,7 +40,7 @@ A selection of GitHub organization for NOAA Fisheries
 * PIFSC: [PIFSC](https://github.com/PIFSC-NMFS-NOAA)
 * AFSC: [AFSC assessments](https://github.com/afsc-assessments), [NMML](https://github.com/NMML)
 * SEFSC: [SEFSC](https://github.com/SEFSC)
-* SWFSC: Major open source code and data producer (many CRAN packages, e.g.). But I can't find any GH organizations. I did find many individual GH accounts.
+* SWFSC: [SWFSC](https://github.com/SWFSC)
 
 ## GitHub in NOAA
 
