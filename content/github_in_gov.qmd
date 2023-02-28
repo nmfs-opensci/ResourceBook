@@ -35,12 +35,16 @@ A selection of GitHub organization for NOAA Fisheries. Note many NMFS staff also
 * [NOAA Fisheries Integrated Modeling System FIMS](https://noaa-fims.github.io/)
 * [Automation Products for IEA](https://noaa-iea.github.io/) Automation Products for Integrated Ecological Assessments
 * [Pacific Fisheries Management Council assessments](https://github.com/pfmc-assessments) NWFSC and SWFSC org related to groundfish assessments and data
-* Within NWFSC, branded GH orgs have the name `nwfsc-xyz`. [CB](https://github.com/nwfsc-cb), [CB Math Biology](https://github.com/nwfsc-math-bio), [CB Math Bio time series](https://github.com/nwfsc-timeseries), [CB OA Lab](https://github.com/NWFSC-OA-lab), [FRAM](https://github.com/nwfsc-fram)
+* [Pacific Hake Assessments](https://github.com/pacific-hake)
+* [NMFS Stock Synthesis](https://github.com/nmfs-stock-synthesis) [r4ss](https://github.com/r4ss) [ss3sim](https://github.com/ss3sim)
+* [Ecosystem State](https://github.com/ecosystem-state)
+* [Future Seas](https://github.com/futureseas)
+* NWFSC: [FRAM](https://github.com/nwfsc-fram), [FEAT](https://github.com/NOAA-FEAT), [CB](https://github.com/nwfsc-cb), [CB Math Biology](https://github.com/nwfsc-math-bio), [CB Math Bio time series](https://github.com/nwfsc-timeseries), [CB OA Lab](https://github.com/NWFSC-OA-lab), [TIDE](https://github.com/TIDE-NWFSC)
 * NEFSC: [NEFSC](https://github.com/NEFSC), [Ecosystem Dynamics and Assessment Branch](https://github.com/NOAA-EDAB)
-* PIFSC: [PIFSC](https://github.com/PIFSC-NMFS-NOAA)
-* AFSC: [AFSC assessments](https://github.com/afsc-assessments), [NMML](https://github.com/NMML)
+* PIFSC: [PIFSC](https://github.com/PIFSC-NMFS-NOAA), [PIFSC Stock Assessments](https://github.com/PIFSCstockassessments)
+* AFSC: [AFSC assessments](https://github.com/afsc-assessments), [NMML](https://github.com/NMML), [AFSC Gap Products](https://github.com/afsc-gap-products), [AFSC Ecofoci](https://github.com/afsc-ecofoci), [Alaska Groundfish EFH](https://github.com/alaska-groundfish-efh)
 * SEFSC: [SEFSC](https://github.com/SEFSC)
-* SWFSC: [SWFSC](https://github.com/SWFSC)
+* SWFSC: [SWFSC](https://github.com/SWFSC), [US AMLR](https://github.com/us-amlr), 
 
 ## GitHub in NOAA
 
