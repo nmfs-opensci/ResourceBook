@@ -12,7 +12,7 @@ Feel free to fork or as a template. Though if you want to start more bare bones,
 
 # How does it work?
 
-This online book is being built automatically with a GitHub Action. The Action is not loading R (or Python), so any code you will not render and in fact will cause the GitHub Action to fail. Note, for plain markdown, you can use `.md` instead of `.qmd`.
+This online book is being built automatically with a GitHub Action. The Action is not loading R (or Python), so any code you have in your qmd files will not render and in fact will cause the GitHub Action to fail. Note, for plain markdown, you can use `.md` instead of `.qmd`. You'll need to edit the workflow in the `.github/workflows` folder to install R/Python if you have code.
 
 The structure of the book is in `_quarto.yml`. The rest should be self-explanatory after you look at that file.
 
