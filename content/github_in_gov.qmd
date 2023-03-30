@@ -39,7 +39,7 @@ A selection of GitHub organization for NOAA Fisheries. Note many NMFS staff also
 * [NMFS Stock Synthesis](https://github.com/nmfs-stock-synthesis) [r4ss](https://github.com/r4ss) [ss3sim](https://github.com/ss3sim)
 * [Ecosystem State](https://github.com/ecosystem-state)
 * [Future Seas](https://github.com/futureseas)
-* NWFSC: [FRAM](https://github.com/nwfsc-fram), [FEAT](https://github.com/NOAA-FEAT), [CB](https://github.com/nwfsc-cb), [CB Math Biology](https://github.com/nwfsc-math-bio), [CB Math Bio time series](https://github.com/nwfsc-timeseries), [CB OA Lab](https://github.com/NWFSC-OA-lab), [TIDE](https://github.com/TIDE-NWFSC)
+* NWFSC: [FRAM](https://github.com/nwfsc-fram), [FEAT](https://github.com/NOAA-FEAT), [CB](https://github.com/nwfsc-cb), [CB Math Biology](https://github.com/nwfsc-math-bio), [CB Math Bio time series](https://github.com/nwfsc-timeseries), [CB OA Lab](https://github.com/NWFSC-OA-lab), [TIDE](https://github.com/TIDE-NWFSC), [RVerse Tutorials](https://rverse-tutorials.github.io/)
 * NEFSC: [NEFSC](https://github.com/NEFSC), [Ecosystem Dynamics and Assessment Branch](https://github.com/NOAA-EDAB)
 * PIFSC: [PIFSC](https://github.com/PIFSC-NMFS-NOAA), [PIFSC Stock Assessments](https://github.com/PIFSCstockassessments)
 * AFSC: [AFSC assessments](https://github.com/afsc-assessments), [NMML](https://github.com/NMML), [AFSC Gap Products](https://github.com/afsc-gap-products), [AFSC Ecofoci](https://github.com/afsc-ecofoci), [Alaska Groundfish EFH](https://github.com/alaska-groundfish-efh)
