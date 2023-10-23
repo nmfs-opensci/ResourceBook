@@ -8,7 +8,9 @@ Work of the United States government that is done by US federal employees as par
 
 Government agencies will use some kind of public domain license, but which one used varies. There are two main licenses used for products by federal agencies (or their employees) on GitHub: Creative Commons license (CC0-1.0) and the GNU General Public License v3. [CC0-1.0 is a very broad declaration of public domain](https://creativecommons.org/publicdomain/zero/1.0/) while [GPL-3 is explicit about derivative works and how those works must retain an open source license](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
+<!--
 * The [NOAA Fisheries Integrated Toolbox](https://noaa-fisheries-integrated-toolbox.github.io/) recommends [GPL-3](https://github.com/nmfs-fish-tools/Resources/blob/master/LICENSE) over CC0-1.0 since the latter is not designed specifically for software. An [additional note](https://github.com/nmfs-fish-tools/Resources/blob/master/LICENSE.md) is added to clarify that the material is a US Government work. See their [Resources](https://github.com/nmfs-fish-tools/Resources) repository.
+-->
 * Other [NOAA Affiliated GitHub organizations](https://github.com/NOAAGov/NOAA-Affiliated-Projects) use a mix of GPL-3 and CC0-1.0.
 * USGS uses [CC0-1.0 License + additional info](https://github.com/usgs/best-practices/blob/master/LICENSE.md)
 * EPA seems to use CC0-1.0 License, e.g. [useeior](https://github.com/USEPA/useeior)
