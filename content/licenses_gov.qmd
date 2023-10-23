@@ -8,9 +8,6 @@ Work of the United States government that is done by US federal employees as par
 
 Government agencies will use some kind of public domain license, but which one used varies. There are two main licenses used for products by federal agencies (or their employees) on GitHub: Creative Commons license (CC0-1.0) and the GNU General Public License v3. [CC0-1.0 is a very broad declaration of public domain](https://creativecommons.org/publicdomain/zero/1.0/) while [GPL-3 is explicit about derivative works and how those works must retain an open source license](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
-<!--
-* The [NOAA Fisheries Integrated Toolbox](https://noaa-fisheries-integrated-toolbox.github.io/) recommends [GPL-3](https://github.com/nmfs-fish-tools/Resources/blob/master/LICENSE) over CC0-1.0 since the latter is not designed specifically for software. An [additional note](https://github.com/nmfs-fish-tools/Resources/blob/master/LICENSE.md) is added to clarify that the material is a US Government work. See their [Resources](https://github.com/nmfs-fish-tools/Resources) repository.
--->
 * Other [NOAA Affiliated GitHub organizations](https://github.com/NOAAGov/NOAA-Affiliated-Projects) use a mix of GPL-3 and CC0-1.0.
 * USGS uses [CC0-1.0 License + additional info](https://github.com/usgs/best-practices/blob/master/LICENSE.md)
 * EPA seems to use CC0-1.0 License, e.g. [useeior](https://github.com/USEPA/useeior)
@@ -18,7 +15,9 @@ Government agencies will use some kind of public domain license, but which one u
 * Dept of Labor also uses CC0-1.0 License + additional info, e.g. [ableist language app](https://github.com/USDepartmentofLabor/ableist-language-detector/blob/main/LICENSE.md)
 * NASA uses [Apache 2.0](https://github.com/nasa/astrobee/blob/master/LICENSE) mostly
 * GSA uses [CC0-1.0 License](https://github.com/18F/fedramp-data#public-domain)
-* I (Eli Holmes) use [CC0-1.0](https://github.com/nwfsc-timeseries/MARSS/blob/master/License.md) with a note at the top that the work is a US federal government work by US federal employees as part of their official duties.
+
+There are some special considerations for licenses for open source software. The CC0 website [does not recommend the license for software](https://creativecommons.org/faq/#can-i-apply-a-creative-commons-license-to-software), but instead recommends using an open source license designed for software. If you want to publish your tool in the [Journal of Open Source Software](https://joss.theoj.org/), for example, CC0 is not acceptable because it is not one of the [listed open source licenses](https://opensource.org/licenses/) on the Open Source Initiative.
+
 
 ## Additional License information
 
@@ -37,16 +36,29 @@ United States.
 
 ## Specifying the license for an R package
 
-* At the base level of your package, add a `LICENSE` text file. See for example, [US government work + CC0-1.0](https://github.com/nwfsc-timeseries/MARSS/blob/master/License.md).
-* Then in your `DESCRIPTION` file, put the line
+* At the base level of your package, add a `LICENSE` text file which will list the license plus the addendum above. For example, here is an example of the LICENSE file for the [MARSS package](https://github.com/atsa-es/MARSS).
+
 ```
-License: file LICENSE
-```
-* What is in that `LICENSE` file? If you are using a standard license, like GPL-2 or GPL-3, then you put that license in the file. Search the internet for the text. But CRAN might complain if you do that and are submitting to CRAN. In that case, you could just do
-```
-License: GPL-2
+The MARSS package as a whole is distributed under GPL-3 (GNU GENERAL PUBLIC
+LICENSE version 3).
+
+In addition this software has the following license addendum:
+
+Software code created by U.S. Government employees is not subject to
+copyright in the United States (17 U.S.C. §105). The United State
+s/Department of Commerce reserve all rights to seek and obtain copyright
+protection in countries other than the United States for Software authored
+in its entirety by the Department of Commerce. To this end, the Department
+of Commerce hereby grants to Recipient a royalty-free, nonexclusive license
+to use, copy, and create derivative works of the Software outside of the
+United States.
 ```
 
+* Then in your `DESCRIPTION` file, put the line
+```
+License: GPL-3 | file LICENSE
+```
+Replace "GPL-3" with the license you are using.
 
 ## Disclaimers
 
