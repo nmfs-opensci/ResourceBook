@@ -6,7 +6,7 @@ title: "Licenses for Government Work"
 
 Work of the United States government that is done by US federal employees as part of their official duties is generally [in the public domain](https://fairuse.stanford.edu/overview/public-domain/welcome/#us_government_works) within the United States of America. That means it cannot be copyrighted. (The relevant law is [here](https://www.law.cornell.edu/uscode/text/17/105) Code (or anything else) developed by US federal employees should have a notice that the work is in the public domain. It is common to waive copyright and related rights in the work worldwide through the CC0 1.0 Universal public domain dedication.
 
-Government agencies will use some kind of public domain license, but which one used varies. There are two main licenses used for products by federal agencies (or their employees) on GitHub: Creative Commons license (CC0-1.0) and the GNU General Public License v3. [CC0-1.0 is a very broad declaration of public domain](https://creativecommons.org/publicdomain/zero/1.0/) while [GPL-3 is explicit about derivative works and how those works must retain an open source license](https://www.gnu.org/licenses/gpl-3.0.en.html).
+Products by federal agencies (or their employees) on GitHub will use some kind of public domain license, but which one used varies.  For data, publications and content Creative Commons license (CC0-1.0) is the recommended license. [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) is a very broad declaration of public domain. For software, there are a variety of public domain licenses used:
 
 * Other [NOAA Affiliated GitHub organizations](https://github.com/NOAAGov/NOAA-Affiliated-Projects) use a mix of GPL-3 and CC0-1.0.
 * USGS uses [CC0-1.0 License + additional info](https://github.com/usgs/best-practices/blob/master/LICENSE.md)
@@ -16,8 +16,7 @@ Government agencies will use some kind of public domain license, but which one u
 * NASA uses [Apache 2.0](https://github.com/nasa/astrobee/blob/master/LICENSE) mostly
 * GSA uses [CC0-1.0 License](https://github.com/18F/fedramp-data#public-domain)
 
-There are some special considerations for licenses for open source software. The CC0 website [does not recommend the license for software](https://creativecommons.org/faq/#can-i-apply-a-creative-commons-license-to-software), but instead recommends using an open source license designed for software. If you want to publish your tool in the [Journal of Open Source Software](https://joss.theoj.org/), for example, CC0 is not acceptable because it is not one of the [listed open source licenses](https://opensource.org/licenses/) on the Open Source Initiative.
-
+There are some special considerations for licenses for open source software: Do not use CC0 for software even though you will see it commonly used on GitHub. Although NOAA has not yet issued its guidelines re what open source license to use, it will definitely not be CC0. The CC0 website [does not recommend the license for software](https://creativecommons.org/faq/#can-i-apply-a-creative-commons-license-to-software), but instead recommends using an open source license designed for software. If you want to publish your tool in the [Journal of Open Source Software](https://joss.theoj.org/), for example, CC0 is not acceptable because it is not one of the [listed open source licenses](https://opensource.org/licenses/) on the Open Source Initiative. The recommended open source licenses for government produced software are Apache 2.0 (not copyleft so can be used in proprietary software), MIT (not copyleft so can be used in proprietary software), or GPL-3 (strong copyleft and cannot be used in proprietary software).
 
 ## Additional License information
 
