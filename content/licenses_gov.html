@@ -269,10 +269,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#licenses" id="toc-licenses" class="nav-link active" data-scroll-target="#licenses">Licenses</a></li>
-  <li><a href="#additional-license-information" id="toc-additional-license-information" class="nav-link" data-scroll-target="#additional-license-information">Additional License information</a></li>
-  <li><a href="#specifying-the-license-for-an-r-package" id="toc-specifying-the-license-for-an-r-package" class="nav-link" data-scroll-target="#specifying-the-license-for-an-r-package">Specifying the license for an R package</a></li>
-  <li><a href="#disclaimers" id="toc-disclaimers" class="nav-link" data-scroll-target="#disclaimers">Disclaimers</a></li>
+  <li><a href="#licenses" id="toc-licenses" class="nav-link active" data-scroll-target="#licenses">Licenses</a>
+  <ul class="collapse">
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background">Background</a></li>
+  <li><a href="#data-publications-and-content" id="toc-data-publications-and-content" class="nav-link" data-scroll-target="#data-publications-and-content">Data, publications and content</a></li>
+  <li><a href="#software-and-code" id="toc-software-and-code" class="nav-link" data-scroll-target="#software-and-code">Software and code</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/nmfs-opensci/ResourceBook/edit/main/content/licenses_gov.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/nmfs-opensci/ResourceBook/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -298,22 +301,36 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="licenses" class="level2">
 <h2 class="anchored" data-anchor-id="licenses">Licenses</h2>
-<p>Work of the United States government that is done by US federal employees as part of their official duties is generally <a href="https://fairuse.stanford.edu/overview/public-domain/welcome/#us_government_works">in the public domain</a> within the United States of America. That means it cannot be copyrighted. (The relevant law is <a href="https://www.law.cornell.edu/uscode/text/17/105">here</a> Code (or anything else) developed by US federal employees should have a notice that the work is in the public domain. It is common to waive copyright and related rights in the work worldwide through the CC0 1.0 Universal public domain dedication.</p>
-<p>Products by federal agencies (or their employees) on GitHub will use some kind of public domain license, but which one used varies. For data, publications and content Creative Commons license (CC0-1.0) is the recommended license. <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0-1.0</a> is a very broad declaration of public domain. For software, there are a variety of public domain licenses used:</p>
+<section id="summary" class="level3">
+<h3 class="anchored" data-anchor-id="summary">Summary</h3>
+<p>Work produced by federal staff is required to be released under an open license.</p>
 <ul>
-<li>Other <a href="https://github.com/NOAAGov/NOAA-Affiliated-Projects">NOAA Affiliated GitHub organizations</a> use a mix of GPL-3 and CC0-1.0.</li>
-<li>USGS uses <a href="https://github.com/usgs/best-practices/blob/master/LICENSE.md">CC0-1.0 License + additional info</a></li>
-<li>EPA seems to use CC0-1.0 License, e.g.&nbsp;<a href="https://github.com/USEPA/useeior">useeior</a></li>
-<li>CISA also seems to use CC0-1.0 License, e.g.&nbsp;<a href="https://github.com/cisagov/Sparrow#license">Sparrow</a></li>
-<li>Dept of Labor also uses CC0-1.0 License + additional info, e.g.&nbsp;<a href="https://github.com/USDepartmentofLabor/ableist-language-detector/blob/main/LICENSE.md">ableist language app</a></li>
-<li>NASA uses <a href="https://github.com/nasa/astrobee/blob/master/LICENSE">Apache 2.0</a> mostly</li>
-<li>GSA uses <a href="https://github.com/18F/fedramp-data#public-domain">CC0-1.0 License</a></li>
+<li>Data, publications and content: Use the CC0 license</li>
+<li>Code: Use an official Open Source license: GPL-3, Apache 2.0, or MIT plus the LICENSE addendum file and the disclaimer file</li>
+<li>How? See details below.</li>
 </ul>
-<p>There are some special considerations for licenses for open source software: Do not use CC0 for software even though you will see it commonly used on GitHub. Although NOAA has not yet issued its guidelines re what open source license to use, it will definitely not be CC0. The CC0 website <a href="https://creativecommons.org/faq/#can-i-apply-a-creative-commons-license-to-software">does not recommend the license for software</a>, but instead recommends using an open source license designed for software. If you want to publish your tool in the <a href="https://joss.theoj.org/">Journal of Open Source Software</a>, for example, CC0 is not acceptable because it is not one of the <a href="https://opensource.org/licenses/">listed open source licenses</a> on the Open Source Initiative. The recommended open source licenses for government produced software are Apache 2.0 (not copyleft so can be used in proprietary software), MIT (not copyleft so can be used in proprietary software), or GPL-3 (strong copyleft and cannot be used in proprietary software).</p>
 </section>
-<section id="additional-license-information" class="level2">
-<h2 class="anchored" data-anchor-id="additional-license-information">Additional License information</h2>
-<p>In addition to one of the standard licenses above we also add the following addendum:</p>
+<section id="background" class="level3">
+<h3 class="anchored" data-anchor-id="background">Background</h3>
+<p>Work of the United States government that is done by US federal employees as part of their official duties is generally <a href="https://fairuse.stanford.edu/overview/public-domain/welcome/#us_government_works">in the public domain</a> within the United States of America. That means it cannot be copyrighted. The relevant law is <a href="https://www.law.cornell.edu/uscode/text/17/105">here</a>. Code, data and other content developed by US federal employees should have a notice that the work is in the public domain with an Open license or dedication.</p>
+</section>
+<section id="data-publications-and-content" class="level3">
+<h3 class="anchored" data-anchor-id="data-publications-and-content">Data, publications and content</h3>
+<p>For data, publications and content Creative Commons license (CC0-1.0) is the recommended license. <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0-1.0</a> is a very broad declaration of public domain.</p>
+<p><strong>How do you specify the license?</strong></p>
+<p>It depends how you release the data. In many cases, a statement regarding that the data are released under CC0 is all that is used. This <a href="https://chooser-beta.creativecommons.org/">link</a> will help you with the process.</p>
+<ul>
+<li>If the data are in a GitHub repo, then you can choose a LICENSE by adding a LICENSE file and GitHub will prompt you through the process.</li>
+<li>If the data but if you are using a data repository service, there will be a question regarding license.</li>
+<li>If the data are in a R data package, <code>License: CC0</code> in your <code>DESCRIPTION</code> file.</li>
+</ul>
+</section>
+<section id="software-and-code" class="level3">
+<h3 class="anchored" data-anchor-id="software-and-code">Software and code</h3>
+<p>There are some special considerations for licenses for open source software: Do not use CC0 for software even though you will see it commonly used on GitHub. Although NOAA has not yet issued its guidelines regarding what open source license to use, it will definitely not be CC0. The CC0 website <a href="https://creativecommons.org/faq/#can-i-apply-a-creative-commons-license-to-software">does not recommend the license for software</a>, but instead recommends using an open source license designed for software. If you want to publish your tool in the <a href="https://joss.theoj.org/">Journal of Open Source Software</a>, for example, CC0 is not acceptable because it is not one of the <a href="https://opensource.org/licenses/">listed open source licenses</a> on the Open Source Initiative.</p>
+<p>The recommended open source licenses for government produced software are one of these: Apache 2.0 (not copyleft so can be used in proprietary software), MIT (not copyleft so can be used in proprietary software), or GPL-3 (strong copyleft so cannot be used in proprietary software).</p>
+<p>*<strong>Additional License information</strong></p>
+<p>In addition to one of the standard licenses above we also add the following addendum to our code products:</p>
 <pre><code>Software code created by U.S. Government employees is not subject to
 copyright in the United States (17 U.S.C. §105). The United State
 s/Department of Commerce reserve all rights to seek and obtain copyright
@@ -322,9 +339,11 @@ in its entirety by the Department of Commerce. To this end, the Department
 of Commerce hereby grants to Recipient a royalty-free, nonexclusive license
 to use, copy, and create derivative works of the Software outside of the
 United States.</code></pre>
-</section>
-<section id="specifying-the-license-for-an-r-package" class="level2">
-<h2 class="anchored" data-anchor-id="specifying-the-license-for-an-r-package">Specifying the license for an R package</h2>
+<p><strong>Additional disclaimer</strong></p>
+<p>Besides the license, code from federal agencies should also have a disclaimer that the code is ‘as is’ and the user assumes responsibility for its use. Here is a standard disclaimer tailored for a repository on GitHub. See the Fisheries Integrated Toolbox <a href="https://github.com/nmfs-fish-tools/Resources/blob/master/Disclaimer.md">Disclaimer</a> for slightly modified example.</p>
+<pre><code>This repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project code is provided on an 'as is' basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by Department of Commerce or the United States Government.</code></pre>
+<section id="example-specifying-the-license-for-an-r-package" class="level4">
+<h4 class="anchored" data-anchor-id="example-specifying-the-license-for-an-r-package">Example: specifying the license for an R package</h4>
 <ul>
 <li>At the base level of your package, add a <code>LICENSE</code> text file which will list the license plus the addendum above. For example, here is an example of the LICENSE file for the <a href="https://github.com/atsa-es/MARSS">MARSS package</a>.</li>
 </ul>
@@ -340,25 +359,51 @@ protection in countries other than the United States for Software authored
 in its entirety by the Department of Commerce. To this end, the Department
 of Commerce hereby grants to Recipient a royalty-free, nonexclusive license
 to use, copy, and create derivative works of the Software outside of the
-United States.</code></pre>
+United States.
+
+With the following disclaimer:
+
+This package is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA code is provided on an 'as is' basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this package will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by the Department of Commerce or the United States Government.</code></pre>
 <ul>
 <li>Then in your <code>DESCRIPTION</code> file, put the line</li>
 </ul>
 <pre><code>License: GPL-3 | file LICENSE</code></pre>
 <p>Replace “GPL-3” with the license you are using.</p>
 </section>
-<section id="disclaimers" class="level2">
-<h2 class="anchored" data-anchor-id="disclaimers">Disclaimers</h2>
-<p>Besides the license, code from federal agencies should also have a disclaimer that the code is ‘as is’ and the user assumes responsibility for its use.</p>
-<ul>
-<li>The Fisheries Integrated Toolbox has a <a href="https://github.com/nmfs-fish-tools/Resources/blob/master/Disclaimer.md">Disclaimer</a> for US Government products in its <a href="https://github.com/nmfs-fish-tools/Resources">Resources</a> repo.</li>
-<li>The repos on the EPA organization use a few different (albeit similar) disclaimers. <a href="https://github.com/USEPA/CMAQ#epa-disclaimer">Generic</a>, <a href="https://github.com/USEPA/useeior#disclaimer">GitHub specific</a>.</li>
-<li><a href="https://github.com/cisagov/Sparrow#legal-disclaimer">CISA repos</a> have a bit of an ad hoc disclaimer.</li>
-</ul>
-<p>Here is a standard disclaimer. Here tailored for a repository on GitHub.</p>
-<pre><code>This repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project code is provided on an 'as is' basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.</code></pre>
+<section id="example-the-readme-for-your-github-repository" class="level4">
+<h4 class="anchored" data-anchor-id="example-the-readme-for-your-github-repository">Example: The <code>README</code> for your GitHub repository</h4>
+<p>Add this to the bottom of your <code>README</code> file in your GitHub repository. Example: <a href="https://github.com/atsa-es/MARSS/blob/master/README.md">MARSS package README</a>.</p>
+<pre><code>### License
+
+The MARSS package as a whole is distributed under GPL-3 (GNU GENERAL PUBLIC
+LICENSE version 3).
+
+In addition this software has the following license addendum:
+
+Software code created by U.S. Government employees is not subject to
+copyright in the United States (17 U.S.C. §105). The United State
+s/Department of Commerce reserve all rights to seek and obtain copyright
+protection in countries other than the United States for Software authored
+in its entirety by the Department of Commerce. To this end, the Department
+of Commerce hereby grants to Recipient a royalty-free, nonexclusive license
+to use, copy, and create derivative works of the Software outside of the
+United States.
+
+### NOAA Disclaimer
+
+This repository is a scientific product and is not official communication of the National Oceanic and
+Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project code is
+provided on an ‘as is’ basis and the user assumes responsibility for its use. Any claims against the Department of
+Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed
+by all applicable Federal law. Any reference to specific commercial products, processes, or services by service
+mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or
+favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a
+DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by
+DOC or the United States Government.</code></pre>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
