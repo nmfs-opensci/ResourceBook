@@ -54,6 +54,9 @@ Be aware that this structure is evolving. NOAA doesn't have a single organizatio
 * [NOAA](https://github.com/NOAAGov) is a branded GH org that has links to other [NOAA-affiliated](https://github.com/NOAAGov/NOAA-Affiliated-Projects) GitHub orgs. 
 * [Geophysical Fluid Dynamics Laboratory](https://github.com/NOAA-GFDL)
 * [NOAA https://github.com/ioos](https://github.com/ioos)
+* [AOML Omics](https://github.com/aomlomics/)
+* [Great Lakes Environmental Research Laboratory (GLERL)](https://github.com/NOAA-GLERL)
+* [Pacific Marine Environmental Laboratory](https://github.com/NOAA-PMEL)
 
 
 ## GitHub in other agencies
