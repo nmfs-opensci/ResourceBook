@@ -1,5 +1,5 @@
 ---
-title: "Project Management"
+title: "GitHub"
 ---
 
-Here we gives some tips on project management for Open Science projects.
+Are you at NOAA Fisheries? See the [NMFS GitHub Guide](https://nmfs-opensci.github.io/GitHub-Guide) for instructions and guidance on using GitHub and GitHub Enterprise at NOAA Fisheries.
