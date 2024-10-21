@@ -2,7 +2,7 @@
 title: "GitHub in Government"
 ---
 
-GitHub has been used by government agencies and staff for many years; some agencies more (GSA) and other are more newcomers. But recently there has been a bigger shift to using GitHub, not just for code and project tracking but also as an application or website delivery platform. How agencies, organizations, teams and individuals organize their GitHub projects is evolving. Currently (Sept 2021) the following is roughly how things are organized in NOAA.
+GitHub has been used by government agencies and staff for many years; some agencies more (GSA) and other are more newcomers. But recently there has been a bigger shift to using GitHub, not just for code and project tracking but also as an application or website delivery platform. How agencies, organizations, teams and individuals organize their GitHub projects is evolving. Currently (Sept 2021) the following is roughly how things are organized in NOAA. We now have the [NMFS GitHub Guide](https://nmfs-opensci.github.io/GitHub-Guide/) as a resource.
 
 ## Version control, Generally Speaking
 
