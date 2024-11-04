@@ -42,9 +42,9 @@
   {
     "objectID": "content/github/index.html",
     "href": "content/github/index.html",
-    "title": "Project Management",
+    "title": "GitHub",
     "section": "",
-    "text": "Here we gives some tips on project management for Open Science projects.",
+    "text": "Are you at NOAA Fisheries? See the NMFS GitHub Guide for instructions and guidance on using GitHub and GitHub Enterprise at NOAA Fisheries.",
     "crumbs": [
       "GitHub"
     ]
@@ -753,7 +753,7 @@
     "href": "content/github_in_gov.html",
     "title": "GitHub in Government",
     "section": "",
-    "text": "GitHub has been used by government agencies and staff for many years; some agencies more (GSA) and other are more newcomers. But recently there has been a bigger shift to using GitHub, not just for code and project tracking but also as an application or website delivery platform. How agencies, organizations, teams and individuals organize their GitHub projects is evolving. Currently (Sept 2021) the following is roughly how things are organized in NOAA.",
+    "text": "GitHub has been used by government agencies and staff for many years; some agencies more (GSA) and other are more newcomers. But recently there has been a bigger shift to using GitHub, not just for code and project tracking but also as an application or website delivery platform. How agencies, organizations, teams and individuals organize their GitHub projects is evolving. Currently (Sept 2021) the following is roughly how things are organized in NOAA. We now have the NMFS GitHub Guide as a resource.",
     "crumbs": [
       "GitHub",
       "GitHub in Government"
