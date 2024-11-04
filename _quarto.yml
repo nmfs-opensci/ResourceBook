@@ -39,7 +39,6 @@ website:
       - href: content/culture.qmd
       - href: content/templates.qmd
       - href: content/training.qmd
-      - href: content/github_in_gov.qmd
       - href: content/landing_pages.qmd
       - href: content/documentation.qmd
       - href: content/licenses_gov.qmd
@@ -51,6 +50,8 @@ website:
       - section: content/github/index.qmd
         text: GitHub
         contents: 
+          - href: content/github_in_gov.qmd
+          - href: content/github/authenticating.qmd
           - content/github/best_practices.qmd
           - content/github/citation.qmd
           - content/github/actions.qmd
