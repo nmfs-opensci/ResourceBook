@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Testing and Review – NMFS Open Science Resources</title>
+<title>Authenticating and Installing – NMFS Open Science Resources</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,8 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../content/github/index.html" rel="next">
-<link href="../../content/best_practices_coding/best_practices_r.html" rel="prev">
+<link href="../../content/github/best_practices.html" rel="next">
+<link href="../../content/github_in_gov.html" rel="prev">
 <link href="../../images/favicon.ico" rel="icon">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
@@ -83,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/best_practices_coding/index.html">Coding Best Practices</a></li><li class="breadcrumb-item"><a href="../../content/best_practices_coding/testing_and_review.html">Testing and Review</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/github/index.html">GitHub</a></li><li class="breadcrumb-item"><a href="../../content/github/authenticating.html">Authenticating and Installing</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -171,11 +171,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../../content/best_practices_coding/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Coding Best Practices</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../content/best_practices_coding/best_practices_r.html" class="sidebar-item-text sidebar-link">
@@ -184,7 +184,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/best_practices_coding/testing_and_review.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../content/best_practices_coding/testing_and_review.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Testing and Review</span></a>
   </div>
 </li>
@@ -194,11 +194,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../../content/github/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">GitHub</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../content/github_in_gov.html" class="sidebar-item-text sidebar-link">
@@ -207,7 +207,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/github/authenticating.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/github/authenticating.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Authenticating and Installing</span></a>
   </div>
 </li>
@@ -282,19 +282,23 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#code-testing" id="toc-code-testing" class="nav-link active" data-scroll-target="#code-testing">Code Testing</a></li>
-  <li><a href="#code-review-and-validation" id="toc-code-review-and-validation" class="nav-link" data-scroll-target="#code-review-and-validation">Code Review and Validation</a></li>
-  <li><a href="#backwards-compatibility" id="toc-backwards-compatibility" class="nav-link" data-scroll-target="#backwards-compatibility">Backwards Compatibility</a></li>
-  <li><a href="#attribution" id="toc-attribution" class="nav-link" data-scroll-target="#attribution">Attribution</a></li>
+  <li><a href="#installing-git" id="toc-installing-git" class="nav-link active" data-scroll-target="#installing-git">Installing Git</a></li>
+  <li><a href="#git-and-rstudio" id="toc-git-and-rstudio" class="nav-link" data-scroll-target="#git-and-rstudio">Git and RStudio</a></li>
+  <li><a href="#authenticating" id="toc-authenticating" class="nav-link" data-scroll-target="#authenticating">Authenticating</a>
+  <ul class="collapse">
+  <li><a href="#github-desktop" id="toc-github-desktop" class="nav-link" data-scroll-target="#github-desktop">GitHub Desktop</a></li>
+  <li><a href="#r-users-with-rstudio" id="toc-r-users-with-rstudio" class="nav-link" data-scroll-target="#r-users-with-rstudio">R users with RStudio</a></li>
+  <li><a href="#with-a-personal-access-token" id="toc-with-a-personal-access-token" class="nav-link" data-scroll-target="#with-a-personal-access-token">With a Personal Access Token</a></li>
+  </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/nmfs-opensci/ResourceBook/edit/main/content/best_practices_coding/testing_and_review.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-opensci/ResourceBook/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/nmfs-opensci/ResourceBook/edit/main/content/github/authenticating.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-opensci/ResourceBook/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/best_practices_coding/index.html">Coding Best Practices</a></li><li class="breadcrumb-item"><a href="../../content/best_practices_coding/testing_and_review.html">Testing and Review</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/github/index.html">GitHub</a></li><li class="breadcrumb-item"><a href="../../content/github/authenticating.html">Authenticating and Installing</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Testing and Review</h1>
+<h1 class="title">Authenticating and Installing</h1>
 </div>
 
 
@@ -311,26 +315,73 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="code-testing" class="level2">
-<h2 class="anchored" data-anchor-id="code-testing">Code Testing</h2>
-<p><a href="https://noaa-fisheries-integrated-toolbox.github.io/resources/best-practices/code-testing/">Fit: Code Testing</a></p>
-<p><a href="https://github.com/benchmark-action/github-action-benchmark">https://github.com/benchmark-action/github-action-benchmark</a></p>
+<section id="installing-git" class="level2">
+<h2 class="anchored" data-anchor-id="installing-git">Installing Git</h2>
+<p>Ask IT to install Git or GitHub Desktop. The later is more useful since you will get a good Git GUI and Git bundled together.</p>
 </section>
-<section id="code-review-and-validation" class="level2">
-<h2 class="anchored" data-anchor-id="code-review-and-validation">Code Review and Validation</h2>
-<p>If you are submitting software itself to a journal or generally for publishing, Office of Science and Technology (OST) requests a code review: once by a person you know who knows the technical details and is a code person, then another review by someone on the National Modeling team. Code review for analyses in publications is not required, but it is required if you are publishing the software itself (e.g., publishing a paper using the VAST package does not require code review; publishing the VAST package for general use does require code review). When doing internal code review, or passing code from one person to another, it is best to do paired code review. This can include: The existing or senior member on the project working through the code with the new or junior member. Two people code the same task and compare results (which should be the same). While one person is coding, another person runs chunks of that code and checks the results (also known as Driver-Navigator paired programming).</p>
-<p>Helper packages for reviews include <code>{goodpractice}</code> and <code>{pkgreviewer}</code>.</p>
-<p><a href="https://noaa-fisheries-integrated-toolbox.github.io/resources/best-practices/code-review/">Fit: Code Review</a></p>
+<section id="git-and-rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="git-and-rstudio">Git and RStudio</h2>
+<p>In order for RStudio to use Git, it needs to know where your Git binary is installed. Instructions: <a href="https://happygitwithr.com/rstudio-see-git" class="uri">https://happygitwithr.com/rstudio-see-git</a></p>
+<p><strong>Find Git binary</strong></p>
+<ol type="1">
+<li>In RStudio, Tools &gt; Terminal &gt; New Terminal</li>
+<li>At the command line (in the new terminal), type <code>which git</code> if on a Mac and <code>where git</code> if in Windows.<br>
+</li>
+<li>Copy that path. It probably doesn’t matter which one you use if there are multiple listed.</li>
+</ol>
+<p><strong>Tell RStudio the Git binary location</strong></p>
+<ol type="1">
+<li>In RStudio, Tools &gt; Global Options &gt; Git/SVN</li>
+<li>There is a box at top that asks for the location of the Git binary.<br>
+</li>
+<li>Paste that path in.</li>
+</ol>
 </section>
-<section id="backwards-compatibility" class="level2">
-<h2 class="anchored" data-anchor-id="backwards-compatibility">Backwards Compatibility</h2>
-<p><a href="https://noaa-fisheries-integrated-toolbox.github.io/resources/best-practices/backwards-compatibility/">Fit: backwards compatibility notes</a></p>
+<section id="authenticating" class="level2">
+<h2 class="anchored" data-anchor-id="authenticating">Authenticating</h2>
+<section id="github-desktop" class="level3">
+<h3 class="anchored" data-anchor-id="github-desktop">GitHub Desktop</h3>
+<p>No tokens needed.</p>
+<ol type="1">
+<li>Sign in under GitHub Desktop &gt; Settings (or Options) &gt; Account.</li>
+<li>Fill out your user info on GitHub Desktop &gt; Settings (or Options) &gt; Git.</li>
+</ol>
+<p><strong>Help! I signed up for GitHub Enterprise and GitHub Desktop will not authenticate!!</strong> Log out of GitHub Desktop under GitHub Desktop &gt; Settings (or Options) &gt; Account and log back in.</p>
 </section>
-<section id="attribution" class="level2">
-<h2 class="anchored" data-anchor-id="attribution">Attribution</h2>
-<p><a href="https://docs.google.com/document/d/1niw8CzrnZJSeJ-0PQ4IYD9FH9hlO8qs63v0dE6AXYmI/edit?usp=sharing">Kathryn Doering, Megsie Siple, Cole Monnahan, and Bai Li contributed to this guide.</a></p>
+<section id="r-users-with-rstudio" class="level3">
+<h3 class="anchored" data-anchor-id="r-users-with-rstudio">R users with RStudio</h3>
+<p>Install the <code>usethis</code> and <code>credentials</code> packages. Then run this code.</p>
+<pre><code>## set your user name and email:
+usethis::use_git_config(user.name = "YourName", user.email = "your@mail.com")
+
+## create a personal access token for authentication:
+usethis::create_github_token() </code></pre>
+<p>Copy the token. It is really long. Copy that into <code>YourPAT</code> in code below.</p>
+<pre><code>## set personal access token:
+credentials::set_github_pat("YourPAT")</code></pre>
+<p>Note for Linux users: <code>credentials::set_github_pat()</code> might store your PAT in a memory cache that expires after 15 minutes or when the computer is rebooted. You thus may wish to do extend the cache timeout to match the PAT validity period: <code>usethis::use_git_config(helper="cache --timeout=2600000")</code></p>
+</section>
+<section id="with-a-personal-access-token" class="level3">
+<h3 class="anchored" data-anchor-id="with-a-personal-access-token">With a Personal Access Token</h3>
+<ol type="1">
+<li>Go to <a href="https://github.com/settings/tokens" class="uri">https://github.com/settings/tokens</a></li>
+<li>Click generate new token.</li>
+<li>For most uses, set the scope to “repo”. Definitely do not click all the scopes!</li>
+<li>Copy the token that it generates.</li>
+</ol>
+<p>Open a terminal window and type</p>
+<pre><code>git config --global user.email "&lt;your email&gt;"
+git config --global user.name "&lt;your name&gt;"
+git config --global pull.rebase false</code></pre>
+<p>Next in the terminal window type one of these</p>
+<ul>
+<li>Unix: <code>git config --global credential.helper store</code></li>
+<li>Max: <code>git config --global credential.helper osxkeychain</code></li>
+<li>Windows: <code>git config –global credential.helper manager-core</code></li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -900,13 +951,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../content/best_practices_coding/best_practices_r.html" class="pagination-link" aria-label="Best Coding Practices in R">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Best Coding Practices in R</span>
+      <a href="../../content/github_in_gov.html" class="pagination-link" aria-label="GitHub in Government">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">GitHub in Government</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../content/github/index.html" class="pagination-link" aria-label="GitHub">
-        <span class="nav-page-text">GitHub</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../content/github/best_practices.html" class="pagination-link" aria-label="Best Practices for GitHub">
+        <span class="nav-page-text">Best Practices for GitHub</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -918,7 +969,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/nmfs-opensci/ResourceBook/edit/main/content/best_practices_coding/testing_and_review.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-opensci/ResourceBook/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/nmfs-opensci/ResourceBook/edit/main/content/github/authenticating.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-opensci/ResourceBook/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
