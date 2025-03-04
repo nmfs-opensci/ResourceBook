@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.40">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -37,12 +37,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-1b3b6ae1270efa41ab8a3afa815a4c7b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-ec233c43085d5f5b55312e120616ba47.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-2060c1fdc48bdcd166b162226a62f917.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-0045eb1c33f61f19c2496553aa0e9380.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -283,12 +283,14 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#installing-git" id="toc-installing-git" class="nav-link active" data-scroll-target="#installing-git">Installing Git</a></li>
-  <li><a href="#git-and-rstudio" id="toc-git-and-rstudio" class="nav-link" data-scroll-target="#git-and-rstudio">Git and RStudio</a></li>
   <li><a href="#authenticating" id="toc-authenticating" class="nav-link" data-scroll-target="#authenticating">Authenticating</a>
   <ul class="collapse">
   <li><a href="#github-desktop" id="toc-github-desktop" class="nav-link" data-scroll-target="#github-desktop">GitHub Desktop</a></li>
-  <li><a href="#r-users-with-rstudio" id="toc-r-users-with-rstudio" class="nav-link" data-scroll-target="#r-users-with-rstudio">R users with RStudio</a></li>
-  <li><a href="#with-a-personal-access-token" id="toc-with-a-personal-access-token" class="nav-link" data-scroll-target="#with-a-personal-access-token">With a Personal Access Token</a></li>
+  <li><a href="#visual-studio-code-vscode" id="toc-visual-studio-code-vscode" class="nav-link" data-scroll-target="#visual-studio-code-vscode">Visual Studio Code (VSCode)</a></li>
+  <li><a href="#gitkraken-desktop" id="toc-gitkraken-desktop" class="nav-link" data-scroll-target="#gitkraken-desktop">GitKraken Desktop</a></li>
+  <li><a href="#rstudio" id="toc-rstudio" class="nav-link" data-scroll-target="#rstudio">RStudio</a></li>
+  <li><a href="#in-terminal-with-a-personal-access-token" id="toc-in-terminal-with-a-personal-access-token" class="nav-link" data-scroll-target="#in-terminal-with-a-personal-access-token">In terminal with a Personal Access Token</a></li>
+  <li><a href="#in-terminal-with-ssh" id="toc-in-terminal-with-ssh" class="nav-link" data-scroll-target="#in-terminal-with-ssh">In terminal with SSH</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/nmfs-opensci/ResourceBook/edit/main/content/github/authenticating.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-opensci/ResourceBook/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -319,8 +321,37 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="installing-git">Installing Git</h2>
 <p>Ask IT to install Git or GitHub Desktop. The later is more useful since you will get a good Git GUI and Git bundled together.</p>
 </section>
-<section id="git-and-rstudio" class="level2">
-<h2 class="anchored" data-anchor-id="git-and-rstudio">Git and RStudio</h2>
+<section id="authenticating" class="level2">
+<h2 class="anchored" data-anchor-id="authenticating">Authenticating</h2>
+<p>You need to authenticate in order to pull private repos and push to GitHub.</p>
+<section id="github-desktop" class="level3">
+<h3 class="anchored" data-anchor-id="github-desktop">GitHub Desktop</h3>
+<p>No tokens needed.</p>
+<ol type="1">
+<li>Sign in under GitHub Desktop &gt; Settings (or Options) &gt; Account.</li>
+<li>Fill out your user info on GitHub Desktop &gt; Settings (or Options) &gt; Account.</li>
+<li>Sign in at GitHub.com and ignore the GitHub Enterprise section, even if you use Enterprise Cloud. The Enterprise section if for signing into a Enterprise account on a private server.</li>
+</ol>
+<p><strong>Help! I signed up for GitHub Enterprise and GitHub Desktop will not authenticate!!</strong> Log out of GitHub Desktop under GitHub Desktop &gt; Settings (or Options) &gt; Account and log back in.</p>
+<p><img src="img/g_desktop_signin.png" class="img-fluid"></p>
+</section>
+<section id="visual-studio-code-vscode" class="level3">
+<h3 class="anchored" data-anchor-id="visual-studio-code-vscode">Visual Studio Code (VSCode)</h3>
+<p>No tokens needed but you will need Git installed. <a href="https://code.visualstudio.com/docs/sourcecontrol/github" class="uri">https://code.visualstudio.com/docs/sourcecontrol/github</a></p>
+<ol type="1">
+<li>Install <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github">GitHub Pull Requests and Issues</a>.</li>
+<li>Click on the GitHub icon in left nav bar and open a GitHub repo on your computer.</li>
+<li>Click on the GitHub icon (again) and sign into GitHub with your username and password.</li>
+</ol>
+</section>
+<section id="gitkraken-desktop" class="level3">
+<h3 class="anchored" data-anchor-id="gitkraken-desktop">GitKraken Desktop</h3>
+<p>No tokens needed. Log in with your GitHub account. <a href="https://help.gitkraken.com/gitkraken-desktop/github-gitkraken-desktop/" class="uri">https://help.gitkraken.com/gitkraken-desktop/github-gitkraken-desktop/</a></p>
+</section>
+<section id="rstudio" class="level3">
+<h3 class="anchored" data-anchor-id="rstudio">RStudio</h3>
+<section id="git-and-rstudio" class="level4">
+<h4 class="anchored" data-anchor-id="git-and-rstudio">Git and RStudio</h4>
 <p>In order for RStudio to use Git, it needs to know where your Git binary is installed. Instructions: <a href="https://happygitwithr.com/rstudio-see-git" class="uri">https://happygitwithr.com/rstudio-see-git</a></p>
 <p><strong>Find Git binary</strong></p>
 <ol type="1">
@@ -337,32 +368,29 @@ ul.task-list li input[type="checkbox"] {
 <li>Paste that path in.</li>
 </ol>
 </section>
-<section id="authenticating" class="level2">
-<h2 class="anchored" data-anchor-id="authenticating">Authenticating</h2>
-<section id="github-desktop" class="level3">
-<h3 class="anchored" data-anchor-id="github-desktop">GitHub Desktop</h3>
-<p>No tokens needed.</p>
-<ol type="1">
-<li>Sign in under GitHub Desktop &gt; Settings (or Options) &gt; Account.</li>
-<li>Fill out your user info on GitHub Desktop &gt; Settings (or Options) &gt; Git.</li>
-</ol>
-<p><strong>Help! I signed up for GitHub Enterprise and GitHub Desktop will not authenticate!!</strong> Log out of GitHub Desktop under GitHub Desktop &gt; Settings (or Options) &gt; Account and log back in.</p>
-</section>
-<section id="r-users-with-rstudio" class="level3">
-<h3 class="anchored" data-anchor-id="r-users-with-rstudio">R users with RStudio</h3>
-<p>Install the <code>usethis</code> and <code>credentials</code> packages. Then run this code.</p>
+<section id="authenticating-1" class="level4">
+<h4 class="anchored" data-anchor-id="authenticating-1">Authenticating</h4>
+<p>Install the R package <code>usethis</code>. Then run this code.</p>
 <pre><code>## set your user name and email:
 usethis::use_git_config(user.name = "YourName", user.email = "your@mail.com")
 
 ## create a personal access token for authentication:
 usethis::create_github_token() </code></pre>
-<p>Copy the token. It is really long. Copy that into <code>YourPAT</code> in code below.</p>
+<p>The typical scope that you want is repo and workflow (if you have GitHub Actions). Copy the token. It is really long. Copy that into <code>YourPAT</code> in code below.</p>
 <pre><code>## set personal access token:
 credentials::set_github_pat("YourPAT")</code></pre>
 <p>Note for Linux users: <code>credentials::set_github_pat()</code> might store your PAT in a memory cache that expires after 15 minutes or when the computer is rebooted. You thus may wish to do extend the cache timeout to match the PAT validity period: <code>usethis::use_git_config(helper="cache --timeout=2600000")</code></p>
+<p><img src="img/new_token.png" class="img-fluid"></p>
 </section>
-<section id="with-a-personal-access-token" class="level3">
-<h3 class="anchored" data-anchor-id="with-a-personal-access-token">With a Personal Access Token</h3>
+<section id="configure-your-token-for-enterprise" class="level4">
+<h4 class="anchored" data-anchor-id="configure-your-token-for-enterprise">Configure your token for Enterprise</h4>
+<p>If you will be pushing and pulling from repos in GitHub Enterprise, you will need to Configure SSO. Click on the button next to the token and follow the instructions.</p>
+<p><img src="img/configure_sso_token.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="in-terminal-with-a-personal-access-token" class="level3">
+<h3 class="anchored" data-anchor-id="in-terminal-with-a-personal-access-token">In terminal with a Personal Access Token</h3>
+<p>If you have authenticated with R following the instructions above, you do not need to authenticate again to use Git in the terminal. Conversely, if you authenticate in the terminal, you do not need to run the R code above.</p>
 <ol type="1">
 <li>Go to <a href="https://github.com/settings/tokens" class="uri">https://github.com/settings/tokens</a></li>
 <li>Click generate new token.</li>
@@ -379,6 +407,11 @@ git config --global pull.rebase false</code></pre>
 <li>Max: <code>git config --global credential.helper osxkeychain</code></li>
 <li>Windows: <code>git config –global credential.helper manager-core</code></li>
 </ul>
+<p>Now push a change to GitHub. It will ask for your username and password. For the password, end the token that you created.</p>
+</section>
+<section id="in-terminal-with-ssh" class="level3">
+<h3 class="anchored" data-anchor-id="in-terminal-with-ssh">In terminal with SSH</h3>
+<p>Instead of a token, you can use SSH keys to authenticate. Search “github authentication with ssh” for instructions.</p>
 
 
 </section>
