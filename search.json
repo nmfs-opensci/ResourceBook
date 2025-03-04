@@ -914,6 +914,17 @@
     ]
   },
   {
+    "objectID": "content/github/authenticating.html#more-help",
+    "href": "content/github/authenticating.html#more-help",
+    "title": "Authenticating and Installing",
+    "section": "More help",
+    "text": "More help\nHere are some notes from the NMFS GitHub Governance Team. Only accessible if you have a NOAA email.\n\nGeneral authentication notes from GGT debugging user problems.\nA training video on authentication.\nDebugging R package installs when the packages are on GitHub Enterprise.",
+    "crumbs": [
+      "GitHub",
+      "Authenticating and Installing"
+    ]
+  },
+  {
     "objectID": "content/github/actions.html",
     "href": "content/github/actions.html",
     "title": "GitHub Actions",
