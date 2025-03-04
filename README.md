@@ -10,9 +10,11 @@ This is a copy of the [Quarto website template](https://github.com/Openscapes/qu
 
 Feel free to fork or as a template. Though if you want to start more bare bones, use the Openscapes [Quarto website template](https://github.com/Openscapes/quarto-website-tutorial).
 
-# How does it work?
+# Contributing
 
-This online book is being built automatically with a GitHub Action. The Action is not loading R (or Python), so any code you have in your qmd files will not render and in fact will cause the GitHub Action to fail. Note, for plain markdown, you can use `.md` instead of `.qmd`. You'll need to edit the workflow in the `.github/workflows` folder to install R/Python if you have code.
+This online book is being built automatically with a GitHub Action.  Edit the qmd or md files in the content directory and edit `_quarto.yml` if you add pages. Push the changes to GitHub and the book will automatically rebuild.
+
+The Action is not loading R (or Python), so any code you have in your qmd files will not render and in fact will cause the GitHub Action to fail. Note, for plain markdown, you can use `.md` instead of `.qmd`. You'll need to edit the workflow in the `.github/workflows` folder to install R/Python if you have code.
 
 The structure of the book is in `_quarto.yml`. The rest should be self-explanatory after you look at that file.
 

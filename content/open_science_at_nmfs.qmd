@@ -1,0 +1,25 @@
+---
+title: "2023 Year of Open Science"
+---
+
+On January 11, 2023, the White House Office of Science and Technology Policy (OSTP) launched 2023 as the Year of Open Science to advance national open science policies across the federal government: [White House Fact Sheet on Year of Open Science](https://www.whitehouse.gov/ostp/news-updates/2023/01/11/fact-sheet-biden-harris-administration-announces-new-actions-to-advance-open-and-equitable-research/). Along with this they created a [federal portal for open science research announcements](https://open.science.gov/).
+
+## What is Open Science?
+
+Here is the pithy definition that OSTP and the National Science and Technology Council (NSTC) for use across the U.S. government: “The principle and practice of making research products and processes available to all, while respecting diverse cultures, maintaining security and privacy, and fostering collaborations, reproducibility, and equity.”
+
+Here is the definition from NASA's [Open-Source Science Initiative](https://science.nasa.gov/open-science-overview). 
+
+*"Open-source science is a commitment to the open sharing of software, data, and knowledge (algorithms, papers, documents, ancillary information) as early as possible in the scientific process. The principles of open-source science are to make publicly funded scientific research transparent, inclusive, accessible, and reproducible. Advances in technology, including collaborative tools and cloud computing, help enable open-source science, but technology alone is insufficient. Open-source science requires a culture shift to a more inclusive, transparent, and collaborative scientific process, which will increase the pace and quality of scientific progress."*
+
+So it is both a principle of sharing openly (data, research, products) but also the work to make the cultural shifts in how we do our research so that it can be inclusive, transparent, reproducible and collaborative.
+
+
+## Open Science at NMFS
+
+NOAA Fisheries has many efforts that fall under the rubric of Open Science. Here are some of them.
+
+
+
+
+

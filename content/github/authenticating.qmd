@@ -6,7 +6,38 @@ title: Authenticating and Installing
 
 Ask IT to install Git or GitHub Desktop. The later is more useful since you will get a good Git GUI and Git bundled together.
 
-## Git and RStudio
+## Authenticating
+
+You need to authenticate in order to pull private repos and push to GitHub.
+
+### GitHub Desktop
+
+No tokens needed. 
+
+1. Sign in under GitHub Desktop > Settings (or Options) > Account.
+2. Fill out your user info on GitHub Desktop > Settings (or Options) > Account. 
+3. Sign in at GitHub.com and ignore the GitHub Enterprise section, even if you use Enterprise Cloud. The Enterprise section if for signing into a Enterprise account on a private server.
+
+**Help! I signed up for GitHub Enterprise and GitHub Desktop will not authenticate!!** 
+Log out of GitHub Desktop under GitHub Desktop > Settings (or Options) > Account and log back in.
+
+![](img/g_desktop_signin.png)
+
+### Visual Studio Code (VSCode)
+
+No tokens needed but you will need Git installed. <https://code.visualstudio.com/docs/sourcecontrol/github>
+
+1. Install  [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github).
+2. Click on the GitHub icon in left nav bar and open a GitHub repo on your computer.
+3. Click on the GitHub icon (again) and sign into GitHub with your username and password.
+
+### GitKraken Desktop
+
+No tokens needed. Log in with your GitHub account. <https://help.gitkraken.com/gitkraken-desktop/github-gitkraken-desktop/>
+
+### RStudio
+
+#### Git and RStudio
 
 In order for RStudio to use Git, it needs to know where your Git binary is installed. Instructions: <https://happygitwithr.com/rstudio-see-git>
 
@@ -22,21 +53,9 @@ In order for RStudio to use Git, it needs to know where your Git binary is insta
 2. There is a box at top that asks for the location of the Git binary.  
 3. Paste that path in.
 
-## Authenticating
+#### Authenticating
 
-### GitHub Desktop
-
-No tokens needed. 
-
-1. Sign in under GitHub Desktop > Settings (or Options) > Account.
-2. Fill out your user info on GitHub Desktop > Settings (or Options) > Git.
-
-**Help! I signed up for GitHub Enterprise and GitHub Desktop will not authenticate!!** 
-Log out of GitHub Desktop under GitHub Desktop > Settings (or Options) > Account and log back in.
-
-### R users with RStudio
-
-Install the `usethis` and `credentials` packages. Then run this code.
+Install the R package `usethis`. Then run this code.
 
 ```
 ## set your user name and email:
@@ -45,7 +64,8 @@ usethis::use_git_config(user.name = "YourName", user.email = "your@mail.com")
 ## create a personal access token for authentication:
 usethis::create_github_token() 
 ```
-Copy the token. It is really long. Copy that into `YourPAT` in code below.
+The typical scope that you want is repo and workflow (if you have GitHub Actions). Copy the token. It is really long. Copy that into `YourPAT` in code below.
+
 ```
 ## set personal access token:
 credentials::set_github_pat("YourPAT")
@@ -56,7 +76,18 @@ Note for Linux users:
 when the computer is rebooted. You thus may wish to do extend the cache timeout to match the PAT validity period:
 `usethis::use_git_config(helper="cache --timeout=2600000")`
 
-### With a Personal Access Token
+![](img/new_token.png)
+
+#### Configure your token for Enterprise
+
+If you will be pushing and pulling from repos in GitHub Enterprise, you will need to Configure SSO. Click on the button next to the token and follow the instructions.
+
+![](img/configure_sso_token.png)
+
+
+### In terminal with a Personal Access Token
+
+If you have authenticated with R following the instructions above, you do not need to authenticate again to use Git in the terminal. Conversely, if you authenticate in the terminal, you do not need to run the R code above.
 
 1. Go to <https://github.com/settings/tokens>
 2. Click generate new token. 
@@ -75,5 +106,10 @@ Next in the terminal window type one of these
 * Max: `git config --global credential.helper osxkeychain`
 * Windows: `git config –global credential.helper manager-core`
 
+Now push a change to GitHub. It will ask for your username and password. For the password, end the token that you created.
+
+### In terminal with SSH
+
+Instead of a token, you can use SSH keys to authenticate. Search "github authentication with ssh" for instructions.
 
 
