@@ -117,3 +117,13 @@ Now push a change to GitHub. It will ask for your username and password. For the
 Instead of a token, you can use SSH keys to authenticate. Search "github authentication with ssh" for instructions.
 
 
+## More help
+
+Here are some notes from the NMFS GitHub Governance Team. Only accessible if you have a NOAA email.
+
+* [General authentication notes](https://docs.google.com/document/d/11p-gYKg4JWfNsOeOkktpqQiptmWxrdzqQfmvpwImjp8/edit?tab=t.0#heading=h.qgarj2oz639j) from GGT debugging user problems.
+
+* A [training video](https://sites.google.com/noaa.gov/nmfs-st-github-governance-team/training) on authentication.
+
+* [Debugging R package installs](https://docs.google.com/document/d/1vPFWBK8TrGjdXrrAlXhcq5f1B7Ap3ppnitnDIUMaS6g/edit?tab=t.0#heading=h.hho3ab9880rl) when the packages are on GitHub Enterprise. 
+
