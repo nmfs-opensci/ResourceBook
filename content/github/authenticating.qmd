@@ -51,6 +51,13 @@ In order for RStudio to use Git, it needs to know where your Git binary is insta
 2. At the command line (in the new terminal), type `which git` if on a Mac and `where git` if in Windows.  
 3. Copy that path. It probably doesn't matter which one you use if there are multiple listed.
 
+Still can't find the location of your git executible and you know it is installed (because you have, say, GitHub Desktop installed)?
+* On a Mac? It is at `/usr/bin/git` Just paste that in.
+* On a PC? Look (by opening a finder window) in the following places. Try the GitHubDesktop one first.
+    - `C:/Program Files/Git/bin/git.exe`
+    - `C:/Users/your.username/AppData/Local/Programs/Git/bin/git.exe`
+    - `C:/Users/your.username/AppData/Local/GitHubDesktop/app-2.8.3/resources/app/git/cmd/git.exe`
+
 **Tell RStudio the Git binary location**
 
 1. In RStudio, Tools > Global Options > Git/SVN
